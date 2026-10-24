@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use the research code or derived data, cite this repository and the original model source as appropriate. Publication details will be updated after journal acceptance."
+title: "Adversarial Study: observation and pathway inference in a model of consciousness"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Peng
+    affiliation: "CERVO Brain Research Centre, Université Laval; Coma Science Group, University of Liège"
+  - family-names: Laureys
+    given-names: Steven
+    affiliation: "CERVO Brain Research Centre, Université Laval; Coma Science Group, University of Liège"
+repository-code: "https://github.com/pwa209/Adversarial-Study"
+version: "2026.10.24"
+date-released: "2026-10-24"
