@@ -1,0 +1,10 @@
+{
+  "status": "synthetic_pipeline_completed",
+  "human_evidence": false,
+  "native_matlab_executed": false,
+  "config": "C:\\Users\\Gebruiker\\Documents\\Adversarial Study\\study_pipeline\\examples\\synthetic_demo\\demo.json",
+  "prepared": "C:\\Users\\Gebruiker\\Documents\\Adversarial Study\\study_pipeline\\examples\\synthetic_demo\\runs\\20261004T140446048671Z_prepare_development",
+  "contrast": "C:\\Users\\Gebruiker\\Documents\\Adversarial Study\\study_pipeline\\examples\\synthetic_demo\\runs\\20261004T140449184450Z_contrast_development",
+  "grouped_prediction": "C:\\Users\\Gebruiker\\Documents\\Adversarial Study\\study_pipeline\\examples\\synthetic_demo\\runs\\20261004T140449249963Z_prediction_development",
+  "diagnostics": "C:\\Users\\Gebruiker\\Documents\\Adversarial Study\\study_pipeline\\examples\\synthetic_demo\\runs\\20261004T140449285976Z_synthetic_diagnostics_development"
+}

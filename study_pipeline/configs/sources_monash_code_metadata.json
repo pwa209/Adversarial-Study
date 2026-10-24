@@ -1,0 +1,117 @@
+{
+  "commit": "176724bde9258d3a28d7ceea5aa0843928239130",
+  "records": [
+    {
+      "path": "eeg/wanderIM_check_preproc_v1.m",
+      "git_blob_sha1": "b37f0aa618413659cc2222b0678d2bf47243ab09",
+      "sha256": "72003b194823748ed3030b2f2512acbfe939eff79e25d351671d4b9ad1863387",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_check_preproc_v1.m"
+    },
+    {
+      "path": "eeg/wanderIM_check_preproc_v2.m",
+      "git_blob_sha1": "883ac65d48928d52b96e6c3de8b54bbe2e824b9d",
+      "sha256": "9e2a4bf2847db5a27eca73834f41c5066351e2c8460a6ac0de1859b4c13eb408",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_check_preproc_v2.m"
+    },
+    {
+      "path": "eeg/wanderIM_preproc_eeg_adhd_parfor_v2.m",
+      "git_blob_sha1": "4f638a394e44a12f499914ad3fd46d8722991748",
+      "sha256": "1b66c798c9cb1bea7cb00df0aff2b8d5c666615693ced7a4325bb716d38fb640",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_preproc_eeg_adhd_parfor_v2.m"
+    },
+    {
+      "path": "eeg/wanderIM_preproc_eeg_batch.m",
+      "git_blob_sha1": "7421a45a9f7c15f34cae7824a117c4c1c13528b3",
+      "sha256": "cf60c1f98be1bc1e477d50e08f848925b6d777730017b8f6de9588d9b4e76fd1",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_preproc_eeg_batch.m"
+    },
+    {
+      "path": "eeg/wanderIM_preproc_eeg_filteronly.m",
+      "git_blob_sha1": "fa55135f5f64e5149f8cf1027c2cc11f8608b8a8",
+      "sha256": "710aa401ce1c86229be6643b3d410792fc87755b33ffe3f1174b8bb92a326c79",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_preproc_eeg_filteronly.m"
+    },
+    {
+      "path": "eeg/wanderIM_preproc_eeg_onlyHB.m",
+      "git_blob_sha1": "7a0e3027cce45645e66646ac413f0f25d7deb96b",
+      "sha256": "4543ab3f55b38c787d611cadaaaad1bfa66c35d4e49e293c85c0fb3f40f38d48",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_preproc_eeg_onlyHB.m"
+    },
+    {
+      "path": "eeg/wanderIM_preproc_eeg_onlyHBepoching.m",
+      "git_blob_sha1": "4792d12588e45e5834450fb4ae76464289576343",
+      "sha256": "ac1d580b2c2e07a447d89ee6cc640c008e1e91459e14647dc72a65175808a164",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_preproc_eeg_onlyHBepoching.m"
+    },
+    {
+      "path": "eeg/wanderIM_preproc_eeg_parfor_v3.m",
+      "git_blob_sha1": "a0c989fb989f16c73e750474b6ab865c4bc823db",
+      "sha256": "2112a4bff741e57af9e9014a1da7f0c0e7f2a7429b139b7e833f0ce647538b8c",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_preproc_eeg_parfor_v3.m"
+    },
+    {
+      "path": "eeg/wanderIM_preproc_eeg_parfor_v4.m",
+      "git_blob_sha1": "0908da0a4f553ddafcb8f6cc766ee511b810dc99",
+      "sha256": "4e57317d11cae7026a870cb3a55a6239bb6362e5f80cc7256adca0d31fe809f8",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_preproc_eeg_parfor_v4.m"
+    },
+    {
+      "path": "eeg/wanderIM_preproc_eeg_runLaplacian.m",
+      "git_blob_sha1": "7b7d48c34aa0b21bc5519d1e91615bdcce02a65a",
+      "sha256": "e58cf82b584bf985e224370d8ee4d0c4c62e764fb2ed5f239fa822cb441cfa9a",
+      "url": "https://raw.githubusercontent.com/andrillon/wanderIM/176724bde9258d3a28d7ceea5aa0843928239130/eeg/wanderIM_preproc_eeg_runLaplacian.m"
+    }
+  ],
+  "candidate_paths": [
+    "ASSC/wanderIM_Spectrum_onProbes_byState_ASSC_v1.m",
+    "ASSC/wanderIM_eyetracker_pupil_probes_ASSC_v1.m",
+    "ASSC/wanderIM_localsleep_ASSC_byProbe_v1.m",
+    "ASSC/wanderIM_localsleep_plotfigureori_byprobe.m",
+    "ASSC/wanderIM_localsleep_plotfigureori_byprobe_ICAcorr.m",
+    "eeg/wanderIM_ERP_onProbes.m",
+    "eeg/wanderIM_ERP_onProbes_v2.m",
+    "eeg/wanderIM_ERP_onTrials_byProbe.m",
+    "eeg/wanderIM_Spectrum_onProbes_FFTvsWelch.m",
+    "eeg/wanderIM_Spectrum_onProbes_FOOF.m",
+    "eeg/wanderIM_Spectrum_onProbes_MixedModels_allChan_v1.m",
+    "eeg/wanderIM_Spectrum_onProbes_MixedModels_allChan_viaR_v1.m",
+    "eeg/wanderIM_Spectrum_onProbes_MixedModels_v1.m",
+    "eeg/wanderIM_Spectrum_onProbes_MixedModels_v1_TG.m",
+    "eeg/wanderIM_Spectrum_onProbes_MixedModels_v2.m",
+    "eeg/wanderIM_Spectrum_onProbes_MixedModels_v3.m",
+    "eeg/wanderIM_Spectrum_onProbes_MixedModels_v4.m",
+    "eeg/wanderIM_Spectrum_onProbes_PowSpec.m",
+    "eeg/wanderIM_Spectrum_onProbes_PowSpec_V2.m",
+    "eeg/wanderIM_Spectrum_onProbes_aggregate_forR_v1.m",
+    "eeg/wanderIM_Spectrum_onProbes_aggregate_forR_v2.m",
+    "eeg/wanderIM_Spectrum_onProbes_byState_v1_TG.m",
+    "eeg/wanderIM_Spectrum_onProbes_byState_v2.m",
+    "eeg/wanderIM_Spectrum_onProbes_v1.m",
+    "eeg/wanderIM_Spectrum_onProbes_v1_TG.m",
+    "eeg/wanderIM_Spectrum_onProbes_v3.m",
+    "eeg/wanderIM_Spectrum_onProbes_v3_TG.m",
+    "eeg/wanderIM_Spectrum_onProbes_v4.m",
+    "eeg/wanderIM_check_preproc_v1.m",
+    "eeg/wanderIM_check_preproc_v2.m",
+    "eeg/wanderIM_preproc_eeg_adhd_parfor_v2.m",
+    "eeg/wanderIM_preproc_eeg_batch.m",
+    "eeg/wanderIM_preproc_eeg_filteronly.m",
+    "eeg/wanderIM_preproc_eeg_onlyHB.m",
+    "eeg/wanderIM_preproc_eeg_onlyHBepoching.m",
+    "eeg/wanderIM_preproc_eeg_parfor_v3.m",
+    "eeg/wanderIM_preproc_eeg_parfor_v4.m",
+    "eeg/wanderIM_preproc_eeg_runLaplacian.m",
+    "eeg/wanderIM_preproc_eeg_subbatch.m",
+    "eeg/wanderIM_preproc_eeg_v1.m",
+    "eeg/wanderIM_preproc_eeg_v2.m",
+    "eeg/wanderIM_preproc_eeg_v3.m",
+    "eyet/wanderIM_eyetracker_blink_saccades_probes_v1.m",
+    "paper/wanderIM_paper_behav_perfTask_10swindwo_rev1.m",
+    "paper/wanderIM_paper_behav_perfTask_rev1.m",
+    "paper/wanderIM_paper_behav_perfTask_v1.m",
+    "paper/wanderIM_paper_behav_perfTask_v2.m",
+    "paper/wanderIM_paper_behav_probeTask_v1.m",
+    "paper/wanderIM_paper_behav_probeTask_v2.m",
+    "paper/wanderIM_paper_localsleep_fatigue_MS_perprobe_v1.m"
+  ]
+}

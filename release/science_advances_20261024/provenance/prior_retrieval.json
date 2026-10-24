@@ -1,0 +1,41 @@
+{
+  "source_receipt": "deployment\\full_population_clock_repair_20261024\\results_audit\\retrieval_receipt.json",
+  "files": {
+    "prior/population_bridge/validation_grid.csv": {
+      "sha256": "23c5dd5fde6eb0bbc79922c0e8840a76251b735859cbad1772e9213f25e8f7d6",
+      "bytes": 110570
+    },
+    "prior/population_bridge/compatibility.json": {
+      "sha256": "aa2297809fd4550f1778ea1e1f1e919839ee85e27fbc73fc8dd1481e42387b38",
+      "bytes": 49821
+    },
+    "prior/population_bridge/prediction_cases.csv": {
+      "sha256": "9011cbc303914977255b5207f66e9ab8f73dceaaecf850bc2ece7993332e8fab",
+      "bytes": 914945
+    },
+    "prior/population_bridge/population_bridge.json": {
+      "sha256": "44aae62f60cfae5f7e4febc5bcb919914ab9aa55beb4918dda0a3773f02ed751",
+      "bytes": 1537870
+    },
+    "prior/population_perturbations/system_responses.csv": {
+      "sha256": "8165b7b1a47dd66b56a525faecf6853a7239e276cf01b5d8ac7f2469a1fefdbe",
+      "bytes": 35218
+    },
+    "prior/population_perturbations/summary.json": {
+      "sha256": "6940953644cc677d570016085672d074c68a8b3477fb65ca5a86b211a0beddfd",
+      "bytes": 25548
+    },
+    "prior/population_perturbations/matched_response_contrasts.csv": {
+      "sha256": "8ca0418c8d6e7b46e766fb211ea01199a6a05c529fab8de2e5b94b2daacb3b58",
+      "bytes": 143843
+    },
+    "prior/population_perturbations/pair_qualification.csv": {
+      "sha256": "559adaf212274c8de169c772a69d9e4255218dbc6191018b48b75a0355178d24",
+      "bytes": 42367
+    },
+    "prior/population_perturbations/population_responses.csv": {
+      "sha256": "f3d5f2bcbe342e2e87977d501b25d6548391504069177f80fba548519faabdaf",
+      "bytes": 457474
+    }
+  }
+}

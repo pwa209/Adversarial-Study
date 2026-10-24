@@ -1,0 +1,800 @@
+{
+  "status": "human_spatial_completed",
+  "seed": 20261024,
+  "inputs": {
+    "dream_observations": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/source_stage_discovery/observations.csv",
+      "sha256": "bac4ada37760359f136668fdad0c958cbe8129ae181531323b958530b9d815b3"
+    },
+    "dream_trajectories": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/trajectories/observations.csv",
+      "sha256": "f6718aefe4c251234419d8388ec58fa7d9e5848e3bc4788b3362a21557d63976"
+    },
+    "state_split": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-results-followup-20261021/analysis/human_neural_state_space/split.json",
+      "sha256": "3010af7a3f04a10f7d6a345e66478a5f744a88661183c735e53d39907a7639ca"
+    },
+    "state_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-results-followup-20261021/analysis/human_neural_state_space/receipt.json",
+      "sha256": "e99cc26fb5728a6f4353d33abc3bf6b26638cb280ecdd330a987535f59398b87"
+    },
+    "prepared_recordings": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/runs/20261021T155856732071Z_prepare_development/recordings.json",
+      "sha256": "b4ab72bf7cdf5360d9ba2b30fc4688911a2ab3660b7f7025653339e29f9796ff"
+    },
+    "electrode_coordinates": {
+      "path": "/scratch/pwa209/adversarial-study/maintenance/cross-mechanistic-20261024-v2/electrode_coordinates.sfp",
+      "sha256": "59885415704f21152304183670a947547d1651a0862a8ee41ce5e5eb71ca5c29"
+    }
+  },
+  "raw_recordings": [
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_1_1.npz",
+      "sha256": "342d5c51b204e27ca30b6853501c38075dfab52cbf3c9649d111a2eee68ee9b3"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_1_2.npz",
+      "sha256": "afa44a3f33ed3f48ec9644bf482069d8ba340348bc8c9292527050e3a3f3ce2a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_1_3.npz",
+      "sha256": "dcd25761178c74ebea9b74229471fbc4c3f2bf766c14654a60b10459d49387ed"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_1_4.npz",
+      "sha256": "5a708c11c46539f6e522ca3a59c822cd93c1c4d1a6096aa325213e3757eebc97"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_1_5.npz",
+      "sha256": "ee57ba4dd0fa1460515df5ef3ba28430cd6350bbaaaa2b6aa724fe09e6794253"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_1_6.npz",
+      "sha256": "7b60629a0cd0bbaac892f23e05c10e218d1666c142a6dfae39f03ea260423f6e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_10_1.npz",
+      "sha256": "03b1c5ad3d5b019c5438ef4cf144af7dc01bccee117f9f414f4fad845ec73f00"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_10_2.npz",
+      "sha256": "1047c69d875549ac366798fbaddf8daf2046f3b00eeda9101463f2add660fe90"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_10_3.npz",
+      "sha256": "e202ffacfab6613e995384339d4d06aa0a2ffb236362dbf1f367b1d9a9f9a7c0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_10_4.npz",
+      "sha256": "bc0b2ec661ddf2e2c1f72675085558d620f3f18243bd14b78dea9009ef1460df"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_10_5.npz",
+      "sha256": "ee7f1aa65f9ac0f640aa0d915f6a02e35f9571f1ebbd400183f70afccbbec14c"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_11_1.npz",
+      "sha256": "8fa57c3271bcd560ac5c3fef61cc5d8bf9dab2544e9acf38b20ef63e8f91f8f4"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_11_2.npz",
+      "sha256": "ac8d61a70804fc9075474e5e302a7d88f1eeb77f7178b4f4120d039e469affe0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_11_3.npz",
+      "sha256": "4a322b52bb7d52365a71c4df0355b7d62a7c4c95a5a7dd5dd8fae3e16638e1c2"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_11_4.npz",
+      "sha256": "9fe92caef6b7ea4d0318f04e1d9e92bf8e3b9d0aff0392ccacc9e6502e697aa1"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_11_5.npz",
+      "sha256": "2e62397b890b93824388e4e314514fc94dbd3fb4803ed3d840b83785bf6a8799"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_11_6.npz",
+      "sha256": "8f82f770b9fe1a42d8b12108004d04c47a4c330a2e86725d747cf2ce7c3f7aea"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_12_1.npz",
+      "sha256": "d336f553843eaf6c0fc694938427b53c744b7c46d1abb186586f5fb92ae4dff0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_12_2.npz",
+      "sha256": "9be52eb1567f801eb9be1ab857b292db8d259e312c70aff20401ff33bed9c8b5"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_12_3.npz",
+      "sha256": "ba71a0b18f558569a82edef458f9b8a58ad4a559e95c0a15a77d69e64857d62f"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_12_4.npz",
+      "sha256": "db2c0b4f761e9cf950cadb6aa99160d5af62b417985f1042cd4a0017b964562f"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_12_5.npz",
+      "sha256": "77026010fca8bf75b3bce43b085e29dfe8cca2c0e39040636451c416c5587257"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_12_6.npz",
+      "sha256": "a85c3f74db4038e1258e5b0853ecdceca0e5b166926b723de011ab69b13687b8"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_13_1.npz",
+      "sha256": "2e51d06079409487a3ea9b1123337628b96faf867b38fe6b2ade50c01b157331"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_13_2.npz",
+      "sha256": "2a4ad95a1e51d2f84b6e4b6accc96bca17d4d27e0fb63d477e429a029649306e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_13_3.npz",
+      "sha256": "c45bb250aae35faf75d5f174f5acf0424930fea7b37afc579e0b63747d62c65c"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_13_4.npz",
+      "sha256": "79ee3d954934d2cd050cc43d5ce41f2816f40f0d96a396530a0e8bf71cae4cbe"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_13_5.npz",
+      "sha256": "dd47b2dd347350ccf333bd2466cee4afd660fa33c7ae6ef4037274cccfa41fe9"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_13_6.npz",
+      "sha256": "cd05b7e6bc381a7f6fe2c8ffb646e0abb07642e437f665b2df1104b8d4655913"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_14_1.npz",
+      "sha256": "848ad913877b51229954709356a2a4d979802a320edbbe00660999a7d932d1d3"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_14_2.npz",
+      "sha256": "10414c93e7dfbe5287839b2706e586fb4637ad578d06012e806f76b4ab4fe067"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_14_3.npz",
+      "sha256": "6e2e0a669d8e4f733280769084aa0495c61e436426728c3beecdf963f901439f"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_14_4.npz",
+      "sha256": "53c35d2001d4a4b4167ba0ff8183c91ca87ae64ecdc6095ca3e561ea537ed87a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_14_5.npz",
+      "sha256": "fc9d9adb76fcc73d878a2e1c7f9f493a8b156b1f89985ff7bd409a60a43fe77b"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_14_6.npz",
+      "sha256": "f10c0cda89785a938e51211da6e6f4440cdd9e89284f54d02de1f2a1ea5b2b35"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_15_1.npz",
+      "sha256": "71aeb33ced0cc2b707986d6c2e0fdceb2bf73ed8e3c611a92ce9355b0d13144f"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_15_2.npz",
+      "sha256": "0889bea9045724d936ff17885915fd8289e1450cf05b3bb056384594debe7ffc"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_15_4.npz",
+      "sha256": "8c17374cdca3b9d5481e9c7c55c89675f3fac9001bf00131a5776565b275d7e7"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_15_5.npz",
+      "sha256": "48325558cdff5fc9c2ef1081d7bfa8942b617aaae28d294fd662ea2e1768bf6f"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_15_6.npz",
+      "sha256": "dfc000f5ee922416759f4694ae8363c7ac3b620dd322c724e17a1648953373b3"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_16_1.npz",
+      "sha256": "dd8541530964294709813cf2db2fd71086ac749bc49817f095101eb533318cf6"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_16_2.npz",
+      "sha256": "e7e95247513d6758ca6820080eab1ea8c8c8ef6cb86d8d88325acebd177921df"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_16_3.npz",
+      "sha256": "6fc9640809bf9116e3d2589db79089d10c3ea04e85ad2833a2362cb39a945c29"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_16_4.npz",
+      "sha256": "615e44cb3e8fc2fd080a11414b6d2c76ad58f5e46d03cf06c069f432cbd0f39e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_16_5.npz",
+      "sha256": "1038b57fd376c9e80b17acac6795a78f940c398f5467cea00199f14a20080ba1"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_16_6.npz",
+      "sha256": "4b2b7302ec3536bb68414e4d0c284143baed33303a0b57fd83dfad3e0aa2339f"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_16_7.npz",
+      "sha256": "661ce6007972d9ea3a3a7ca990a86f1a9d79dc242df051acaed6a88b2e0d3e62"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_17_1.npz",
+      "sha256": "a6536a42d8285169952cd49b93c92c54dec3005aa70aea3c601f25b233a12bcc"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_17_2.npz",
+      "sha256": "67c9d76fb2a88b9e406624d334171204f8f015128012af4ab312a2c5675f8bd0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_17_3.npz",
+      "sha256": "8bfbb626897707ec8a28208febc613ad35476e2535a48b9eebbf05c2afc2b8c7"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_17_4.npz",
+      "sha256": "ba069dcebb2ed62da8d576df544eca1dee4e4eb9991e365c682b9cb3093ce8b8"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_17_5.npz",
+      "sha256": "370090e8accff96a1f6d69685f5738ff7ebfb4d9cab0379519371033f41bfb0a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_17_6.npz",
+      "sha256": "a32581eb193536ef312d3ab3cfe6b02cad7512f02364f36e5786b9389ebca0c2"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_17_7.npz",
+      "sha256": "9435a0dd003646ca1b1dc832f3826a9cd29a072f5f1083bfa95327071fcd5a90"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_18_1.npz",
+      "sha256": "3ab93229bd052277648ea4518a7ea5db5c09ea539b4e86348a4c3d6ba2a8975e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_18_2.npz",
+      "sha256": "902dd60cd9edc711603c3a8c82d230929ffb89b42cb381eddf943e43b511d340"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_19_1.npz",
+      "sha256": "02deb6f0b8d489c2d147ae531b084a8883af280ebb6dda00b30e592cca2be7d9"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_19_2.npz",
+      "sha256": "617ea155e5e7323f2943e9835f6feff20f44b555b6c222d6a699beb4456c9636"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_19_3.npz",
+      "sha256": "5ea4a374791ec162124899223a55ff0603cee913b427acd5bf5cb479a527bd33"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_19_4.npz",
+      "sha256": "149b5d51bd05744c591fd9eae70ad36dcdbd9feae9efbbca72f0c5ba4b07c194"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_2_2.npz",
+      "sha256": "7a140cf72b38b458f341748b73eadcd75441233ec60c226ec47da148ead0556f"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_2_9.npz",
+      "sha256": "f325d2c759f0e8adc3dee158aaa6ae8fbd3b79a28e5a80d4c4d151ff17a4aa8d"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_20_1.npz",
+      "sha256": "97349f2dc65229b15f1f9a85ed8d341fdb41ec22f3585f7ecbbfd4ad452c6a81"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_20_2.npz",
+      "sha256": "4e29a8f8f33f4e1bb95c54fb94923b731650cd7c85e0f9ed4cebeae32d17bb89"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_20_3.npz",
+      "sha256": "f32d4661832790927d386b1e3b68520e85c433ab92cc69e1c723e3568369ecfe"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_20_4.npz",
+      "sha256": "c2a3d8d39bcedf9f708f4bd786017c480e06d97f32b35c660c50ef604f535ad8"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_20_5.npz",
+      "sha256": "cf7fab574efff69ae43122b2d94bfbe4b4386708f0d6739612a2c5c5a0a68edd"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_20_6.npz",
+      "sha256": "a344a173e7955ef4a6954ca90846eea78bd20658f23397a35d700eadfe1b12e0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_21_1.npz",
+      "sha256": "1642c6ae74aa017bb275fbb6b8e9bda8d95f56b8894864cffd3eff1ee3e42cc0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_21_2.npz",
+      "sha256": "376e04e406cd89ee84de825a48a4334f5b889341b209f2aca25535a201ebff8d"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_21_3.npz",
+      "sha256": "22a408a6112364703e582edb6838f985e71ce6e335c417f9c9c255d9b89864a9"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_21_4.npz",
+      "sha256": "7d5b3e46fa2ec81168c50c7d8e5a9c036fcd164bc03457a0c7130e6dae3bed9e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_21_5.npz",
+      "sha256": "c4cfe64c090be06413f150a9e838d1d50cc5401462f99b9d42c87b2b70433f02"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_21_6.npz",
+      "sha256": "4242d3a772a1174b3069b961c68ecb3469e826ae1084278fcd41f5913fe7c94a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_21_7.npz",
+      "sha256": "868c9598e97b6b84702c9f04aa91f8bf7f0b0b9426c585a84dce5995590980f3"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_24_1.npz",
+      "sha256": "59f978a32f44c2eb0779bb141d18324b1675a82b222479016a47863e0985ca72"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_24_2.npz",
+      "sha256": "912284793171343ebe5cd4e821933898a4a31e2cb7130e9f04c879701dc0b302"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_24_3.npz",
+      "sha256": "8dee7461ab0b8d09bbad0a7f0128df309d87f6f1ad3ac07402ee3dbd92b6148a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_24_4.npz",
+      "sha256": "c99b2fe9ed9be7c5126de075469b8eb1c4d223dcae79702c360546815ca9c9c1"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_24_5.npz",
+      "sha256": "81f2385dbc10051b392f4b7c7bdf289ec39957c0ab3a1c26984f92d7b2373afa"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_24_6.npz",
+      "sha256": "54fa9a074b08884680cc98a6aabd5994517dd9de02bb9d5ec5fc5fcc618ecd7e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_25_1.npz",
+      "sha256": "34fc3cc290a1482fb48fab9b894d5eb69324da88a27660afa39fd96f3c62aef0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_25_2.npz",
+      "sha256": "a3667f0d86d3f5cd1d8861e95d61c1bcc8dce708c7f7d5b4a982fb63ac062ac1"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_25_3.npz",
+      "sha256": "4a76c1950f337e054c2640e0eb7696b26f32a04f528d0ae204392c2826f218ff"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_25_4.npz",
+      "sha256": "b8b1fa000bb2b3280d0e45b55ae3e1ecc7d1df2e16a31c09ad64267e64d7a4ef"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_25_5.npz",
+      "sha256": "d8a258acccdcd72732bbdb501e2d59488a7e11df385a92b3ec86f3505f2f565a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_25_6.npz",
+      "sha256": "b0993ff56dff3b24822174718d4bcf8f0065996f8cfba486f8a60d1daeb357d6"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_25_7.npz",
+      "sha256": "5aed02d981dfb433729c4ea36ae3d0b2726635677561c86428c5152d3eca3fe8"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_25_8.npz",
+      "sha256": "7c36a6ccf47676c87df696c9195e84f7a575811d9f5f7588459d2095835d6559"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_26_1.npz",
+      "sha256": "cafe58da637073564979d9e438ccbd6d2af146c98b14f0cefd6cbf018e49c9e0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_26_2.npz",
+      "sha256": "67d94807da9795847a3f7823b545d10566978b8ac8ef5231bf01dbb1a0b9eab9"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_10.npz",
+      "sha256": "d298d4a73f2e1fdeed4998dcb60c4575a58cda6f3ed5478be228fb4e644a8cc9"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_11.npz",
+      "sha256": "b4f452a7e347acabf3606ef7d361b6a956bf8d0ba11654b2afcaba53cf8eeab9"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_1.npz",
+      "sha256": "0f11995650a5e975feb8727cdd10ab35ed56f16bec5081c2b22d094b9e8a40e2"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_2.npz",
+      "sha256": "82959306f35830d8ef58f83ca52cf2294e30b012da7473ce42c386f23b6179e6"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_3.npz",
+      "sha256": "b56c1ebb78f3795f4316bec558bf4ae430b4b03bcd9ab9b7e1f53abf0897d7bb"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_4.npz",
+      "sha256": "d53c4182b1f780d182f4eaedd540c3d32af18ca9bccb811745fd48dbf3aa876e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_5.npz",
+      "sha256": "772722380b7e5ba965606d799f07bdb56e063bb0213d2e41c9734a5d3535a284"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_6.npz",
+      "sha256": "91ab6e53ad4f0f08ebd7709f2628c9180b0730c79ffa19cc5cf259deef32879a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_7.npz",
+      "sha256": "af36ddde4901e283e87c7cbeb3d69b11f2c351948e463f69e793042f04f622ce"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_8.npz",
+      "sha256": "de7e29e0e5db8b886bc56b614aa4a00150a2dabc0d98e5d65fb5e3f9876fd525"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_27_9.npz",
+      "sha256": "13f6b94bf677565623b138e6aaf43ac470794ed02aa38e90c326390e148c516e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_10.npz",
+      "sha256": "e9de39199846082aa0bce803c9a27c51ce2cfe43b0ea34717de57ccb2b953740"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_11.npz",
+      "sha256": "397ef2a53888d915c38cc3a14d44a1a32f700faffe8aaf0228b24a33591be12a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_12.npz",
+      "sha256": "9836a176e14c43af433fad80798ef0e03946357822b6b0e1fd569c70dd01a220"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_1.npz",
+      "sha256": "05715e0275b84fc05f34fb30373c7bd5753ddd6f378909eada667a0fa7f93c8e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_2.npz",
+      "sha256": "5d39f8cfcdd0c47918f35003014bb5b5a41e4a92ea1fd5395a2cbf7d1f9a1784"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_3.npz",
+      "sha256": "76342c9cba05cf16b35f9545c3296f77f49e7d30045869bd2655f2e42a7e8bfe"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_4.npz",
+      "sha256": "4651385f6ed7c2710811882eb1096feddbb69e7af2178c8fdffa6d5068413b4d"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_5.npz",
+      "sha256": "05f73bcdecd8bb270fdf44878ebb54f3e1163b4d6a108c25a093f9491ff76253"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_6.npz",
+      "sha256": "8061912bdb112f68d782363e242978bccb71eabd0c5386b9b2b0585bed355ba3"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_7.npz",
+      "sha256": "c7dbfe12020552350ddcb8a9c1c973dd51b0d04f0286aaacf60b2cea3e9fb155"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_8.npz",
+      "sha256": "e564e023a560911306279d0edf6cf34e07ea83a19161a7ec648707077785f9f4"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_29_9.npz",
+      "sha256": "024a4d583c8b2b789d3c3a56494eb474473043d8066fb9aa38878150f06482f6"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_1.npz",
+      "sha256": "2a9c3c073557e3d019a188a9f393f6b0ad98e2f9e9e344579be02a7e1784c732"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_2.npz",
+      "sha256": "d26317fe6f7b1a5c298cf4b5a7a77e894440ab40cbc58f755bedb5e0212d5907"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_3.npz",
+      "sha256": "fd9f78bb41126168e883b68605594c568683bbdb30f7acad3b9ee0869f53a694"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_4.npz",
+      "sha256": "ef90d2dc9645c77215069bdba683f44f53d304dffc76a25034047589ab6923a7"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_5.npz",
+      "sha256": "47016c763e236801dae7f9fa13de591fba6fdf0fe89d0cbcec66290d2fdd7f8c"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_6.npz",
+      "sha256": "f50f4344b60bf1d197ba72ce5c5dae86851d667ecc2508b9baa1e18542cd251c"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_7.npz",
+      "sha256": "cc6369c46474a23b0cac52243e246548c3c4f432c6bfb03054ad70777484024b"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_8.npz",
+      "sha256": "c799f33ec6daf46c9514c153090ac0230a3b88adb5f56bf42cfe5e5ad677613d"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_30_9.npz",
+      "sha256": "3522f2a0d196be1812943e568ffc3180b86480fb10322874d50bd3b31d0ab079"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_31_5.npz",
+      "sha256": "cd21a7f5b99bd44b5f5a288f5d4f8566df350136bb18f18a60e1db8705fd2a92"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_32_1.npz",
+      "sha256": "4470934874135fc62613f02442325d27e348f67ed324cbf75ab191fea86e44a3"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_32_2.npz",
+      "sha256": "e4f1150d738e07a3270e94dce610a979e034eb1d38c47b44e3d593467efb90a3"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_32_3.npz",
+      "sha256": "4cc12169b65f9ec862deb33472f2b8600672f4bfd2a2c52223b6f6baf920e838"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_32_4.npz",
+      "sha256": "78f40e809ba8f929dcc000248cf4e397574f833313b545798d3b3ee57afed323"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_32_5.npz",
+      "sha256": "b3af663f0239821dcf47fc861ae391698646260a7d47b1a35cd0d6ee8c703b68"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_32_6.npz",
+      "sha256": "9eeebf8724a3128f0c397e926eee6a4fb10ab450a11d91873ce68f88797a5bb0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_1.npz",
+      "sha256": "d08a129d190b64607da35ce79d3e95925e87dca17afeb524a951d9fe03334281"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_2.npz",
+      "sha256": "bdf581bc33d646ec956e86237744ca38a8fcba33db3a6112cbdf073259e69f5c"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_3.npz",
+      "sha256": "99a85a24aa5c453bb41c8e137f4da30c5ee1b608b5d18395a77341204d51d4fa"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_4.npz",
+      "sha256": "90bba25ff1b30e3f6e8cb9ce7c6b272bd1b3e9b39ff2a94361a832a0a2ec1414"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_5.npz",
+      "sha256": "88423815482a82800e6a493cf57b7afd29756a7cec2e5517bfc36657d7ae061a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_6.npz",
+      "sha256": "62f4ab56a1f660b4c5c19144f68fce9a8f0f95b06d67674990216e1da4b5dafc"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_7.npz",
+      "sha256": "a08312c5bc3d8a236eea999a4b3e89f1086bb3317b4f931d296f6499835a8988"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_8.npz",
+      "sha256": "b1ab8ceedae650f6c1dca4b0d3f24469bc2f6c4cefd9ee93f93a28c5016efe63"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_33_9.npz",
+      "sha256": "205e53ba3c13ead9a4b11ac563eca89b1ba96065843baaa4ff6c272dcce94ee8"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_34_1.npz",
+      "sha256": "12cc36cd3751516b298dd73c7e46c71140b041f91bf6e0275876f64a9e72d459"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_34_2.npz",
+      "sha256": "bb35feb2602f7e13f7df0dba5c81cb51e6a4603aba947e5c2409ee27a29ebb47"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_34_3.npz",
+      "sha256": "d93d9288494fa730fbdf4ceefd25ca16e759d8037b44a9702be81aed2b720929"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_34_4.npz",
+      "sha256": "2b8cf5752499dd7a3035a4add70539facb7fc1558db9462978774896cfd52fb7"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_34_5.npz",
+      "sha256": "c609295203ec5d92c285d24fd7450785d41f16eca6ddfc002a97b8575d085ff4"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_10.npz",
+      "sha256": "98ee609b11e22a537410ea113bae1339526c3590dfc5fd98f94e6804ba5302b9"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_1.npz",
+      "sha256": "206884864c7d798b70217f5fe4341af108a93485d243703c109121952fce471a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_2.npz",
+      "sha256": "2fd6b650d6c594603d8000fcd3505c344b72f7286c889e4dc1e1f9409ed41c86"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_3.npz",
+      "sha256": "846141af4c87fd2e07addf60940e5d86e479350ffd3350a3610e5405ee2b7e19"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_5.npz",
+      "sha256": "df9a2a0f0897e1b4948e0a03419a882b652217951b29b997aff2ef06729d3004"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_6.npz",
+      "sha256": "3125425978779702d7a28bd393ec6f6a1d155b836ce78b4e06c89d5e30006275"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_7.npz",
+      "sha256": "58272472350f7d3676dc109a1d718f5e63ff6d9604d51156ecc712ca091767d0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_8.npz",
+      "sha256": "d11fbc2f0af860e2b5a713a9a31e6804317ddd26ac7628682c677b98e2fb7254"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_35_9.npz",
+      "sha256": "33ea550107f69e4230e0fdfc9efd1d07a5a141f0b92c3f622e5426d1e389f669"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_36_1.npz",
+      "sha256": "03ce9478c74cc4a2febb32dbe3835f75406b2d314bd8fa45ffbdb1afaaf72c1e"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_36_2.npz",
+      "sha256": "a0b639c5d284b93477a1a96b7222f01c9a312ab1cb418be2e35b0a46da0b64df"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_36_3.npz",
+      "sha256": "573f8daca3b3ca5dd194000cd8b838a0adcca702e5a6e71696fe390c3c962e74"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_36_4.npz",
+      "sha256": "fb9b0bf3acd6ffb961fa22e6c2937e539d0af1c1f60ccd006864f02506bc04f6"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_36_5.npz",
+      "sha256": "c93df9c359e43e518c6b21f4248b12c855544c8cee1646102fe415af025d8ddf"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_36_6.npz",
+      "sha256": "e6ccde209809e1b22c9054fa0dc8d511f5d9efa976aaa7079e22c5e76dc0a5a6"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_36_7.npz",
+      "sha256": "1408bf01915f62aa0d30e79636f79f0ca47b0cefb2f39edf1bb96f5628c9937f"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_4_1.npz",
+      "sha256": "a7d1e3182de5339bb814a45895d03e003fb3761feb46ca7f49f39960bfd96fa2"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_4_2.npz",
+      "sha256": "8ceaee54631746e834c0a6efc61877d72e03dc66b18942e88f3533df4fc9e067"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_4_3.npz",
+      "sha256": "2014162a2366fe1ce6b2c681d5a422207fb37985a456d9c895d1b982665e261b"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_4_4.npz",
+      "sha256": "07f52d90012856c5fd49b44704ab71bb10e22243b3d17ac5935e7d4484d2dc1d"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_4_5.npz",
+      "sha256": "dcbe020c0791a32b107f4cedf2291348fe6c6ec798d276ab59784f0f386ca748"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_4_6.npz",
+      "sha256": "8ebaa3afc87c8df1a4d3feb39991e124a8d314c9d5d94737cf8856167203583c"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_4_7.npz",
+      "sha256": "52400086d6e5fef94f322853ddfecf4878f3af1634ab70e2c4f4bb7845ea96de"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_4_8.npz",
+      "sha256": "135a5e4a60e44b09eb3f6b7ebe0bf8298fc1f4c1e8da72f45e29cdecee56ee3b"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_5_1.npz",
+      "sha256": "4171a14c46af58aa3a6aee9edf10ea42f1c0e569b5657f3af8f6a6ac8cb3ff44"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_5_2.npz",
+      "sha256": "d65dd48d6f7cfd83868396ed26c5bb7ab0ae3d948b0cf4493a6cd98755fc9f77"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_5_3.npz",
+      "sha256": "4d34c498c5e331aa0c248969cb079129a14db302d17a0e04d242f0c9aa13a10a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_5_4.npz",
+      "sha256": "e64b24cf32b811caaf6d909a6df9754b36ba4243be342b80d05f2b90c1b3daaa"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_5_5.npz",
+      "sha256": "9cb2aae8d55a88b17cd693e59ad1dbe512ae8ec7f1a04124e15b0f1b5a39df55"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_5_6.npz",
+      "sha256": "fed6b677c2870ab96305516f852d3611c808b05f7c0fe7d8b2e6b10428322b95"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_6_1.npz",
+      "sha256": "8844bda4d106d16bae233d5b380104ab097529fb12c134467ab0191dfb35e97d"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_6_2.npz",
+      "sha256": "75a7b86d368dda1ccbafb4b354efedf9337227c487ba561acafaf702ecc59efa"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_6_3.npz",
+      "sha256": "9b43647d7d85689876638253d95bb921b3b032d2c58acadb1d207fbcefd1ed0b"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_6_4.npz",
+      "sha256": "69785735be694222f128dacf7f36382e2d3bde79a7f7a1c15d0cca790ef922d9"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_6_5.npz",
+      "sha256": "89f603c20487c81acb5ae6589321844d8f1143c84794f07dbecca63f4c3d76d0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_8_1.npz",
+      "sha256": "4ed6da69acecb7b96c1c4b0e616ac0a82adfb9353fa4a5ddce54477a7b13e691"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_8_2.npz",
+      "sha256": "a0e7010090dac45c96d86593aad292d68e472e177a4a77f4e22bfd50e478d956"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_8_3.npz",
+      "sha256": "bbc88f4ecb3bcda6410215abaa5fb6273ba8dc93e222e9509396671f1fbe0397"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_8_4.npz",
+      "sha256": "e3cc77b0c37202307d685161eefa6257cbf322fff2891f47031a9ce958cadff5"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_8_5.npz",
+      "sha256": "26f3799205e9d2996cb3489fa88f873afa06d8a525b3b2006db1ee0784b437ff"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_8_6.npz",
+      "sha256": "7bfd1429926936aaa50500e0fd28854d40cee4dca952f70925e125076e927755"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_8_7.npz",
+      "sha256": "4a9043d566b857e6038df7dc0ef82a7423efd2fcbf69048bee1d72c2571d27b0"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_9_1.npz",
+      "sha256": "5d31d0cd697a4ba2740c61d03a14e72f33d1c8a89080d10156e3bf01e7632e76"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_9_3.npz",
+      "sha256": "84a63367189547e19b3567d92384ef51b0f231c0c6d19dc8c7b7f4829046e295"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_9_4.npz",
+      "sha256": "1624250d11ab3b9b4df78eef715cbcd2d986a38e284ca02d50c6a99923637c5a"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/dream_tononi_serial_9_8.npz",
+      "sha256": "fe5166928fbe9561bf51259af44cdba59cb16f856bf41326e1b12d1018708d42"
+    }
+  ],
+  "outputs": {
+    "episode_features.csv": "190403ecdc167c801c52901eab20c2c6e65a65ad24074e00aa74131c9afceb28",
+    "held_person_predictions.csv": "3c0a7359aa6aa724f29f6719c5c5ee9da0e2bb0cf8cfeb5685c155b110a74dd5",
+    "episode_dispositions.csv": "4082420d116ea5f9b5f86d5fcdfd46310a4c3f19ee57ae263b3a85a1d93af3cd",
+    "summary.json": "94201a695b9376d14948bb0221d54128082ecb2a272c9e314b30119be0714800",
+    "models.json": "9e725f9f0a9dcf880b0e35524deba6f3703bdba5b18cb6c1431739c05edcb637",
+    "matched_pairs.csv": "b756be9f687b6a4c7eda031d497ce0d908fa896901a7fffc04a771a50aa0117f"
+  }
+}

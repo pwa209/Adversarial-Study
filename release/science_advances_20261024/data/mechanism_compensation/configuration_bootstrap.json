@@ -1,0 +1,319 @@
+{
+  "parameter_recovery": {
+    "status": "completed_conditional_finite_bank_configuration_bootstrap",
+    "seed": 20261125,
+    "repetitions": 2000,
+    "results": [
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "cortical",
+        "baseline": "training_mean",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 0.3363404058959968,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.20074774773989662,
+          0.4730201621014608
+        ],
+        "loss_minus_baseline": -0.8136963877578899,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          -1.214602593771602,
+          -0.4504482068084348
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "effective_mode",
+        "baseline": "training_mean",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 0.789324829252152,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.4442500987383256,
+          1.1048627284645949
+        ],
+        "loss_minus_baseline": -0.3607119644017347,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          -0.5712974409996205,
+          -0.17430987252170455
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "full_population",
+        "baseline": "training_mean",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 0.16886013070060765,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.05564146961207581,
+          0.30480601760855325
+        ],
+        "loss_minus_baseline": -0.981176662953279,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          -1.3483381375899621,
+          -0.6070783214623431
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "training_mean",
+        "baseline": "training_mean",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 1.1500367936538867,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.720992059747935,
+          1.5451625321705582
+        ],
+        "loss_minus_baseline": 0.0,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          0.0,
+          0.0
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      }
+    ],
+    "inference": "Configuration blocks within family and variant; fixed train/validation-selected fits. Percentile ranges describe this deliberately sampled bank and omit fit uncertainty; they are not human confidence intervals or evidence of independent replication.",
+    "human_participants_resampled": 0,
+    "pseudo_replicated_timepoints": false
+  },
+  "finite_response_prediction": {
+    "status": "completed_conditional_finite_bank_configuration_bootstrap",
+    "seed": 20261226,
+    "repetitions": 2000,
+    "results": [
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "cortical_and_observed_input",
+        "baseline": "factors_and_observed_input",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 0.5681078514738886,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.37765152938911434,
+          0.7567153686808341
+        ],
+        "loss_minus_baseline": 0.05149132142341428,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          -0.02435707036745849,
+          0.13860365268056452
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "effective_mode_and_observed_input",
+        "baseline": "factors_and_observed_input",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 0.5976704884648816,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.374810716257765,
+          0.7907845780021633
+        ],
+        "loss_minus_baseline": 0.08105395841440721,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          -0.004517214597079322,
+          0.1775452260576738
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "factors_and_observed_input",
+        "baseline": "factors_and_observed_input",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 0.5166165300504744,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.37407284767620985,
+          0.6607715940683118
+        ],
+        "loss_minus_baseline": 0.0,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          0.0,
+          0.0
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "factors_effective_mode_and_observed_input",
+        "baseline": "factors_and_observed_input",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 0.506013538469331,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.3708468880928884,
+          0.6536225897634275
+        ],
+        "loss_minus_baseline": -0.010602991581143417,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          -0.07614413329757164,
+          0.03938181779865534
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "full_population_and_observed_input",
+        "baseline": "factors_and_observed_input",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 1.503899800433251,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.48358498614249656,
+          3.219138018917709
+        ],
+        "loss_minus_baseline": 0.9872832703827767,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          0.006654186562186748,
+          2.729950630679659
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "observed_input_only",
+        "baseline": "factors_and_observed_input",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 0.6280028212705709,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.4223805855218544,
+          0.8467264296500253
+        ],
+        "loss_minus_baseline": 0.11138629122009658,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          0.00660889204609535,
+          0.240552466182625
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      },
+      {
+        "variant": "scaled_dendrite_v1_explicit_patch",
+        "model": "training_mean",
+        "baseline": "factors_and_observed_input",
+        "held_configuration_groups": 10,
+        "mean_standardized_mse": 1.0087382157533948,
+        "bank_stability_mse_percentiles_2p5_97p5": [
+          0.9105155223664113,
+          1.116003190964379
+        ],
+        "loss_minus_baseline": 0.4921216857029205,
+        "bank_stability_difference_percentiles_2p5_97p5": [
+          0.3105934898715191,
+          0.67431549746131
+        ],
+        "family_strata_sizes": {
+          "combined": 7,
+          "coupling": 1,
+          "gain": 1,
+          "history": 1
+        },
+        "singleton_strata": [
+          "coupling",
+          "gain",
+          "history"
+        ]
+      }
+    ],
+    "inference": "Configuration blocks within family and variant; fixed train/validation-selected fits. Percentile ranges describe this deliberately sampled bank and omit fit uncertainty; they are not human confidence intervals or evidence of independent replication.",
+    "human_participants_resampled": 0,
+    "pseudo_replicated_timepoints": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "seed": 20261008,
+  "main_low_score_threshold": 0.25,
+  "low_score_thresholds": [0.1, 0.25, 0.5],
+  "same_score_tolerance": 0.02,
+  "same_capacity_tolerance": 0.0,
+  "minimum_capacity_difference": 0.2,
+  "minimum_score_difference": 0.2,
+  "minimum_time_separation_s": 0.0,
+  "minimum_informative_cases": 2,
+  "minimum_informative_comparators": 2,
+  "maximum_input_rows": 200000,
+  "maximum_scanned_pairs": 20000000,
+  "maximum_pairs_per_participant_family": 2000,
+  "maximum_output_pairs": 500000,
+  "bootstrap_samples": 500,
+  "exclude_saturated_pairs": true,
+  "sources": {
+    "monash_wanderim": {
+      "context": "waking",
+      "observed_categories": ["ON", "MW", "MB", "XX_no_recall_original_code4"],
+      "supported_experience_categories": ["ON", "MW"],
+      "support_timing": "retrospective_pre_probe_point_duration_unspecified"
+    },
+    "mindblanking_paris": {
+      "context": "waking",
+      "observed_categories": ["ON", "MW", "MB", "XX_no_recall_original_code4"],
+      "supported_experience_categories": ["ON", "MW"],
+      "support_timing": "retrospective_pre_probe_point_duration_unspecified"
+    },
+    "openneuro_ds001785": {
+      "context": "waking",
+      "observed_categories": ["hit", "miss", "fa", "cr"],
+      "supported_experience_categories": ["hit", "fa"],
+      "support_timing": "subsequent_sensory_detection_not_experience_during_prestimulus_window"
+    },
+    "dream_tononi_serial": {
+      "context": "sleep",
+      "observed_categories": ["experience", "experience_without_recall", "no_experience"],
+      "supported_experience_categories": ["experience", "experience_without_recall"],
+      "support_timing": "retrospective_preawakening_point_duration_unspecified",
+      "sleep_stages": ["W", "N1", "N2", "N3", "REM"],
+      "sampling_frame": "published_selected_DE_NE_within_night_development_subset"
+    },
+    "dream_oudiette_n1": {
+      "context": "sleep",
+      "observed_categories": ["experience", "experience_without_recall", "no_experience"],
+      "supported_experience_categories": ["experience", "experience_without_recall"],
+      "support_timing": "retrospective_preawakening_point_duration_unspecified",
+      "sleep_stages": ["W", "N1", "N2", "N3", "REM"],
+      "sampling_frame": "source_qualified_development_subset_only"
+    }
+  },
+  "interpretation": "Exploratory thresholds fixed before this additive analysis; remapped GCS cut points are resolution choices, not diagnoses or awareness calibration. Public development data cannot establish independent replication. All nulls and missing comparisons complete normally."
+}

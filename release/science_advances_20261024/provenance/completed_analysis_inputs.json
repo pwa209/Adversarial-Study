@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "seed": 20261024,
+  "current_behavioral_target": 42,
+  "behavioral_split": [
+    26,
+    8,
+    8
+  ],
+  "both_human_data_finetunings_before_comparison": true,
+  "retrospective_development": true,
+  "new_downloads": false,
+  "new_simulations": false,
+  "reuse_completed_native_cache": true,
+  "result_direction_gate": false,
+  "stages": [
+    "mechanism_compensation",
+    "human_spatial",
+    "pathway_balance"
+  ],
+  "files": {
+    "clinical_training_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/clinical_human_finetune/training_receipt.json",
+      "sha256": "789dacd05648a75b2262e811a5c58e3a3d0a37c2c284c409ef607c87ca2a387e",
+      "max_bytes": 134217728
+    },
+    "adapted_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-results-followup-20261021/analysis/adapted_clinical_geometry/receipt.json",
+      "sha256": "49692a92f3a6bbc215cab1cc3061a59f78cffc1b4a7389e1169cddff931c0d17",
+      "max_bytes": 134217728
+    },
+    "centaur_training_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/remaining-stages-20261020-v9/centaur_train/training_receipt.json",
+      "sha256": "19317b320ccf449a0a67f0c6fd2f22e356761ab28fce2ffa24a36a7946bf0509",
+      "max_bytes": 134217728
+    },
+    "base_training_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/remaining-stages-20261020-v9/base_train/training_receipt.json",
+      "sha256": "b925dca0c9df7a13d005cbe0468877b7bd271e6730a0590467f467ba4bd0cc40",
+      "max_bytes": 134217728
+    },
+    "followup_scientific_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-results-followup-20261021/analysis/receipt.json",
+      "sha256": "97db853f1bc8db147b5810dded3f161601636a6f33f8389a093a74eaddefbc35",
+      "max_bytes": 134217728
+    },
+    "bank_inventory": {
+      "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/simulation_inventory.csv",
+      "sha256": "1c2876091578167d2c93ae41a6f5602619e407f99fe56c07cda4148e579acb4f",
+      "max_bytes": 134217728
+    },
+    "bank_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/bank_receipt.json",
+      "sha256": "0a91369dd6898a7627a5eca5036954dc3f82be583b0e18713491c340f40aac83",
+      "max_bytes": 134217728
+    },
+    "scored_bank": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-results-followup-20261021/analysis/dream_mechanistic_fit/scored_bank.csv",
+      "sha256": "2ec852fda253e911482a6ec613e9a507b89b6f9b0ecf22109ed8fbea1b7bdb28",
+      "max_bytes": 134217728
+    },
+    "state_split": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-results-followup-20261021/analysis/human_neural_state_space/split.json",
+      "sha256": "3010af7a3f04a10f7d6a345e66478a5f744a88661183c735e53d39907a7639ca",
+      "max_bytes": 134217728
+    },
+    "dream_observations": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/source_stage_discovery/observations.csv",
+      "sha256": "bac4ada37760359f136668fdad0c958cbe8129ae181531323b958530b9d815b3",
+      "max_bytes": 134217728
+    },
+    "dream_trajectories": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/trajectories/observations.csv",
+      "sha256": "f6718aefe4c251234419d8388ec58fa7d9e5848e3bc4788b3362a21557d63976",
+      "max_bytes": 134217728
+    },
+    "native_cache_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/full-population-system-20261024-v2/analysis/native_population/receipt.json",
+      "sha256": "e602ae8d5bf2149b86b73317f9008d080e407be08c87ae29caea8eac5d68ab77"
+    },
+    "population_completion_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/full-population-system-20261024-v2/analysis/receipt.json",
+      "sha256": "4e59c08ecb129bdadbe0521d5eee3030fae31d18184449d4c56845881148e111"
+    },
+    "bridge_compatibility": {
+      "path": "/scratch/pwa209/adversarial-study/results/full-population-system-20261024-v2/analysis/population_bridge/compatibility.json",
+      "sha256": "aa2297809fd4550f1778ea1e1f1e919839ee85e27fbc73fc8dd1481e42387b38"
+    },
+    "state_receipt": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-results-followup-20261021/analysis/human_neural_state_space/receipt.json",
+      "sha256": "e99cc26fb5728a6f4353d33abc3bf6b26638cb280ecdd330a987535f59398b87"
+    },
+    "prepared_recordings": {
+      "path": "/scratch/pwa209/adversarial-study/results/dream-startup-repair-20261021-v4/dream_extension/normalized/runs/20261021T155856732071Z_prepare_development/recordings.json",
+      "sha256": "b4ab72bf7cdf5360d9ba2b30fc4688911a2ab3660b7f7025653339e29f9796ff"
+    },
+    "electrode_coordinates": {
+      "path": "/scratch/pwa209/adversarial-study/maintenance/cross-mechanistic-20261024-v2/electrode_coordinates.sfp",
+      "sha256": "59885415704f21152304183670a947547d1651a0862a8ee41ce5e5eb71ca5c29"
+    }
+  },
+  "native_cache_dir": "/scratch/pwa209/adversarial-study/results/full-population-system-20261024-v2/analysis/native_population",
+  "bank_root": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/simulations",
+  "bootstrap_purpose": "Cluster uncertainty and finite-bank stability; never fabricate independent observations or significance",
+  "maximum_simultaneous_science_processes": 3,
+  "maximum_threads_per_process": 4
+}

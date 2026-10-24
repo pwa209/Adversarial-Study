@@ -1,0 +1,18 @@
+{
+  "repair_of_manifest_sha256": "4c633707fd1e620ba8ecbdffb22714c7102fac88b1be039598282288c0531363",
+  "failed_analysis_job": "6954330",
+  "qualified_original_job": "6954248",
+  "observed_progress_utc": "2026-10-24T09:16:06.816021+00:00",
+  "original_full_qualification_passed": true,
+  "original_tests": 90,
+  "cause": "Loader assumed0..9.998; actual raw clock .002..10.000s. Saved data were rejected before consumers.",
+  "clock_preserved": "Observed timestamps preserved; pulse onset12 minus outputStart10 remains2s",
+  "matched_cortical_delay": "Same18delaycolumns over a shared observed-history range, bounded before any train/validation fits; original human grid/roles remain fixed",
+  "actual_native_schema_probe": "Three original SHA-pinned raw files, actual pair provenance and ten frozen original clock feature views, in scheduled qualifier before fullbank",
+  "completed_scientific_work_repeated": false,
+  "compaction_repeated": false,
+  "new_downloads": false,
+  "new_simulations": false,
+  "original_failure_receipt_sha256": "b5129f9a4f662f9c07dceaa5635ae79a7be1f716525370cc3dc4ec0f0248ee5a",
+  "native_rejection_prevents_silent_case_loss": true
+}

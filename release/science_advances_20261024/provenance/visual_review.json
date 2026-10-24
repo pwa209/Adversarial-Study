@@ -1,0 +1,29 @@
+{
+  "reviewed_at_utc": "2026-10-24T13:12:03.955908+00:00",
+  "reviewed_figures": [
+    "Figure_1",
+    "Figure_2",
+    "Figure_3",
+    "Figure_4",
+    "Figure_5",
+    "Figure_S1",
+    "Figure_S2",
+    "Figure_S3",
+    "Figure_S4",
+    "Figure_S5",
+    "Figure_S6",
+    "Figure_S7"
+  ],
+  "inspection": "Exported raster figures and fresh Poppler renders of the R vector PDFs, with enlargement where needed. Panel letters, labels, plot alignment, legends, units and clipping inspected. Independent automated PDF and SVG text-colour checks passed.",
+  "adjustments": [
+    "All text explicitly black",
+    "White canvases",
+    "Common inner plot margins within comparable grids",
+    "Full-device panel headers",
+    "Shortened long mass-axis labels",
+    "Moved input-stratum legend clear of high-loss observations",
+    "PNG generated from the canonical R PDF at 400 dpi"
+  ],
+  "source_files_verified": 37,
+  "new_scientific_fits_or_tests": false
+}

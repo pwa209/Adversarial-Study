@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-24T09:25:55.793281+00:00",
+  "remote_root": "/scratch/pwa209/adversarial-study/maintenance/full-population-system-20261024-v2",
+  "run_root": "/scratch/pwa209/adversarial-study/runs/full-population-system-20261024-v2",
+  "result_root": "/scratch/pwa209/adversarial-study/results/full-population-system-20261024-v2",
+  "files": {
+    "ANALYSIS_PLAN.md": "be69f2a74fc582b119bdd04bc0787d48b0266ca99e23d56f0f2b1720db070702",
+    "audit_ops.py": "2246a53fe7a1047c647ada0f6114da391fad5eea032b35f28918cc4d97acbfc6",
+    "CLOCK_REPAIR.md": "c19ffb0ab9f47bdc3428674fef1530f1e4b3518ef044ccea0d74e7866f178fe0",
+    "driver.py": "0c97f629782084a5910d12fe0c51fa7655cc6ce777326005ce5c4c62bb3670f7",
+    "frozen_proposal_discovery.py": "1b2fe2a189184cbb846187034ba7355e7af264080b11ab7778240a42e7eabbf8",
+    "guard_runner.py": "ae1ee2b3ace419fb8a5e6bc654c554ca0450be7d25c59158d0e36d83e95e3ceb",
+    "inputs.json": "039fe29dccc2278b569bfb6e95a67953277f9242fa5c90ce78cfa3f0dc29971d",
+    "live_parent_submit.py": "98127d83d71743c6b47979e07ddea6380e0a8d30e110d399dc34fa714528cdec",
+    "native_population.py": "f570288ab28e32f9b6821665376ee63f938bae546288bba26098a1ffa95b4897",
+    "native_population_methods.md": "aadb299408a7a2b2427d21f268d56c3008e0df8b49ccfef3556dd36781f037cc",
+    "native_probe.py": "2b46ad886148f615309f7dd16433db2691e386d8eb6c70958044c52d35bf02ea",
+    "population_bridge.py": "e4de36abc129e8c9ee8c633f08536fa9647f5eedbefc07edc937a481adc24d09",
+    "population_bridge_methods.md": "672b6a0d1fa0c926902cfad6c8e1b286e60a5bd943a0287d5ddd7815c582446d",
+    "population_perturbations.py": "333b4dad3f517426aaa00155493b6963416bf29e5b0b2114a31821e338af4d8a",
+    "population_perturbations_methods.md": "2eda4b5a1895d2cdd0542f6ddcfd942956ea2228839603154106b37b2ce37e95",
+    "repair_provenance.json": "3ba1d0f7555b9cb94f3972e8c73c10fa2a8b9119f6cb78e27d4938c398e16da7",
+    "test_driver_gate.py": "6197924ce8638284967a313f4351233cadd7626a90108ee98adfb7e262a331e7",
+    "test_driver_integration.py": "fae106b47f212e7badd987d4f29a62646a4079bc4696ad4692ec8bef110248ca",
+    "test_live_parent_submit.py": "46a3661b0e23445ff5a3ad80366c59faaa68fda31e8d6335bd7e847e5929ad2f",
+    "test_native_population.py": "2622cca4cf53eb8cf81f5bc92b6692604365c18fd1239061bbb122aa4e6a0418",
+    "test_population_bridge.py": "a5bdb2c1da7ec776f1b5eed88c98c9bfd09a4069947146a3050c7d66e8318529",
+    "test_population_perturbations.py": "5c60052a82bf66c973b43efdc0637c3b3cb1c73918a7ae704da734237240d93d",
+    "worker.sh": "88b2af78081c3de4737f070a3c8e95e8c58b75f7c256f66b3bd90dde6aea6135"
+  },
+  "minimum_qualification_tests": 100,
+  "parent_audit_manifest_sha256": "d1843d53d74a62b39e84695cc92014d6fa5555cca8de4234378422387c0ae9ea",
+  "parent_dream_manifest_sha256": "a95bc34c0876a9ed03ae5670885a41500294cc912f85d8183153920c4cc209d5",
+  "parent_dream_job": "6672118",
+  "analysis_driver": "driver.py",
+  "runtime_probe_status": "full_population_system_runtime_qualified",
+  "frozen_discovery_member": "frozen_proposal_discovery.py",
+  "upstream_metadata": [
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/SOURCE_MANIFEST.json",
+      "sha256": "1a73ac518fa37ce9c891a640c5b1a6bdb0411f3e374986f7e29ac75fcf0b3f6e"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261008T080033Z-proposal-3a65294d3e7c/SOURCE_MANIFEST.json",
+      "sha256": "af13a88d1720cb86b524318ee4698e9be231bf9d8a4327eeff2d5029d1f7382b"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/maintenance/remaining-stages-repair-20261020-v9/REMAINING_STAGES_MANIFEST.json",
+      "sha256": "530a6d1b4a24655a556c33e8f02146660c90eb0d6ad66b0c11cf5ab233030dff"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/__init__.py",
+      "sha256": "21df6496142bb5939dc85c45591edf9e1f0986dacc13874b7c5ed5d69e22dd4d"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/__main__.py",
+      "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/acquisition.py",
+      "sha256": "c88b46616544cf149d7a9da304aa5e925106e13ecdf65e1c5d283ba7eeaf9f90"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/activation_geometry.py",
+      "sha256": "8665fd57da9ff9fd013addbbb678f99a1968e8cbaf1e630da67ae8a8e5f4c20e"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/cli.py",
+      "sha256": "f78b002b6670aeccda443994f5d72de2e85deed86a0eda317db0b22fdd9f56fc"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/core.py",
+      "sha256": "72314330473b3f6f5f392ba167ed24639532ffe6ca338c237c5639db87f7927b"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/cross_system.py",
+      "sha256": "813e815ce133dbaa17f0f0b80376732f973ba1e90d7dd6120ce3db1fbdc5ab84"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/data.py",
+      "sha256": "2f55fec71c1e98e0cac4a9a8a1eebcb8eaa82d2b330f6e615a67f83de4a02ea7"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/demo.py",
+      "sha256": "356e5411d1fca8914250dc95b8e38f59ddf35704c59d224d50755fa20bc6e6de"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/discovery.py",
+      "sha256": "051683789dba8588d5a3026c316d1ec1ef24fbef52139b4b0337ee0ea689a7ad"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/effective_dynamics.py",
+      "sha256": "8fc9f45fa91232ea66e54abcf67919699650bd1ba135ddc23580144c821f76b6"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/extension_centaur.py",
+      "sha256": "5f6fc2fb1066cedf6de5391c996da0a31cdbe4684df527a31dd60d6f7c056c4b"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/extension_finetune.py",
+      "sha256": "df24f952085c07a7f47f7716dd987c9b5164398bb5428d3305903eab6c7efc05"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/extension_relevance.py",
+      "sha256": "bdcb7ff55e7c51b068fd7df5f14fd1618c408318a76654985577ef37f23c8a2c"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/extension_sources.py",
+      "sha256": "962cbb72aefdc9a85fdf63ac837500d225c1cb9b9cf6bf7da8e9e9a8260c7d95"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/human_generative_adaptation.py",
+      "sha256": "12e6d14b6aa9f60728fade0f676a4249b3811defe9d9de7cdbb08a7f7e3ad0af"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/manifold_diagnostic.py",
+      "sha256": "3450fefd22792095652100c88a1d7f54f89b099839e56a23fe88ba8b85ae3c82"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/manifold_mechanisms.py",
+      "sha256": "6fb8eb3bffbd59e59c758ef478b0dc1b1fc079b0b10caacc3b9b81d629bdb473"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/mechanisms.py",
+      "sha256": "e733aece14ad59fffeb3592a0aafa23c17a5ee61be097a1e81c9d28c61b0e5c4"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/model_guided.py",
+      "sha256": "c2a83075b09bd87c8b0b3ac030e899ee6f57144ef677e41bb065cbe25aab9bc0"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/models.py",
+      "sha256": "6408bc83a218b51e96e85d13357f659e7f1f62d1a2703c39284eaa0f4a3b7349"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/native.py",
+      "sha256": "d629fd656489455fcd4edb5401be11d79b65be0d88da76fdb0dbd77fe8e6d90d"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/neural_state_space.py",
+      "sha256": "3aa9ba241fde6b3275f825e16902fa15d7e11c2117419b14e7ab5d72a9d7454d"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/representation_bridge.py",
+      "sha256": "4647c1d12fb49cbe2271a60f319ef95305b2cdf895f0a503f1ce69eed0db4d1a"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/signals.py",
+      "sha256": "4980439343fe6cd3b6783b35a51fd7f49798b539c8bd2123cc4ee48fd17bcc36"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/simulation.py",
+      "sha256": "d5c234fe157dc5683a7e7dcfc1c1aacf31862a43d016afa1c1418529e091af2d"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/source_adapters.py",
+      "sha256": "703977d2f88efb6b11aaba3ad73a331f1723917cc07d8e518e1f376ac72c1031"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/adversarial_study/statistics.py",
+      "sha256": "c6c30f4b1a5a2a91c78dca859612b8d69631a005bd31adfd88fbd683f087fd60"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/cluster/controller.py",
+      "sha256": "db8e2adc390507fdf71004af37845ad63841f5357dfe4f37c0b31fcd25c97c12"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/cluster/make_plan.py",
+      "sha256": "b1226b38b3198ad7bcd40e79833449e544b3b51d43c15337187c8806d3ef431a"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/cluster/package_release.py",
+      "sha256": "60bf580a2ecf92f3a21938fcb1700c205a13915779d7f5c6f39b6549417b6692"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/cluster/pilot.py",
+      "sha256": "aba8e6d0b70aa46fc99b21bf7eb8f6a4de8dea433ac0299a26600a57c58540c9"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/cluster/runtime_cache.py",
+      "sha256": "bbbdb3cb4bb528acd79094c7c7d94159cd096cb254eaee12e0524e2b4d23d849"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/cluster/stage_worker.py",
+      "sha256": "f4374ff55d6805479af477faef81872cfa5ea99b6842c4e5347e162a9a4a3916"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/cluster/transfer.py",
+      "sha256": "19ffefb3199657b3b56a0d6631ccc69fe82bb729c9eec96d821a5bb11b6b0499"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/native_tools/__init__.py",
+      "sha256": "ac20ee4ce6f83ca5814670f83df5fc9995441b1497ad46c91da3d6ea8915e70d"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/native_tools/adapted_geometry.py",
+      "sha256": "d999be607b3fc0233afd89f433b5ce867fdf7f5c6f09332acecfee19b5d03049"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/native_tools/detector_worker.py",
+      "sha256": "ee4226288e5a5d60b61db7c567e9617b3f64d7d63635edd5adc19a48cd499934"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/native_tools/figshare_source.py",
+      "sha256": "570e4691ac856c2d4864e5d1824372d2994b28141c7e29df201b638dedd11e1c"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/native_tools/human_finetune.py",
+      "sha256": "529dfb5cad6a4f0f5514eb230454ebbc863a1ba291a47642d7c469d7ab0f85a3"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/native_tools/mech_docx_update.py",
+      "sha256": "7cdc19da78d35ceba673222f1d3b28596eb25e1d72aba8850654556a46a59973"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/native_tools/mechanistic_native.py",
+      "sha256": "e0eb7386657f2948d8f913ae40fbe6a09a86d5e2a1ae74a3b9f045901a93d6ba"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/native_tools/nftsim_runtime.py",
+      "sha256": "a00e316069ad5e7cb2de958a8840966d4b97dfdebd0f55e5e14829ec45d2145c"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/run_study.py",
+      "sha256": "ea9de39b95fd80e4f2ff2136343e592c17c3cedae034a45df24c5914f1f6f970"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261004T210516Z-53593b22ca18/study_pipeline/tools/record_build.py",
+      "sha256": "71b3f9a46b0bc324b1e2555e056720beee49fe88422eb5d4101641630ce7f722"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261008T080033Z-proposal-3a65294d3e7c/study_pipeline/proposal_additions/proposal_discovery.py",
+      "sha256": "1b2fe2a189184cbb846187034ba7355e7af264080b11ab7778240a42e7eabbf8"
+    },
+    {
+      "path": "/home/pwa209/adversarial-study/releases/20261008T080033Z-proposal-3a65294d3e7c/study_pipeline/configs/proposal_discovery.json",
+      "sha256": "271a50265b1673b2a5e1e7bdf759c52dedb6dcbc04404e9091394a4b2451c9a6"
+    },
+    {
+      "path": "/scratch/pwa209/adversarial-study/results/remaining-stages-20261020-v9/proposal_breadth_prepare/split/split_receipt.json",
+      "sha256": "82486c29fd14b16736ac941797170dc89bcbf87d03b0a9b18aa5b9ec9399e506"
+    }
+  ],
+  "required_human_training_receipts": [
+    {
+      "model": "centaur",
+      "path": "/scratch/pwa209/adversarial-study/results/remaining-stages-20261020-v9/centaur_train/training_receipt.json",
+      "sha256": "19317b320ccf449a0a67f0c6fd2f22e356761ab28fce2ffa24a36a7946bf0509"
+    },
+    {
+      "model": "base",
+      "path": "/scratch/pwa209/adversarial-study/results/remaining-stages-20261020-v9/base_train/training_receipt.json",
+      "sha256": "b925dca0c9df7a13d005cbe0468877b7bd271e6730a0590467f467ba4bd0cc40"
+    }
+  ],
+  "current_behavioral_target": 42,
+  "behavioral_split": [
+    26,
+    8,
+    8
+  ],
+  "both_human_data_finetunings_before_comparison": true,
+  "numerical_analysis_resubmission_permitted": false,
+  "dream_conversion_resubmission_permitted": false,
+  "original_numerical_job": "6639953",
+  "original_outputs_immutable": true,
+  "repeated_compaction": false,
+  "new_downloads": false,
+  "resources": {
+    "qualify": {
+      "cpus": 4,
+      "memory": "8G",
+      "time": "02:00:00",
+      "seconds": 7200
+    },
+    "analysis": {
+      "cpus": 16,
+      "memory": "64G",
+      "time": "1-00:00:00",
+      "seconds": 86400
+    }
+  },
+  "entry_reserves": {
+    "qualify": 4096,
+    "analysis": 4096
+  }
+}

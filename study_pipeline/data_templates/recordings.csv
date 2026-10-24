@@ -1,0 +1,1 @@
+recording_id,participant_id,source_id,cohort_id,site_id,session_id,role,signal_path,signal_format,modality,units,duration_s,sfreq_hz,channel_count,detector_exposure,analyst_exposure,synthetic

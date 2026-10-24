@@ -1,0 +1,11 @@
+{
+  "failed_qualification": "6978766",
+  "automatically_cancelled_dependent_analysis": "6978838",
+  "failed_manifest_sha256": "16bd0dd50120e94aaeb25576ab5b1d3a675f671aaf65f890a6561d5e1739d036",
+  "new_namespace": "cross-mechanistic-20261024-v2",
+  "old_release_modified": false,
+  "root_cause": "NumPy bool in pathway voltage-sum proof was not JSON serializable",
+  "repair": "Native Python scalar proof; strict JSON regression tests; typed probe boundary; serialize complete receipt before touching exclusive output slot",
+  "scientific_estimands_changed": false,
+  "previous_science_work_repeated": false
+}

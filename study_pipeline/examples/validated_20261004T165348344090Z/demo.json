@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "study_id": "SYNTHETIC_SOFTWARE_CHECK_NOT_HUMAN_EVIDENCE",
+  "mode": "development",
+  "path_base": ".",
+  "seed": 20261004,
+  "paths": {
+    "recordings": "data/recordings.csv",
+    "episodes_development": "data/episodes_development.csv",
+    "episodes_evaluation": "data/episodes_evaluation.csv",
+    "episodes_diagnostic": "data/episodes_diagnostic.csv",
+    "data_root": "data",
+    "output_dir": "runs",
+    "release_dir": "C:\\Users\\Gebruiker\\Documents\\Adversarial Study\\source_records\\toker_v2",
+    "qualification": "qualification/native_detector.json",
+    "prediction_model": "contracts/prediction_model.json",
+    "mechanism_model": "contracts/mechanism_model.json",
+    "freeze": "contracts/frozen_analysis.json"
+  },
+  "window": {
+    "duration_s": 10.0,
+    "tolerance_s": 0.01
+  },
+  "quality": {
+    "max_abs_uv": 250.0,
+    "flat_std_uv": 0.01
+  },
+  "features": {},
+  "instrument": {
+    "channel_names": [
+      "Cz"
+    ],
+    "channel_aggregation": "median",
+    "expected_checkpoint_sha256": null
+  },
+  "analysis": {
+    "claim_id": "DEMO_ONLY",
+    "primary_contrast_name": "synthetic_A_minus_B",
+    "construct": "synthetic_signal_condition",
+    "timing_definition": "synthetic exact ten-second label interval",
+    "independent_unit": "participant",
+    "value_column": "effective_rank",
+    "condition_column": "report_category",
+    "target_value": "demo_A",
+    "comparator_value": "demo_B",
+    "minimum_episodes_per_condition": 2,
+    "bootstrap_reps": 300,
+    "confidence": 0.95,
+    "equivalence_margin": 0.1,
+    "outcome_column": "capacity_value",
+    "baseline_columns": [
+      "relative_delta",
+      "relative_theta",
+      "relative_alpha",
+      "relative_beta"
+    ],
+    "dynamic_columns": [
+      "effective_rank",
+      "acf_100ms"
+    ],
+    "ridge": 1.0,
+    "folds": 4,
+    "enable_prediction": false
+  },
+  "diagnostic": {
+    "outcome_column": null,
+    "treatment_column": "treatment",
+    "active_value": "active",
+    "control_value": "control",
+    "manipulation_definition": null
+  },
+  "mechanisms": {
+    "enabled": false,
+    "phenotype_condition_column": "report_category",
+    "phenotype_condition_value": null,
+    "feature_columns": [
+      "effective_rank",
+      "acf_100ms"
+    ],
+    "neural_feature_columns": [
+      "effective_rank",
+      "acf_100ms"
+    ],
+    "equivalence_tolerance": 0.05,
+    "extrapolation_tolerance": 0.0
+  },
+  "discovery": {
+    "same_score_tolerance": 0.05,
+    "capacity_difference_min": 0.2,
+    "min_time_separation_s": 10.0,
+    "exclude_saturated": true,
+    "capacity_column": "capacity_value"
+  },
+  "precision": {
+    "eligible_n_grid": [
+      40,
+      80
+    ],
+    "informative_yield": 0.3,
+    "effect": 0.3,
+    "participant_sd": 0.7,
+    "participant_effect_sd": 0.3,
+    "site_sd": 0.1,
+    "site_effect_sd": 0.05,
+    "episode_sd": 1.0,
+    "episodes_per_condition": 8,
+    "min_episodes": 2,
+    "confidence": 0.95,
+    "autocorrelation": 0.5,
+    "outcome_missingness": 0.1,
+    "sites": 2,
+    "replicates": 30,
+    "seed": 20261004
+  }
+}

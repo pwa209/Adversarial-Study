@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "seed": 20261008,
+  "bootstrap_samples": 2000,
+  "minimum_replication_sources": 2,
+  "minimum_experiment_sites": 2,
+  "minimum_experiment_sessions_per_person": 2,
+  "replication_informative_target_provisional": 100,
+  "experiment_informative_target_provisional": [100, 120],
+  "final_sample_rule": "A prospective supplied precision/yield simulation plan finalizes N; provisional recruitment targets are not hard-coded power claims",
+  "analysis_modes": ["pilot", "confirmatory"],
+  "result_direction_gate": false,
+  "independent_unit": "participant",
+  "human_qualification": "Numeric source-bound operator and physical delivery calibration, source-bound account predictions and independent adaptation evidence; declarations alone never qualify an intervention",
+  "implementation_scope": "Admission and analysis of genuinely supplied independent human data; no human data, ethics approval or intervention mapping are manufactured"
+}

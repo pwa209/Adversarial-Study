@@ -1,0 +1,21 @@
+{
+  "status": "completed_cross_mechanism_configuration_analysis",
+  "version": "cross_mechanism_compensation_v1",
+  "seed": 20261024,
+  "zero_input_configurations": 616,
+  "qualified_finite_pairs": 48,
+  "native_cache_receipt_sha256": "e602ae8d5bf2149b86b73317f9008d080e407be08c87ae29caea8eac5d68ab77",
+  "output_sha256": {
+    "configuration_bootstrap.json": "128cc0fd88a6e21adc77c024261f7c66d8c30f274fa8eed875e956611d738ba1",
+    "configuration_roles.csv": "19aa021764e69f883f9d8945d96cbb12802058fbd16913dcffc2435ab94c7602",
+    "cross_family_neighbours.csv": "fb2c1ed7393056d5a93f2417f26e2dfc716f4b33f5153cc031d0f0283c4e0cf4",
+    "finite_response_predictions.csv": "43bee077cbab7c57d10821d6b3615ef9590b402902375af69670b9290e588174",
+    "parameter_coverage.json": "1bfa0308718b9cce24a7cb34cc2b776a11a94478f14e19ef0d4bf3814a3c2325",
+    "parameter_predictions.csv": "e9bd2c69e28f67e503ed4bb8bdb72fd31d9832b49cec64b7c6cb7d93ab4d484a",
+    "summary.json": "9d8841c60c8ac8d532e058a606b21846ee1ac877f9778c000b68e90e474aecea",
+    "zero_input_features.csv": "751f01bdcdf5570c4a88870a0ad369f5f2a7ef86f596fd8907145f635891db67"
+  },
+  "human_data_refitted": false,
+  "human_test_selection": false,
+  "target_participants": 42
+}

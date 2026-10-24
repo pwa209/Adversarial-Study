@@ -1,0 +1,1290 @@
+{
+  "provider_node": "ey3ca",
+  "license": null,
+  "resources": [
+    {
+      "resource_id": "5ef3f06d145b1a032752cd75",
+      "name": "MWI306.eeg",
+      "size": 735369360,
+      "version": 1,
+      "hashes": {
+        "md5": "6a606876302a1ddefe006f9caed00ec8",
+        "sha256": "cc7a5284db8fc1f5e7b9da292a81b2b9f7e8c989935c53822c4493d205b7bb25"
+      },
+      "url": "https://osf.io/download/wp5nk/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3ef9a76ebd8030bcd6aed",
+      "name": "MWI304_30_05_2018.eeg",
+      "size": 879584640,
+      "version": 1,
+      "hashes": {
+        "md5": "b69630528515669e9fbab97c993c912c",
+        "sha256": "fae2c18a83f142cce348f3aa426d8270b7058ecb00d8dbcecf118b477aaaa25e"
+      },
+      "url": "https://osf.io/download/g5kat/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c3e145b1a025052c039",
+      "name": "MWI306.vmrk",
+      "size": 105558,
+      "version": 1,
+      "hashes": {
+        "md5": "58ceb3e58c1132e9e20936d66edcb644",
+        "sha256": "42960291933461c01b004cf66373535986e19c600a8d6fdf64e0e4e972482991"
+      },
+      "url": "https://osf.io/download/7uy3n/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef24b0c659828023ecf1a0e",
+      "name": "MWI323_28_06_2018.vmrk",
+      "size": 105081,
+      "version": 1,
+      "hashes": {
+        "md5": "8e7a69823362ebfffcd1a0ad3b92a289",
+        "sha256": "0e473c509e713c9b9084bce72255a4efcb025e602c03c75f10f1413229b7f66f"
+      },
+      "url": "https://osf.io/download/34a5u/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef243946598280228cf2221",
+      "name": "MWI317_15_06_2018.vhdr",
+      "size": 3337,
+      "version": 1,
+      "hashes": {
+        "md5": "a492299ba9f3d6c76c90485ee00ed547",
+        "sha256": "6f98a34262c3e2bbed36028e9e524aa268e44aa5265dde82d8b5c5c51cd96162"
+      },
+      "url": "https://osf.io/download/nqpyj/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef260ed145b1a026f52e858",
+      "name": "MWI329_08_01_2019.vmrk",
+      "size": 103416,
+      "version": 1,
+      "hashes": {
+        "md5": "093ae066d03b1f698391e612ba56de8f",
+        "sha256": "fa04451943efc2be638fc843f7e79ab8d0e2913e6353d903f08e1c077944581d"
+      },
+      "url": "https://osf.io/download/ab6f3/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef27b8f145b1a028752d9ef",
+      "name": "MWI338_01_02_2019.vmrk",
+      "size": 108375,
+      "version": 1,
+      "hashes": {
+        "md5": "02a0b1a5e246ef0312b969f611cbfe3f",
+        "sha256": "3e4adb5bb34ff6c08dc1d961ff1e9944ce79633f36ae4978aba17fc74f50acbe"
+      },
+      "url": "https://osf.io/download/cb3jq/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f0fb145b1a032c52c612",
+      "name": "MWI315_13_06_2018.eeg",
+      "size": 728436720,
+      "version": 1,
+      "hashes": {
+        "md5": "11fcc720b1cb57e8e37269b5055e429c",
+        "sha256": "5fba48844bc344eff93cc4161ca996aa4051edd25b74381c2798c810da9a2d8d"
+      },
+      "url": "https://osf.io/download/5hq29/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef243a476ebd80253cd6912",
+      "name": "MWI320_29_06_2018.vmrk",
+      "size": 104827,
+      "version": 1,
+      "hashes": {
+        "md5": "800326fe0fc186bfc609e99e75dd3d91",
+        "sha256": "6d94ab39b4d1ded09bd2f8f29f00be2c0f96016b4d166c63a8b42027515af409"
+      },
+      "url": "https://osf.io/download/gbv42/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f1bb76ebd8030acd6b98",
+      "name": "MWI326_11_12_2018.eeg",
+      "size": 767025600,
+      "version": 1,
+      "hashes": {
+        "md5": "3d323dca13095116648b7b961f6b427e",
+        "sha256": "e53c764fc7555b96959c266d00d28d15178118befe703bea380d2ed54f4be59b"
+      },
+      "url": "https://osf.io/download/tjkfa/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef27b8c76ebd80272cd8789",
+      "name": "MWI338_01_02_2019.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "fc0dc6e5adf9998b7078693d0a2130b9",
+        "sha256": "14aa9107caa27057c22147c0acd5e04dcdc32346e740e905b8dc05a7c3f548e6"
+      },
+      "url": "https://osf.io/download/weh2k/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f06f145b1a032d52c806",
+      "name": "MWI309_01_06_2018.eeg",
+      "size": 747032880,
+      "version": 1,
+      "hashes": {
+        "md5": "5c1935fe97088f0a971a03c1cff28731",
+        "sha256": "677ac15fbab490d0900e244725e20c6d70fcf392e03fa4574a6f31542b966551"
+      },
+      "url": "https://osf.io/download/pnqwt/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef1a78a76ebd80210cde9c7",
+      "name": "MWI305_31_05_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "8ba4b5d60a0e89413fbfd7d263b631aa",
+        "sha256": "d643f80f72a96a0605d1265874a76c7cfdc49e802665ea94d30665e70f0f76b9"
+      },
+      "url": "https://osf.io/download/kcmwe/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234f2145b1a025d52c890",
+      "name": "MWI314_05_06_2018.vmrk",
+      "size": 102837,
+      "version": 1,
+      "hashes": {
+        "md5": "8dc5610b3e47ddc6be38f022441597fb",
+        "sha256": "af9f6b1d5dff1932317c17358ab44ab1c6aa77c2630aa0de00ea0f4538fe99f2"
+      },
+      "url": "https://osf.io/download/u5k29/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef1a77c65982801f5cf4b6b",
+      "name": "MWI303_30_05_2018.vhdr",
+      "size": 11656,
+      "version": 1,
+      "hashes": {
+        "md5": "09383dd56a766c096f2371b9bd080689",
+        "sha256": "727d85da4058c38d46f142beae8d03290e627a1c340766cdd9a2af6e262783b5"
+      },
+      "url": "https://osf.io/download/3tn9e/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f1b476ebd8030fcd72a9",
+      "name": "MWI324_27_06_2018.eeg",
+      "size": 961620000,
+      "version": 1,
+      "hashes": {
+        "md5": "0fe97dfd3441964ebf34fc62bfc18634",
+        "sha256": "15159e199296e1c0c082761b1275b40acd5eb8829eb778469fee5e4e3dab2767"
+      },
+      "url": "https://osf.io/download/tw32g/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c3976ebd8023ccd7342",
+      "name": "MWI306.vhdr",
+      "size": 11632,
+      "version": 1,
+      "hashes": {
+        "md5": "5fe572f7c652534d90691d5f1a5f45c3",
+        "sha256": "5de4abeacee29ce1eb24320bb1e779991a30c68d7f24e7ea89794cde4e8818b5"
+      },
+      "url": "https://osf.io/download/jh5mx/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3ef9e145b1a032752cc88",
+      "name": "MWI305_31_05_2018.eeg",
+      "size": 988511040,
+      "version": 1,
+      "hashes": {
+        "md5": "3ac8d5d894937d3e19186dab98337dde",
+        "sha256": "67d7b60a5fc6c701a88936f9c3a6fa154d62d68a8bbd7aae12ae240a46e6d761"
+      },
+      "url": "https://osf.io/download/wa4yz/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234e876ebd80247cd877f",
+      "name": "MWI311_04_06_2018.vmrk",
+      "size": 104455,
+      "version": 1,
+      "hashes": {
+        "md5": "57583be8972e3c414c5b3f4a29b1cab1",
+        "sha256": "1ad93466e702c06c044e50650a280223b59f8ff61456ca628110319b8d853116"
+      },
+      "url": "https://osf.io/download/eyzxv/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef1a78676ebd8020fcdc9df",
+      "name": "MWI304_30_05_2018.vmrk",
+      "size": 105108,
+      "version": 1,
+      "hashes": {
+        "md5": "df1fc040261256b22a9facbc101ac506",
+        "sha256": "cdce28506cb16d5293123e9be928224e392da3e06e2860f0739cbb684846f928"
+      },
+      "url": "https://osf.io/download/vwe65/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f1af145b1a032d52c9d3",
+      "name": "MWI325_11_12_2018.eeg",
+      "size": 718658160,
+      "version": 1,
+      "hashes": {
+        "md5": "f605b7bbeddb2a398392218068895af7",
+        "sha256": "c7dea1b7bc5f595f1845fac2420e0da3d0aac95347de6a9730da55baa5724b24"
+      },
+      "url": "https://osf.io/download/6bxp4/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f0ee659828030acf1d7e",
+      "name": "MWI311_04_06_2018.eeg",
+      "size": 817940640,
+      "version": 1,
+      "hashes": {
+        "md5": "068b9ba8e9a8da712a957ca6eca95721",
+        "sha256": "3b976e6b22681b77620fbf819a02fa025daec8c03d5a9cf87e0370dc88196756"
+      },
+      "url": "https://osf.io/download/4gvys/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3ef8f76ebd8030bcd6ae3",
+      "name": "MWI303_30_05_2018.eeg",
+      "size": 742069680,
+      "version": 1,
+      "hashes": {
+        "md5": "be6800ba76bc888d1bf4033a6bbb6e6e",
+        "sha256": "de428fa03af161f32551324ce672f16d6a50f40536b50929bd5c923b8a177790"
+      },
+      "url": "https://osf.io/download/faj39/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef25259659828023ecf29f0",
+      "name": "MWI326_11_12_2018.vhdr",
+      "size": 11694,
+      "version": 1,
+      "hashes": {
+        "md5": "e92cff61ac8debe3df655e58dcb7d480",
+        "sha256": "4136aabf855b8853bd3544b2b51e892199371d0e3212c605e08f76b87dbb8f6c"
+      },
+      "url": "https://osf.io/download/z3hwj/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234fc76ebd8024ecd6588",
+      "name": "MWI315_13_06_2018.vmrk",
+      "size": 101524,
+      "version": 1,
+      "hashes": {
+        "md5": "7c5377c4bdf29eba111eb19267ca74fa",
+        "sha256": "4572013c93e04d22a83ca5e05fe5a380e39fa6013194b85cf41c8ed1fcf38930"
+      },
+      "url": "https://osf.io/download/w36kg/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f0dd6598280310cf1fdf",
+      "name": "MWI312_06_06_2018.eeg",
+      "size": 686756400,
+      "version": 1,
+      "hashes": {
+        "md5": "c8ef645f1760694a536640598a9ff675",
+        "sha256": "aaf7ccd5f1f99c821cedcd44696dbeafd547d86365dbcbe77d8b33de1822d726"
+      },
+      "url": "https://osf.io/download/d5bqu/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f0f576ebd8030fcd70e9",
+      "name": "MWI314_05_06_2018.eeg",
+      "size": 682271040,
+      "version": 1,
+      "hashes": {
+        "md5": "76d54c91f3bef563e0bb9fe2623bf554",
+        "sha256": "649588ea75d09ba9ca638bddf33d3be7b2cd6cd63afef451e058e8a9d61d0357"
+      },
+      "url": "https://osf.io/download/vm84a/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2439f145b1a026b52c228",
+      "name": "MWI319_25_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "a00713edede796ff611935eada24f7e0",
+        "sha256": "e32bcb048a968f4cac8c40554c29bfe3e019b5b3d732f91cd75602aaea480c60"
+      },
+      "url": "https://osf.io/download/xvz4f/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2439a145b1a026b52c21c",
+      "name": "MWI317_15_06_2018.vmrk",
+      "size": 103865,
+      "version": 1,
+      "hashes": {
+        "md5": "893267637e700d4b5bd10529d39a968b",
+        "sha256": "6c92c76ed626f9bf43b0fa3d9b32a6172ac426ffa9949621129879e137a011f1"
+      },
+      "url": "https://osf.io/download/a5npc/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234e7145b1a025d52c879",
+      "name": "MWI311_04_06_2018.vhdr",
+      "size": 11656,
+      "version": 1,
+      "hashes": {
+        "md5": "58f81d71a8e14ca0f76124ab6c77a299",
+        "sha256": "fe41fda1caeab77e45625867bd40d806820052da366d63f5968c7a17641da4fb"
+      },
+      "url": "https://osf.io/download/g9473/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f16176ebd8030fcd71d5",
+      "name": "MWI323_28_06_2018.eeg",
+      "size": 836220000,
+      "version": 1,
+      "hashes": {
+        "md5": "16af778c62444e9ec8d8462a91f8b650",
+        "sha256": "adf6949450c2df5946fec6ae3140a55d3f2d6c7222762c5e8d16b9aebc139301"
+      },
+      "url": "https://osf.io/download/wt5sd/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234ea76ebd8024ecd6574",
+      "name": "MWI312_06_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "996e6eaf6eaca9147c6bdd9d80d930e4",
+        "sha256": "909d2e82eacd6b355fbbc8813a45d5117c33dc0c4134ce3f861ffd64f1ab76c5"
+      },
+      "url": "https://osf.io/download/9uyqm/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef26101145b1a026b52dfbe",
+      "name": "MWI332_14_12_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "fd74c6a40eb534e38b376c6c08dd2d44",
+        "sha256": "38b31f716c7fdd3b4d29b6c779b5c298494756c90161120cb3beb8c94fc8c29d"
+      },
+      "url": "https://osf.io/download/4jc9s/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef03ce8145b1a01865328e4",
+      "name": "MWI332_14_12_2018.vmrk",
+      "size": 104911,
+      "version": 1,
+      "hashes": {
+        "md5": "e79773803599470f937ccacf21cfa03a",
+        "sha256": "5ae8bce0cb55af76202d9e43fb71f7d682a3f26d8a2970a51a6f2e57f54347bf"
+      },
+      "url": "https://osf.io/download/gy38a/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef266cc6598280249cf18a2",
+      "name": "MWI329_08_01_2019.eeg",
+      "size": 744305760,
+      "version": 1,
+      "hashes": {
+        "md5": "e73ba78c8576c0ca844770c6938dd5d4",
+        "sha256": "c66453865de438526123065ae83f98f7dd602a453f46a5cefc1a886840eda4f2"
+      },
+      "url": "https://osf.io/download/ve3f9/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef1a78165982801f8cf15fb",
+      "name": "MWI303_30_05_2018.vmrk",
+      "size": 102073,
+      "version": 1,
+      "hashes": {
+        "md5": "88a11d1542dddc437b6d47cb68f08c7c",
+        "sha256": "c2032424ba44df77657b521ea035c373dac9c91040d0a2538ee8d53df0c6bf82"
+      },
+      "url": "https://osf.io/download/tdnfu/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c4576ebd80244cd5f15",
+      "name": "MWI308_01_06_2018.vhdr",
+      "size": 11656,
+      "version": 1,
+      "hashes": {
+        "md5": "e17acc4a0a371012adbc68ab24a62a48",
+        "sha256": "9d48c42c9bec34628c61f360a1f33ca26e3c52b2eba42c15445711d251292418"
+      },
+      "url": "https://osf.io/download/vhsk2/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c516598280216cf09ca",
+      "name": "MWI310_04_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "c26383e8b0e4b42821239e45b665edb0",
+        "sha256": "ce1e416a9024a8d38fdd72cce89cca414f48782fdb5ac7ec577253e8fd48f2dc"
+      },
+      "url": "https://osf.io/download/pqrz3/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c4376ebd8023dcd7924",
+      "name": "MWI307.vhdr",
+      "size": 11634,
+      "version": 1,
+      "hashes": {
+        "md5": "eb4641df8b2bdb813d81bb41abbeaa15",
+        "sha256": "5a552fb8cb37b16ddd405eab8dec8f2a3ae0ad071bec7084cd0854862b1137ec"
+      },
+      "url": "https://osf.io/download/ekn85/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f0826598280310cf1f1d",
+      "name": "MWI307.eeg",
+      "size": 867282240,
+      "version": 1,
+      "hashes": {
+        "md5": "a4a06f32bebdc2d9ad143f22975d270b",
+        "sha256": "adad4530a04319d06e97931db09d8cb0554fbe79b2d2c7e4ef7025bed230ff20"
+      },
+      "url": "https://osf.io/download/vmswr/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234eb76ebd8024fcd684b",
+      "name": "MWI312_06_06_2018.vmrk",
+      "size": 96875,
+      "version": 1,
+      "hashes": {
+        "md5": "716721fbd83988b488f866b7148eef7b",
+        "sha256": "d39f3200d952eca72316b205a1c7cee7a0ccacbf039db7fc62c2c8a2ab5ca9e0"
+      },
+      "url": "https://osf.io/download/94d83/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef25254145b1a026b52d2a7",
+      "name": "MWI325_11_12_2018.vmrk",
+      "size": 100653,
+      "version": 1,
+      "hashes": {
+        "md5": "47ab8d3199d7fff8ce8683fdc304bd9b",
+        "sha256": "85dd7702d75291a4a3aaeb67445ac5523b74df72696dcc7fb287890700184c38"
+      },
+      "url": "https://osf.io/download/a6une/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c486598280212cf0950",
+      "name": "MWI308_01_06_2018.vmrk",
+      "size": 103496,
+      "version": 1,
+      "hashes": {
+        "md5": "e3b79f1042dacb53991f1f039804f809",
+        "sha256": "b461e14db95bf0543419c38e51023d680df1f6949ff7e076fec05ed5d77a0069"
+      },
+      "url": "https://osf.io/download/rzjqn/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef1a77b76ebd80207cdd528",
+      "name": "MWI302_06_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "dafbb61b0ac79acb30121122b6414966",
+        "sha256": "6df744db9157a08db6ab112f145843cccee8ebeb796e12deebda51caacba7f3a"
+      },
+      "url": "https://osf.io/download/gwkhr/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef1a77b76ebd80210cde98b",
+      "name": "MWI302_06_06_2018.vmrk",
+      "size": 100861,
+      "version": 1,
+      "hashes": {
+        "md5": "0b8d464cae610851c984c4c4abc23df8",
+        "sha256": "5f8bb92a420972d88fa25abd9edc99e94eccc05fc124cd073e206ba6d740ac71"
+      },
+      "url": "https://osf.io/download/j32bg/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c556598280212cf096e",
+      "name": "MWI310_04_06_2018.vmrk",
+      "size": 105066,
+      "version": 1,
+      "hashes": {
+        "md5": "1a77ec7f04c3945e3e072d3caedf2e9d",
+        "sha256": "b048f725d5663c73066ffd563c24557767ecc24f91cd4fd2576d144de7e10c66"
+      },
+      "url": "https://osf.io/download/7fvus/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef25246659828023dcf206c",
+      "name": "MWI324_27_06_2018.vhdr",
+      "size": 11656,
+      "version": 1,
+      "hashes": {
+        "md5": "62c48dc82468945a0c5bf4791cbf62c8",
+        "sha256": "92089c9ad53808f0f850305b79bfa73b5d72d36e3c15a06a8872e85607c6a324"
+      },
+      "url": "https://osf.io/download/tjm4n/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef1a78f145b1a022352e320",
+      "name": "MWI305_31_05_2018.vmrk",
+      "size": 107204,
+      "version": 1,
+      "hashes": {
+        "md5": "7c91b1e9eca6c02fdde536a4d5a0786f",
+        "sha256": "dc5e325f455895a634c26c45c4b7059d413f0f61af7698501fce4b6b1f6de272"
+      },
+      "url": "https://osf.io/download/hm58w/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2854676ebd80282cd6ebe",
+      "name": "MWI338_01_02_2019.eeg",
+      "size": 791142000,
+      "version": 1,
+      "hashes": {
+        "md5": "4be033b77093ca633d3df723e0a33460",
+        "sha256": "d82ce55092c1c6d6bc377ef7b2da5bd8669f883fb78e6b2449104ff9a73d8ae6"
+      },
+      "url": "https://osf.io/download/4k2rg/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f14376ebd8030acd6af1",
+      "name": "MWI317_15_06_2018.eeg",
+      "size": 748207680,
+      "version": 1,
+      "hashes": {
+        "md5": "d17a2a603db43d7ce12a693c813517d2",
+        "sha256": "fbdc8eb3be8b0116871ac4fbc7f1bc2991e82db75bcf6c7bc54ac65d5fc2f545"
+      },
+      "url": "https://osf.io/download/zecq7/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c4a65982801fccf96ba",
+      "name": "MWI309_01_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "7e026e8f735d9c00ec0c54f62ede75fb",
+        "sha256": "4d0c325c251a4d503aabb4bba2b8410bb99bcaed8d0473302dc1176cc1d7faab"
+      },
+      "url": "https://osf.io/download/tdy5x/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f15976ebd8030acd6b06",
+      "name": "MWI319_25_06_2018.eeg",
+      "size": 853543680,
+      "version": 1,
+      "hashes": {
+        "md5": "027dcf4f064f565bdeefe364cdd72891",
+        "sha256": "d0e7c5c18b8538f68af78153150227b050a88beace73ca6e5b153ffb4e98cc04"
+      },
+      "url": "https://osf.io/download/9p3wg/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef243a9659828023ecf0bbb",
+      "name": "MWI322_27_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "4cb98e4c13c092f1e7a7b98d0a11e709",
+        "sha256": "38aef134a4329a0de007bff2a0629b0e5000c55875de53bef6bd03684d42c193"
+      },
+      "url": "https://osf.io/download/89jhb/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f1c0659828030fcf1aba",
+      "name": "MWI328_14_12_2018.eeg",
+      "size": 793631520,
+      "version": 1,
+      "hashes": {
+        "md5": "275202f01bb16554f00432db235a1ab0",
+        "sha256": "d14e681a8b70903386a6c1f1be2b661de5f2d7b50ca76375014232c3d24e5641"
+      },
+      "url": "https://osf.io/download/79wfx/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef243a476ebd8025dcd637a",
+      "name": "MWI320_29_06_2018.vhdr",
+      "size": 11656,
+      "version": 1,
+      "hashes": {
+        "md5": "12d693ca006fc841f21c9766cffdd1ee",
+        "sha256": "60601ebc585db10a28fcc99ee0d66e6038b946e8a9fa19f169efd56396a7b863"
+      },
+      "url": "https://osf.io/download/cbqf3/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2857d659828025ccf1530",
+      "name": "MWI336_14_01_2019.eeg",
+      "size": 820189920,
+      "version": 1,
+      "hashes": {
+        "md5": "adfca6669eb6610eec599da63b2eff54",
+        "sha256": "80f329fe51cf217da88f415e50efa5009050815a36b361a1ba28e4f6aca08f40"
+      },
+      "url": "https://osf.io/download/f4c2u/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2525e76ebd80261cd6b1d",
+      "name": "MWI326_11_12_2018.vmrk",
+      "size": 102038,
+      "version": 1,
+      "hashes": {
+        "md5": "a43d528094fcb992f3858b5cc7cc460c",
+        "sha256": "1c9928ea4bd436f0e16109a93e9267ec8418a5d140691967b36c6f27e645fdec"
+      },
+      "url": "https://osf.io/download/e2q67/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234f76598280229cf106c",
+      "name": "MWI315_13_06_2018.vhdr",
+      "size": 11656,
+      "version": 1,
+      "hashes": {
+        "md5": "f2cc9e88e0ad4fc25237b27610a91116",
+        "sha256": "f2417cba773f483a7323a0041e39a12a717e5eaa18e56669e565bf535603b7ff"
+      },
+      "url": "https://osf.io/download/29ugn/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234ed145b1a025852d8b9",
+      "name": "MWI313_07_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "ea585e3124a0967db7341b44da2b79c7",
+        "sha256": "e4933ce406e702ca0b6d8543c05275da3df38023a9f52e8fb99148094017057d"
+      },
+      "url": "https://osf.io/download/8f3zu/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234ee145b1a024d52ddde",
+      "name": "MWI313_07_06_2018.vmrk",
+      "size": 104950,
+      "version": 1,
+      "hashes": {
+        "md5": "d9cb016dc90a8f3a8d6bc35ee4d4ff69",
+        "sha256": "d5f41a25ef42f3beecbe397e508e9d6477f9c68c9b26c8aa3d7389e5ce3e1bf7"
+      },
+      "url": "https://osf.io/download/9r2x4/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3ef93659828030fcf172d",
+      "name": "MWI302_06_06_2018.eeg",
+      "size": 781268400,
+      "version": 1,
+      "hashes": {
+        "md5": "016c1c8b0f18ba21328995d4e301fb42",
+        "sha256": "ac51f8e2b64c7e408b410df71420f200424c80b09e384fe3c3b033fee36ea3ac"
+      },
+      "url": "https://osf.io/download/c5b4h/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f0f9145b1a032c52c60c",
+      "name": "MWI313_07_06_2018.eeg",
+      "size": 779985360,
+      "version": 1,
+      "hashes": {
+        "md5": "e1967c5d0dfeee2a540708d033d784a1",
+        "sha256": "de3353a29b11b5aa67be9f65375a0fb39d2c9d79dc41604be3a9b2cfcadd63ad"
+      },
+      "url": "https://osf.io/download/6j9rt/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef1a78276ebd80208cde9e8",
+      "name": "MWI304_30_05_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "1582a23fc224b2f543b607366478d7c9",
+        "sha256": "6fe9916119dc2c6f76aac82ee566d7099f30dd251f21c7021c6ccfeefcd78fd0"
+      },
+      "url": "https://osf.io/download/twdqz/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2439f659828023ecf0bac",
+      "name": "MWI319_25_06_2018.vmrk",
+      "size": 106361,
+      "version": 1,
+      "hashes": {
+        "md5": "b1df36f30a6fce2f53861f0d8f9f6cfa",
+        "sha256": "491e5a681637435293633958b96852940d892e77986506b1442da99fbfb39be6"
+      },
+      "url": "https://osf.io/download/6pnrb/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f15f76ebd8030acd6b0f",
+      "name": "MWI320_29_06_2018.eeg",
+      "size": 866696160,
+      "version": 1,
+      "hashes": {
+        "md5": "9919a4d6867f3ed49de162540658b8a7",
+        "sha256": "19e15ffe152469d34b44fe4b5cb5d2a2712b5f246614b72a7b7eb6f3647717f4"
+      },
+      "url": "https://osf.io/download/kj93v/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f16376ebd8030ecd6d38",
+      "name": "MWI322_27_06_2018.eeg",
+      "size": 860964720,
+      "version": 1,
+      "hashes": {
+        "md5": "3ad6bd7e30b35b8615ec33528db5a28c",
+        "sha256": "b7fedd8d14438fd23d41a4bc37d368264ff737fdc16769cd58219a37e4d2d574"
+      },
+      "url": "https://osf.io/download/ujgqp/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f216145b1a032752cee0",
+      "name": "MWI332_14_12_2018.eeg",
+      "size": 778142640,
+      "version": 1,
+      "hashes": {
+        "md5": "8c3190b734ac75832e98fc94cff26e0b",
+        "sha256": "c71152c1fb57c1f89dd8c904e377e28c7daa53f986a9acff506a7621ff1b06c5"
+      },
+      "url": "https://osf.io/download/dgb2y/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef25979659828023ecf37c1",
+      "name": "MWI328_14_12_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "4ec5c670adb8f836aa7d4a06b13945fe",
+        "sha256": "2dde51f520163cde0c10b40a037ac86c0c62ed2872b3a823daff7971bc09ce9c"
+      },
+      "url": "https://osf.io/download/m4w3j/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef27b8976ebd80279cd86cf",
+      "name": "MWI336_14_01_2019.vmrk",
+      "size": 104677,
+      "version": 1,
+      "hashes": {
+        "md5": "b2c2f22e25c7ccff691f85142df2b2c7",
+        "sha256": "81638cba526d08f6e099470cf92592a029b9ac63cfae65b1c1836289c67702c7"
+      },
+      "url": "https://osf.io/download/pyej3/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef234f2659828021ccf213a",
+      "name": "MWI314_05_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "31749e0f21c9d5deb733b32dbd542436",
+        "sha256": "a4c7f2462786515c7a08a91ce8ea2329291e5a8ea88b34bb150430ece851a44e"
+      },
+      "url": "https://osf.io/download/ezv5m/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef03ce5659828015acfb5fe",
+      "name": "MWI336_14_01_2019.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "3300fb44e4ee5b6c66863dfd295bd3f3",
+        "sha256": "8f1c27215a41ab54d951e5be36dec7b87d4a6981920bdafae178bf919285b44f"
+      },
+      "url": "https://osf.io/download/sk5ng/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c436598280217cf0a23",
+      "name": "MWI307.vmrk",
+      "size": 106485,
+      "version": 1,
+      "hashes": {
+        "md5": "23e78fbdc7cdcde16956dad01384b611",
+        "sha256": "72ac69e0694cffe75509baf772d0678e8e63152436e7b3fc783239c56585a93c"
+      },
+      "url": "https://osf.io/download/qbg6w/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2597f76ebd80261cd7538",
+      "name": "MWI328_14_12_2018.vmrk",
+      "size": 103958,
+      "version": 1,
+      "hashes": {
+        "md5": "e01215dc469f616cc8d5b57771a04d49",
+        "sha256": "ef05f492e85aa620b459af0e8b47bfb5f08ff5137a1a08a35e69f1a08ba7d35f"
+      },
+      "url": "https://osf.io/download/8mv72/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2525076ebd80262cd6ea7",
+      "name": "MWI325_11_12_2018.vhdr",
+      "size": 11656,
+      "version": 1,
+      "hashes": {
+        "md5": "d6af4ef624b95fa6a705d38643f542ad",
+        "sha256": "904fb696f9b91d282950107037c5f6311c042daa459e8bf1d5732e4488329b6c"
+      },
+      "url": "https://osf.io/download/ye4xc/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f08a145b1a032752cd8f",
+      "name": "MWI308_01_06_2018.eeg",
+      "size": 912909360,
+      "version": 1,
+      "hashes": {
+        "md5": "970e263a032433ce1c578d63f36b5db8",
+        "sha256": "fb9529cec0d6d4dfcf436113d98b2efc5aff7b5abb29397953c0ef887a3532af"
+      },
+      "url": "https://osf.io/download/gbquv/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef21c4c145b1a025152c0c9",
+      "name": "MWI309_01_06_2018.vmrk",
+      "size": 101416,
+      "version": 1,
+      "hashes": {
+        "md5": "144f1e551de9e7ae0f5c71ed7d57ff09",
+        "sha256": "acc9f32c027309d5a5e461054ee34256c0633b75344afefa547c2786fda2071a"
+      },
+      "url": "https://osf.io/download/2bs7x/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef243ad76ebd80258cd6685",
+      "name": "MWI322_27_06_2018.vmrk",
+      "size": 103474,
+      "version": 1,
+      "hashes": {
+        "md5": "422b70202c2a69a7f247e76321eff617",
+        "sha256": "a9cac33c09bc5120cc53391c20df2ed7e0f3c3ac9e10c2c3a570e26d6c00c007"
+      },
+      "url": "https://osf.io/download/8tezx/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef2524b76ebd80262cd6ea0",
+      "name": "MWI324_27_06_2018.vmrk",
+      "size": 105110,
+      "version": 1,
+      "hashes": {
+        "md5": "4deff7c9e6a4009c21ed104237eee15b",
+        "sha256": "b2fa307d7134dfc02c30adab91ebc09de9e46ba41d7415c3ae86871873fc76cf"
+      },
+      "url": "https://osf.io/download/9mnby/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef24b066598280239cf1070",
+      "name": "MWI323_28_06_2018.vhdr",
+      "size": 11654,
+      "version": 1,
+      "hashes": {
+        "md5": "76cc29f4bd3ce148e85664752532c07e",
+        "sha256": "6662280e1a3fb7e55e8ac0d34e1c98a9f58d1f982102ae2f96493ab1ea08d923"
+      },
+      "url": "https://osf.io/download/fmq5z/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef260e876ebd8026ecd6815",
+      "name": "MWI329_08_01_2019.vhdr",
+      "size": 3337,
+      "version": 1,
+      "hashes": {
+        "md5": "8ed9e309bdfaaf82abd3979dc55a280d",
+        "sha256": "8d0b72302ee36601610f88cc14373a42eaf34e96583679e940019521f4b35a0b"
+      },
+      "url": "https://osf.io/download/jctem/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef3f08c76ebd8030acd6a2a",
+      "name": "MWI310_04_06_2018.eeg",
+      "size": 933382560,
+      "version": 1,
+      "hashes": {
+        "md5": "6a46d831190ab852b7ff0212bf9746ba",
+        "sha256": "8d67d3a31155d54ad4ee1da6d3b3031a9122d270f72d78de0c195a774858aa6b"
+      },
+      "url": "https://osf.io/download/a4mke/",
+      "kind": "monash_raw"
+    },
+    {
+      "resource_id": "5ef037ea6598280156cfb48b",
+      "name": "wanderIM_behavres_s314_05Jun2018-1401.mat",
+      "size": 87658,
+      "version": 1,
+      "hashes": {
+        "md5": "e77ed2c2e163ef39ab0d7add7b302298",
+        "sha256": "4c7c66447361b171175215035710ef93e50f3f6b481a2572ee3f8db0f1d00cba"
+      },
+      "url": "https://osf.io/download/jt3bv/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037ed6598280156cfb495",
+      "name": "wanderIM_behavres_s313_07Jun2018-1010.mat",
+      "size": 89653,
+      "version": 1,
+      "hashes": {
+        "md5": "6c3bf9acf9f47dd670cbd129f624b386",
+        "sha256": "b587f83e20c9bcdc41f68e4fa389e8a05fb11bbfd91bb71e1e9a34f233df7898"
+      },
+      "url": "https://osf.io/download/pgmny/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037f26598280152cfb79d",
+      "name": "wanderIM_behavres_s308_01Jun2018-1306.mat",
+      "size": 86380,
+      "version": 1,
+      "hashes": {
+        "md5": "74db5d3803b666b4b13f28e6755536a6",
+        "sha256": "f88a54363955a9b292f37fafeb4e9260ccc4502289da43cfe00966644be3b03d"
+      },
+      "url": "https://osf.io/download/mcqdx/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037d7145b1a018b53058d",
+      "name": "wanderIM_behavres_s336_14Jan2019-1030.mat",
+      "size": 88814,
+      "version": 1,
+      "hashes": {
+        "md5": "f22c7d985b7bdbeec4265cca42c661f1",
+        "sha256": "7bed17ad40947778e52645f45b6c5c71ca60d71e55d11aeba67706e9f01fcc26"
+      },
+      "url": "https://osf.io/download/psx68/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037e9145b1a018b5305b7",
+      "name": "wanderIM_behavres_s319_25Jun2018-1427.mat",
+      "size": 86219,
+      "version": 1,
+      "hashes": {
+        "md5": "050ae3f71458ce250c8e9cb0491ff443",
+        "sha256": "62cfa7d8d1024bf77c46ab26013eb360fa4c7cce5fb51f04816dcd470d8ed94b"
+      },
+      "url": "https://osf.io/download/hd89n/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037df76ebd80175cdfb9e",
+      "name": "wanderIM_behavres_s328_14Dec2018-1437.mat",
+      "size": 84414,
+      "version": 1,
+      "hashes": {
+        "md5": "8ad9312c578dc1c48bb5819ac71162b7",
+        "sha256": "a8c7ab08a4fbbcc8e7d1596bd29cd4feee29606b10302a45e7bf0cc67d734785"
+      },
+      "url": "https://osf.io/download/9yxnk/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037ee145b1a01865322f3",
+      "name": "wanderIM_behavres_s312_06Jun2018-1003.mat",
+      "size": 82594,
+      "version": 1,
+      "hashes": {
+        "md5": "fa44c80109b06078dbd0ed698f072c93",
+        "sha256": "25bd7382426848dbb73e0fe1d46eec46c1dc6d728a4ab7e09eece3f562b2dc6e"
+      },
+      "url": "https://osf.io/download/esbw3/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037e976ebd80175cdfbb4",
+      "name": "wanderIM_behavres_s315_13Jun2018-1028.mat",
+      "size": 86910,
+      "version": 1,
+      "hashes": {
+        "md5": "e1873f3deed730d9784367e7eec558c1",
+        "sha256": "81d204bb0b59384b2cef7cf1a8e5fa15fb583fe6f9bc366e4163174e47312df1"
+      },
+      "url": "https://osf.io/download/ujk5e/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037f776ebd8017ecdf8df",
+      "name": "wanderIM_behavres_s304_30May2018-1345.mat",
+      "size": 85051,
+      "version": 1,
+      "hashes": {
+        "md5": "9da15e0ed10a91a73bcd9b7e5bd069ff",
+        "sha256": "e53957f34be848ff472194021dc738fd3758a29a3a564228a5917ef6d1cd5aec"
+      },
+      "url": "https://osf.io/download/mdu3y/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037d7145b1a018b530589",
+      "name": "wanderIM_behavres_s338_01Feb2019-1007.mat",
+      "size": 93262,
+      "version": 1,
+      "hashes": {
+        "md5": "05e130ddd6f148bc79272ced2715f407",
+        "sha256": "85ce567ab0fa81375da4afe6ba434ab1d38bae37642799d4b5432cad28173247"
+      },
+      "url": "https://osf.io/download/zywjd/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037f7145b1a0182532878",
+      "name": "wanderIM_behavres_s303_30May2018-1017.mat",
+      "size": 88991,
+      "version": 1,
+      "hashes": {
+        "md5": "eb8e76f4a8be693512aa0578a7b9751b",
+        "sha256": "d63d0dbb4e723b039861491e7bcebec03920437bda109bbac590c1762b377769"
+      },
+      "url": "https://osf.io/download/52s7b/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037e476ebd80170ce11d7",
+      "name": "wanderIM_behavres_s323_28Jun2018-0956.mat",
+      "size": 88747,
+      "version": 1,
+      "hashes": {
+        "md5": "a038b2f896995446039af5d58eb3e81f",
+        "sha256": "809ee8c4e9d0a7a0fe1ec5dbc678603834da92decf076e29fac5d676d0baa22c"
+      },
+      "url": "https://osf.io/download/kgsy7/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037f4659828015acfb119",
+      "name": "wanderIM_behavres_s307_01Jun2018-1017.mat",
+      "size": 92206,
+      "version": 1,
+      "hashes": {
+        "md5": "8b9adf711308ca57fcd12347a5b005ef",
+        "sha256": "38450945b0ca1f9664a366ed61b2d0f8dc9f7990853eb52ae9333dc4feba19ca"
+      },
+      "url": "https://osf.io/download/2byt6/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037db659828015acfb0e8",
+      "name": "wanderIM_behavres_s332_14Dec2018-1026.mat",
+      "size": 89430,
+      "version": 1,
+      "hashes": {
+        "md5": "62270134b18d1b6a919f36c879842d4d",
+        "sha256": "8907679cda71af28efafd1a6f16e4e18a29215c6aecadc3093926110f933803d"
+      },
+      "url": "https://osf.io/download/g5br9/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037e76598280152cfb788",
+      "name": "wanderIM_behavres_s320_29Jun2018-1417.mat",
+      "size": 89516,
+      "version": 1,
+      "hashes": {
+        "md5": "4f32cf5d29cdb58b097897fc7a1bc5db",
+        "sha256": "14c84fc4c865bd56667fb96fb15a7e0f0a30b64baf394fa0ea507ff6de92cb08"
+      },
+      "url": "https://osf.io/download/c3vxw/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037f076ebd8017ecdf8ce",
+      "name": "wanderIM_behavres_s309_01Jun2018-1644.mat",
+      "size": 82152,
+      "version": 1,
+      "hashes": {
+        "md5": "5c2c841e6cdecfbf1834aa6d0fe80d5e",
+        "sha256": "ff04a00d79b4a59e67861b20baa4ca4f5b0490a18d385cc9ff65aa39a87b64e8"
+      },
+      "url": "https://osf.io/download/h7juw/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037ee76ebd8017ecdf8c6",
+      "name": "wanderIM_behavres_s311_04Jun2018-1424.mat",
+      "size": 84104,
+      "version": 1,
+      "hashes": {
+        "md5": "d0706899aa60384c20540c586d967aad",
+        "sha256": "fdca2457a99284b0cecb6d270e0afae816eef1e0f3906f1382bfc14c38a5a0c9"
+      },
+      "url": "https://osf.io/download/3apkr/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037ee6598280156cfb49b",
+      "name": "wanderIM_behavres_s310_04Jun2018-1004.mat",
+      "size": 89175,
+      "version": 1,
+      "hashes": {
+        "md5": "26c7900893c46d661c80e1ff17ddf5f6",
+        "sha256": "bd9758a8cfb18180841e9e072afb509f0713104d3905b87f8ca9edd0845a6b7e"
+      },
+      "url": "https://osf.io/download/fpesd/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037f476ebd80175cdfbc4",
+      "name": "wanderIM_behavres_s305_31May2018-0949.mat",
+      "size": 91394,
+      "version": 1,
+      "hashes": {
+        "md5": "8b1e5f54260b07c2b74262807f6976e2",
+        "sha256": "f23aa3bf316a1a0419e2895f565e281dd6f2ab51e77b879802e415ff08aff127"
+      },
+      "url": "https://osf.io/download/quhcd/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037e3659828015acfb0f2",
+      "name": "wanderIM_behavres_s325_11Dec2018-1027.mat",
+      "size": 87790,
+      "version": 1,
+      "hashes": {
+        "md5": "493c50c84825851edadd1a834b9a34be",
+        "sha256": "9b30e31e0a41f03031d81ded4f36e3bcad4b784800e1fb79bd6581b1f19fb09c"
+      },
+      "url": "https://osf.io/download/m5gsz/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037e376ebd80175cdfbaa",
+      "name": "wanderIM_behavres_s324_27Jun2018-1407.mat",
+      "size": 85041,
+      "version": 1,
+      "hashes": {
+        "md5": "a90b47ae723a3031f536425c6a033b8b",
+        "sha256": "1087de177dda17d4035385e4dc762a13d758d00e0f514029375a0ba17cc48210"
+      },
+      "url": "https://osf.io/download/dr4pq/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037f776ebd80179ce0643",
+      "name": "wanderIM_behavres_s302_06Jun2018-1349.mat",
+      "size": 81525,
+      "version": 1,
+      "hashes": {
+        "md5": "f8bb1e826584c3af5aae6e3616937754",
+        "sha256": "b2675ee795105d89ebe3d8351d291f666c92f44a90c1e800393e78012b9f6ce8"
+      },
+      "url": "https://osf.io/download/3tse2/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037f2659828015acfb111",
+      "name": "wanderIM_behavres_s306_31May2018-1404.mat",
+      "size": 85696,
+      "version": 1,
+      "hashes": {
+        "md5": "505a964024db3b5dd7af9897ee6a4144",
+        "sha256": "b09b88ea2f787e5d5c29a6f569352a3f2b3e118958068466772ba850bfe799ab"
+      },
+      "url": "https://osf.io/download/gt39m/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037e576ebd8017ecdf8b7",
+      "name": "wanderIM_behavres_s322_27Jun2018-0957.mat",
+      "size": 86558,
+      "version": 1,
+      "hashes": {
+        "md5": "ae378eedb404b5318e6cd2ebc03cf336",
+        "sha256": "734f734a95e007fb11ac6f87b8f94f033e103ce864a441a1c9828b3fe4693391"
+      },
+      "url": "https://osf.io/download/de2jk/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037e86598280152cfb78d",
+      "name": "wanderIM_behavres_s317_15Jun2018-1410.mat",
+      "size": 89075,
+      "version": 1,
+      "hashes": {
+        "md5": "263d7e1a3ff3342435531bac93c28a51",
+        "sha256": "447916694cc7eb388d64d96cb90a7c1660352dad4de24982292f74dd769626b4"
+      },
+      "url": "https://osf.io/download/3mnxz/",
+      "kind": "monash_behaviour"
+    },
+    {
+      "resource_id": "5ef037dd76ebd80175cdfb99",
+      "name": "wanderIM_behavres_s329_08Jan2019-1103.mat",
+      "size": 90630,
+      "version": 1,
+      "hashes": {
+        "md5": "a8780c7523e84edc5674f409460c8489",
+        "sha256": "d5f39816614b5f48752ccbbd083336b4eceb1cd719795481d9c451dbfb333a7a"
+      },
+      "url": "https://osf.io/download/4t5hp/",
+      "kind": "monash_behaviour"
+    }
+  ]
+}

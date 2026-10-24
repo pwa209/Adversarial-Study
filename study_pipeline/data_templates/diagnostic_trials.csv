@@ -1,0 +1,1 @@
+participant_id,source_id,episode_id,eligible,randomized,treatment,capacity_value,eligibility_start_s,eligibility_stop_s,assignment_s,intervention_s,post_window_start_s,post_window_stop_s

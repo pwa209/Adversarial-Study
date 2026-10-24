@@ -1,0 +1,1162 @@
+{
+  "primary_common_average/experience_presence": {
+    "baseline": {
+      "features": [
+        "score",
+        "global_log_delta"
+      ],
+      "mean": [
+        0.5103260138417991,
+        1.6300011981180964
+      ],
+      "scale": [
+        0.10060875311499176,
+        0.3046308487608454
+      ],
+      "coefficient": [
+        0.34724667849611207,
+        0.0060060392273843,
+        -0.0012910235721978905
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_31",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.2652318832832903
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.2655295314258991
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.2643882817931227
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.26322209490784476
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    },
+    "spatial": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "posterior_minus_global_delta"
+      ],
+      "mean": [
+        0.5103260138417991,
+        1.6300011981180964,
+        0.014099039488512436
+      ],
+      "scale": [
+        0.10060875311499176,
+        0.3046308487608454,
+        0.07498169179771517
+      ],
+      "coefficient": [
+        0.35581125566002914,
+        0.31804094574246095,
+        0.10822353420368781,
+        -0.06432284682773658
+      ],
+      "ridge": 0.01,
+      "iterations": 5,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_31",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.2623249569420079
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.2632615549853983
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.2636343849314471
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.2631255572913538
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    }
+  },
+  "primary_common_average/content_recall_given_experience": {
+    "baseline": {
+      "features": [
+        "score",
+        "global_log_delta"
+      ],
+      "mean": [
+        0.5177041887234873,
+        1.6050316273026148
+      ],
+      "scale": [
+        0.10262813843875901,
+        0.32306345423709604
+      ],
+      "coefficient": [
+        0.9643215719900516,
+        0.006928527279607453,
+        -0.009521531298632015
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.16081524821075743
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.1554252503393152
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.15149960301798493
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.15090783703770203
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    },
+    "spatial": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "posterior_minus_global_delta"
+      ],
+      "mean": [
+        0.5177041887234873,
+        1.6050316273026148,
+        0.02006333157144644
+      ],
+      "scale": [
+        0.10262813843875901,
+        0.32306345423709604,
+        0.08096207419507705
+      ],
+      "coefficient": [
+        0.9685457521425427,
+        0.05204136306010648,
+        -0.07706287454573969,
+        -0.07274470458244503
+      ],
+      "ridge": 1.0,
+      "iterations": 4,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.17153756011361232
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.15210111784457678
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.14768956457396704
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.15033669984774412
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    }
+  },
+  "as_stored_reference/experience_presence": {
+    "baseline": {
+      "features": [
+        "score",
+        "global_log_delta"
+      ],
+      "mean": [
+        0.5103260138417991,
+        1.904390908015046
+      ],
+      "scale": [
+        0.10060875311499176,
+        0.3253911555860244
+      ],
+      "coefficient": [
+        0.3472459505876412,
+        0.006019921548222706,
+        -0.000307431543082793
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_31",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.26606340306731235
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.26519254987999097
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.26373949373946715
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.2631229714082918
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    },
+    "spatial": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "posterior_minus_global_delta"
+      ],
+      "mean": [
+        0.5103260138417991,
+        1.904390908015046,
+        0.002597767178115796
+      ],
+      "scale": [
+        0.10060875311499176,
+        0.3253911555860244,
+        0.09848369375374737
+      ],
+      "coefficient": [
+        0.3472460394238203,
+        0.006018230845977718,
+        -0.0003059902763241645,
+        0.0004009509588170261
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_31",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.265747331158484
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.2649995379361751
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.2638244348673076
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.2631439480279218
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    }
+  },
+  "as_stored_reference/content_recall_given_experience": {
+    "baseline": {
+      "features": [
+        "score",
+        "global_log_delta"
+      ],
+      "mean": [
+        0.5177041887234873,
+        1.867904623061023
+      ],
+      "scale": [
+        0.10262813843875901,
+        0.3339990424010175
+      ],
+      "coefficient": [
+        0.9643169681315856,
+        0.006949104119688283,
+        -0.009173669210642131
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.16451354243305094
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.15933121575383208
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.1528838256858573
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.15108794824925384
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    },
+    "spatial": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "posterior_minus_global_delta"
+      ],
+      "mean": [
+        0.5177041887234873,
+        1.867904623061023,
+        0.011500803438150454
+      ],
+      "scale": [
+        0.10262813843875901,
+        0.3339990424010175,
+        0.10594454900009266
+      ],
+      "coefficient": [
+        0.9643161668252481,
+        0.006952096893823429,
+        -0.009176549238131259,
+        -0.0010576883642957101
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.17037023135456839
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.16153460181658175
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.153019258619029
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.1510949035589949
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    }
+  },
+  "unsaturated_common_average/experience_presence": {
+    "baseline": {
+      "features": [
+        "score",
+        "global_log_delta"
+      ],
+      "mean": [
+        0.5009928680104869,
+        1.6379802793963283
+      ],
+      "scale": [
+        0.08039725198067883,
+        0.28903318677621975
+      ],
+      "coefficient": [
+        0.28298682491186344,
+        0.0049787378172010946,
+        -0.0012444096925354107
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_31",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.2676427558307293
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.26817012137198754
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.2671967804133162
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.2662656449744703
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    },
+    "spatial": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "posterior_minus_global_delta"
+      ],
+      "mean": [
+        0.5009928680104869,
+        1.6379802793963283,
+        0.013703663244628916
+      ],
+      "scale": [
+        0.08039725198067883,
+        0.28903318677621975,
+        0.07620666269192022
+      ],
+      "coefficient": [
+        0.2829868613563825,
+        0.0049787264398337625,
+        -0.0012459854035888128,
+        -0.0007995905527148656
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_31",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.26711010483090164
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.26785205834910686
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.26711533533194715
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.2662554925324804
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    }
+  },
+  "unsaturated_common_average/content_recall_given_experience": {
+    "baseline": {
+      "features": [
+        "score",
+        "global_log_delta"
+      ],
+      "mean": [
+        0.5083638909615967,
+        1.6018088928304328
+      ],
+      "scale": [
+        0.07376229667516375,
+        0.30168127978446047
+      ],
+      "coefficient": [
+        1.0659211948674296,
+        0.20184411056649768,
+        -0.22860298270507187
+      ],
+      "ridge": 0.1,
+      "iterations": 4,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.16234374379867084
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.16151993738591572
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.16254553324007764
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.1636401383517055
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    },
+    "spatial": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "posterior_minus_global_delta"
+      ],
+      "mean": [
+        0.5083638909615967,
+        1.6018088928304328,
+        0.02289068831695027
+      ],
+      "scale": [
+        0.07376229667516375,
+        0.30168127978446047,
+        0.08681270044955235
+      ],
+      "coefficient": [
+        1.0846130342527984,
+        0.19916259705074568,
+        -0.25968145027068135,
+        -0.2628237430335466
+      ],
+      "ridge": 0.1,
+      "iterations": 5,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.16698130276243295
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.15812362343364728
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.1602982008516233
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.16334094943850627
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    }
+  },
+  "high_frequency_adjusted_common_average/experience_presence": {
+    "baseline": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "global_log_high_frequency",
+        "posterior_minus_global_high_frequency"
+      ],
+      "mean": [
+        0.5103260138417992,
+        1.6300011981180964,
+        0.2728284320026468,
+        -0.0728793467680129
+      ],
+      "scale": [
+        0.10060875311499178,
+        0.3046308487608454,
+        0.3480076065733868,
+        0.21325774176313111
+      ],
+      "coefficient": [
+        0.34837042219367814,
+        0.04813480837673746,
+        -0.008602776110426258,
+        0.035217184648094466,
+        -0.08489541741502085
+      ],
+      "ridge": 1.0,
+      "iterations": 4,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_31",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.27511116075800757
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.2649759874876772
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.25923606475192634
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.26236165217481255
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    },
+    "spatial": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "global_log_high_frequency",
+        "posterior_minus_global_high_frequency",
+        "posterior_minus_global_delta"
+      ],
+      "mean": [
+        0.5103260138417992,
+        1.6300011981180964,
+        0.2728284320026468,
+        -0.0728793467680129,
+        0.014099039488512436
+      ],
+      "scale": [
+        0.10060875311499178,
+        0.3046308487608454,
+        0.3480076065733868,
+        0.21325774176313111,
+        0.07498169179771517
+      ],
+      "coefficient": [
+        0.3484154661778295,
+        0.0481221520162342,
+        -0.008633453806997931,
+        0.035185332873109855,
+        -0.0844016206486162,
+        -0.007133298730012877
+      ],
+      "ridge": 1.0,
+      "iterations": 4,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_31",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.27622303608696946
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.2652350483124736
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.25898972062735787
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.2622755456728059
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    }
+  },
+  "high_frequency_adjusted_common_average/content_recall_given_experience": {
+    "baseline": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "global_log_high_frequency",
+        "posterior_minus_global_high_frequency"
+      ],
+      "mean": [
+        0.5177041887234873,
+        1.6050316273026148,
+        0.2930457127376565,
+        -0.10129292256034728
+      ],
+      "scale": [
+        0.102628138438759,
+        0.32306345423709604,
+        0.3567767003266551,
+        0.2165743928939995
+      ],
+      "coefficient": [
+        0.9643247878313376,
+        0.006925641090968586,
+        -0.00952206824863597,
+        0.0010757853100527004,
+        0.003774464321349273
+      ],
+      "ridge": 10.0,
+      "iterations": 3,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.17218307263301522
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.16026774742539032
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.15224645798057293
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.15098902973479686
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    },
+    "spatial": {
+      "features": [
+        "score",
+        "global_log_delta",
+        "global_log_high_frequency",
+        "posterior_minus_global_high_frequency",
+        "posterior_minus_global_delta"
+      ],
+      "mean": [
+        0.5177041887234873,
+        1.6050316273026148,
+        0.2930457127376565,
+        -0.10129292256034728,
+        0.02006333157144644
+      ],
+      "scale": [
+        0.102628138438759,
+        0.32306345423709604,
+        0.3567767003266551,
+        0.2165743928939995,
+        0.08096207419507705
+      ],
+      "coefficient": [
+        0.9684367507284553,
+        0.05179483966954923,
+        -0.07715306699660056,
+        0.009330645001501785,
+        0.03737692869652148,
+        -0.07509484094451353
+      ],
+      "ridge": 1.0,
+      "iterations": 4,
+      "training_people": [
+        "dream_tononi_serial_1",
+        "dream_tononi_serial_10",
+        "dream_tononi_serial_13",
+        "dream_tononi_serial_14",
+        "dream_tononi_serial_16",
+        "dream_tononi_serial_17",
+        "dream_tononi_serial_18",
+        "dream_tononi_serial_19",
+        "dream_tononi_serial_2",
+        "dream_tononi_serial_20",
+        "dream_tononi_serial_24",
+        "dream_tononi_serial_26",
+        "dream_tononi_serial_27",
+        "dream_tononi_serial_32",
+        "dream_tononi_serial_33",
+        "dream_tononi_serial_35",
+        "dream_tononi_serial_36",
+        "dream_tononi_serial_5",
+        "dream_tononi_serial_8"
+      ],
+      "validation_grid": [
+        {
+          "ridge": 0.01,
+          "equal_person_brier": 0.19039867892191656
+        },
+        {
+          "ridge": 0.1,
+          "equal_person_brier": 0.14942282296025305
+        },
+        {
+          "ridge": 1.0,
+          "equal_person_brier": 0.14777286398808787
+        },
+        {
+          "ridge": 10.0,
+          "equal_person_brier": 0.15040842540793536
+        }
+      ],
+      "validation_people": [
+        "dream_tononi_serial_12",
+        "dream_tononi_serial_15",
+        "dream_tononi_serial_21",
+        "dream_tononi_serial_34",
+        "dream_tononi_serial_4"
+      ]
+    }
+  }
+}

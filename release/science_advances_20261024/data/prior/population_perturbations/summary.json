@@ -1,0 +1,874 @@
+{
+  "status": "completed_existing_full_population_finite_input_analysis",
+  "version": "full_population_finite_perturbations_v1",
+  "n_qualified_control_pulse_pairs": 48,
+  "n_population_quantity_responses": 864,
+  "n_system_responses": 96,
+  "population_names": [
+    "excitatory_cortex",
+    "inhibitory_cortex",
+    "thalamic_reticular",
+    "thalamic_relay",
+    "striatal_D1",
+    "striatal_D2",
+    "GPi",
+    "GPe",
+    "STN"
+  ],
+  "independent_units": "enumerated model configurations; reused configurations make contrasts dependent; no human sample or population inference",
+  "input_design": "one common all-population native pulse; amplitudes1/10/100 occur across different configurations, not a within-configuration sweep",
+  "matching_tolerances": {
+    "score": 0.025,
+    "feature_acf_100ms": 0.05,
+    "feature_acf_500ms": 0.05,
+    "feature_spectral_centroid_hz": 1.0,
+    "feature_spectral_entropy": 0.05,
+    "feature_hjorth_mobility_relative": 0.1,
+    "feature_std_amplitude_log_ratio": 0.09531017980432493
+  },
+  "matching_disposition": {
+    "score:different_input": 768,
+    "score_and_conventional_features:different_input": 768,
+    "score:score_matched": 168,
+    "score_and_conventional_features:amplitude_outside_tolerance": 27,
+    "score_and_conventional_features:mobility_outside_tolerance": 28,
+    "score_and_conventional_features:feature_spectral_centroid_hz_outside_tolerance": 65,
+    "score_and_conventional_features:feature_acf_100ms_outside_tolerance": 47,
+    "score:score_outside_tolerance": 192,
+    "score_and_conventional_features:score_outside_tolerance": 192,
+    "score_and_conventional_features:score_and_conventional_features_matched": 1
+  },
+  "family_amplitude_strata": [
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "combined",
+      "input_amplitude": 1.0,
+      "quantity": "Q",
+      "n_configurations": 12,
+      "n_recruited_3sd": {
+        "n": 12,
+        "minimum": 8.0,
+        "median": 8.5,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 12,
+        "minimum": 1.000006525300606,
+        "median": 1.0292651463259934,
+        "maximum": 1.2158114350887448
+      },
+      "other_population_energy_fraction": {
+        "n": 12,
+        "minimum": 0.9999733254864258,
+        "median": 0.9999937529425598,
+        "maximum": 0.9999998972129215
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "combined",
+      "input_amplitude": 1.0,
+      "quantity": "V",
+      "n_configurations": 12,
+      "n_recruited_3sd": {
+        "n": 12,
+        "minimum": 8.0,
+        "median": 8.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 12,
+        "minimum": 1.0000242223700142,
+        "median": 1.022219498633232,
+        "maximum": 1.1992766059226123
+      },
+      "other_population_energy_fraction": {
+        "n": 10,
+        "minimum": 0.9998189467482623,
+        "median": 0.9999959416157582,
+        "maximum": 0.9999999962554994
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "combined",
+      "input_amplitude": 10.0,
+      "quantity": "Q",
+      "n_configurations": 12,
+      "n_recruited_3sd": {
+        "n": 12,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 12,
+        "minimum": 1.0023205552676506,
+        "median": 1.0316140399482858,
+        "maximum": 1.5163514311437638
+      },
+      "other_population_energy_fraction": {
+        "n": 12,
+        "minimum": 0.9999884398212159,
+        "median": 0.9999999713512766,
+        "maximum": 0.9999999999506817
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "combined",
+      "input_amplitude": 10.0,
+      "quantity": "V",
+      "n_configurations": 12,
+      "n_recruited_3sd": {
+        "n": 12,
+        "minimum": 8.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 12,
+        "minimum": 1.000003753425246,
+        "median": 1.0389911819284285,
+        "maximum": 1.7644446553690756
+      },
+      "other_population_energy_fraction": {
+        "n": 10,
+        "minimum": 0.9999867226864583,
+        "median": 0.9999999142535367,
+        "maximum": 0.9999999999996956
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "combined",
+      "input_amplitude": 100.0,
+      "quantity": "Q",
+      "n_configurations": 12,
+      "n_recruited_3sd": {
+        "n": 12,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 12,
+        "minimum": 1.0000002352989008,
+        "median": 1.0446364838725848,
+        "maximum": 1.3167074064877153
+      },
+      "other_population_energy_fraction": {
+        "n": 12,
+        "minimum": 1.4093759178456036e-07,
+        "median": 0.9997012966661672,
+        "maximum": 0.999997625548418
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "combined",
+      "input_amplitude": 100.0,
+      "quantity": "V",
+      "n_configurations": 12,
+      "n_recruited_3sd": {
+        "n": 12,
+        "minimum": 8.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 12,
+        "minimum": 1.0000001630075155,
+        "median": 1.0032091034484671,
+        "maximum": 1.1090084802288145
+      },
+      "other_population_energy_fraction": {
+        "n": 11,
+        "minimum": 0.9999993718986647,
+        "median": 0.9999999980825647,
+        "maximum": 0.9999999999999392
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "coupling",
+      "input_amplitude": 1.0,
+      "quantity": "Q",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0012636205619656,
+        "median": 1.0012636205619656,
+        "maximum": 1.0012636205619656
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999997620117752,
+        "median": 0.9999997620117752,
+        "maximum": 0.9999997620117752
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "coupling",
+      "input_amplitude": 1.0,
+      "quantity": "V",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.000174833322496,
+        "median": 1.000174833322496,
+        "maximum": 1.000174833322496
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999999398679276,
+        "median": 0.9999999398679276,
+        "maximum": 0.9999999398679276
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "coupling",
+      "input_amplitude": 10.0,
+      "quantity": "Q",
+      "n_configurations": 2,
+      "n_recruited_3sd": {
+        "n": 2,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 2,
+        "minimum": 1.0069230253988781,
+        "median": 1.0271133752675754,
+        "maximum": 1.0473037251362727
+      },
+      "other_population_energy_fraction": {
+        "n": 2,
+        "minimum": 0.9999998791507885,
+        "median": 0.9999999395744772,
+        "maximum": 0.9999999999981658
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "coupling",
+      "input_amplitude": 10.0,
+      "quantity": "V",
+      "n_configurations": 2,
+      "n_recruited_3sd": {
+        "n": 2,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 2,
+        "minimum": 1.0861346707292932,
+        "median": 1.1235495066000967,
+        "maximum": 1.1609643424709002
+      },
+      "other_population_energy_fraction": {
+        "n": 2,
+        "minimum": 0.9999990793059825,
+        "median": 0.9999995396523578,
+        "maximum": 0.9999999999987329
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "coupling",
+      "input_amplitude": 100.0,
+      "quantity": "Q",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0256072417391628,
+        "median": 1.0256072417391628,
+        "maximum": 1.0256072417391628
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999622735638145,
+        "median": 0.9999622735638145,
+        "maximum": 0.9999622735638145
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "coupling",
+      "input_amplitude": 100.0,
+      "quantity": "V",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0044775401377914,
+        "median": 1.0044775401377914,
+        "maximum": 1.0044775401377914
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999999965665842,
+        "median": 0.9999999965665842,
+        "maximum": 0.9999999965665842
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "gain",
+      "input_amplitude": 1.0,
+      "quantity": "Q",
+      "n_configurations": 2,
+      "n_recruited_3sd": {
+        "n": 2,
+        "minimum": 8.0,
+        "median": 8.0,
+        "maximum": 8.0
+      },
+      "mode_participation": {
+        "n": 2,
+        "minimum": 1.0000013161970325,
+        "median": 1.0997383776105343,
+        "maximum": 1.1994754390240363
+      },
+      "other_population_energy_fraction": {
+        "n": 2,
+        "minimum": 0.9999923668458935,
+        "median": 0.9999961810410996,
+        "maximum": 0.9999999952363055
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "gain",
+      "input_amplitude": 1.0,
+      "quantity": "V",
+      "n_configurations": 2,
+      "n_recruited_3sd": {
+        "n": 2,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 2,
+        "minimum": 1.0000001665185898,
+        "median": 1.0237288691915476,
+        "maximum": 1.0474575718645054
+      },
+      "other_population_energy_fraction": {
+        "n": 2,
+        "minimum": 0.9999530160841719,
+        "median": 0.9999765080316041,
+        "maximum": 0.9999999999790363
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "gain",
+      "input_amplitude": 10.0,
+      "quantity": "Q",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.011805790339818,
+        "median": 1.011805790339818,
+        "maximum": 1.011805790339818
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999999512958456,
+        "median": 0.9999999512958456,
+        "maximum": 0.9999999512958456
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "gain",
+      "input_amplitude": 10.0,
+      "quantity": "V",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0951269225235403,
+        "median": 1.0951269225235403,
+        "maximum": 1.0951269225235403
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999995541096753,
+        "median": 0.9999995541096753,
+        "maximum": 0.9999995541096753
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "gain",
+      "input_amplitude": 100.0,
+      "quantity": "Q",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.4779002340786895,
+        "median": 1.4779002340786895,
+        "maximum": 1.4779002340786895
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9990890904970535,
+        "median": 0.9990890904970535,
+        "maximum": 0.9990890904970535
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "gain",
+      "input_amplitude": 100.0,
+      "quantity": "V",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0000943152906145,
+        "median": 1.0000943152906145,
+        "maximum": 1.0000943152906145
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999999999521957,
+        "median": 0.9999999999521957,
+        "maximum": 0.9999999999521957
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "history",
+      "input_amplitude": 1.0,
+      "quantity": "Q",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 8.0,
+        "median": 8.0,
+        "maximum": 8.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0005780309450725,
+        "median": 1.0005780309450725,
+        "maximum": 1.0005780309450725
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999999940854457,
+        "median": 0.9999999940854457,
+        "maximum": 0.9999999940854457
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "history",
+      "input_amplitude": 1.0,
+      "quantity": "V",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0000738029291045,
+        "median": 1.0000738029291045,
+        "maximum": 1.0000738029291045
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999999918164081,
+        "median": 0.9999999918164081,
+        "maximum": 0.9999999918164081
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "history",
+      "input_amplitude": 10.0,
+      "quantity": "Q",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0117466607812966,
+        "median": 1.0117466607812966,
+        "maximum": 1.0117466607812966
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999999343421805,
+        "median": 0.9999999343421805,
+        "maximum": 0.9999999343421805
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "history",
+      "input_amplitude": 10.0,
+      "quantity": "V",
+      "n_configurations": 1,
+      "n_recruited_3sd": {
+        "n": 1,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 1,
+        "minimum": 1.0956799635757701,
+        "median": 1.0956799635757701,
+        "maximum": 1.0956799635757701
+      },
+      "other_population_energy_fraction": {
+        "n": 1,
+        "minimum": 0.9999995232974523,
+        "median": 0.9999995232974523,
+        "maximum": 0.9999995232974523
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "history",
+      "input_amplitude": 100.0,
+      "quantity": "Q",
+      "n_configurations": 2,
+      "n_recruited_3sd": {
+        "n": 2,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 2,
+        "minimum": 1.0019353881914872,
+        "median": 1.0612291198231287,
+        "maximum": 1.1205228514547705
+      },
+      "other_population_energy_fraction": {
+        "n": 2,
+        "minimum": 0.9289726828819029,
+        "median": 0.9644851618617387,
+        "maximum": 0.9999976408415745
+      },
+      "n_system_recovery_right_censored": 0
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "account_class": "history",
+      "input_amplitude": 100.0,
+      "quantity": "V",
+      "n_configurations": 2,
+      "n_recruited_3sd": {
+        "n": 2,
+        "minimum": 9.0,
+        "median": 9.0,
+        "maximum": 9.0
+      },
+      "mode_participation": {
+        "n": 2,
+        "minimum": 1.0000002130078727,
+        "median": 1.0302871006046126,
+        "maximum": 1.0605739882013525
+      },
+      "other_population_energy_fraction": {
+        "n": 2,
+        "minimum": 0.9999996088490796,
+        "median": 0.9999998044244938,
+        "maximum": 0.9999999999999079
+      },
+      "n_system_recovery_right_censored": 0
+    }
+  ],
+  "matched_response_summaries": [
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 1.0,
+      "quantity": "Q",
+      "score_clipping_stratum": "both_ceiling",
+      "n_dependent_configuration_contrasts": 1,
+      "n_training_validation_supported": 1,
+      "other_minus_readout_response_distance": {
+        "n": 1,
+        "minimum": -0.390587006819487,
+        "median": -0.390587006819487,
+        "maximum": -0.390587006819487
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 1.0,
+      "quantity": "Q",
+      "score_clipping_stratum": "neither_clipped",
+      "n_dependent_configuration_contrasts": 78,
+      "n_training_validation_supported": 45,
+      "other_minus_readout_response_distance": {
+        "n": 78,
+        "minimum": -1.5420063666720663,
+        "median": 0.0009511318543782288,
+        "maximum": 1.3083126107120435
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 1.0,
+      "quantity": "V",
+      "score_clipping_stratum": "both_ceiling",
+      "n_dependent_configuration_contrasts": 1,
+      "n_training_validation_supported": 1,
+      "other_minus_readout_response_distance": {
+        "n": 1,
+        "minimum": -0.258653085251123,
+        "median": -0.258653085251123,
+        "maximum": -0.258653085251123
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 1.0,
+      "quantity": "V",
+      "score_clipping_stratum": "neither_clipped",
+      "n_dependent_configuration_contrasts": 78,
+      "n_training_validation_supported": 45,
+      "other_minus_readout_response_distance": {
+        "n": 55,
+        "minimum": -1.7512346514848418,
+        "median": 0.18484947022145537,
+        "maximum": 1.9094613694829623
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 10.0,
+      "quantity": "Q",
+      "score_clipping_stratum": "both_ceiling",
+      "n_dependent_configuration_contrasts": 3,
+      "n_training_validation_supported": 3,
+      "other_minus_readout_response_distance": {
+        "n": 3,
+        "minimum": -0.09103936568374832,
+        "median": 0.17712211037876502,
+        "maximum": 0.20753325490738805
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 10.0,
+      "quantity": "Q",
+      "score_clipping_stratum": "neither_clipped",
+      "n_dependent_configuration_contrasts": 36,
+      "n_training_validation_supported": 21,
+      "other_minus_readout_response_distance": {
+        "n": 36,
+        "minimum": -1.2342066021597136,
+        "median": 0.0026113061214778632,
+        "maximum": 1.4561370222553744
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 10.0,
+      "quantity": "V",
+      "score_clipping_stratum": "both_ceiling",
+      "n_dependent_configuration_contrasts": 3,
+      "n_training_validation_supported": 3,
+      "other_minus_readout_response_distance": {
+        "n": 3,
+        "minimum": -0.1500884324629147,
+        "median": 0.4041932524449765,
+        "maximum": 0.4707698242643552
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 10.0,
+      "quantity": "V",
+      "score_clipping_stratum": "neither_clipped",
+      "n_dependent_configuration_contrasts": 36,
+      "n_training_validation_supported": 21,
+      "other_minus_readout_response_distance": {
+        "n": 21,
+        "minimum": -1.6021834113908215,
+        "median": -0.008221061080532444,
+        "maximum": 1.527720087851563
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 100.0,
+      "quantity": "Q",
+      "score_clipping_stratum": "neither_clipped",
+      "n_dependent_configuration_contrasts": 50,
+      "n_training_validation_supported": 20,
+      "other_minus_readout_response_distance": {
+        "n": 50,
+        "minimum": -0.6610189491902387,
+        "median": -0.1349394704794341,
+        "maximum": 1.0149668518299728
+      }
+    },
+    {
+      "matching": "score",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 100.0,
+      "quantity": "V",
+      "score_clipping_stratum": "neither_clipped",
+      "n_dependent_configuration_contrasts": 50,
+      "n_training_validation_supported": 20,
+      "other_minus_readout_response_distance": {
+        "n": 43,
+        "minimum": -1.4283437084427493,
+        "median": 0.47428928765503153,
+        "maximum": 1.5387725360353848
+      }
+    },
+    {
+      "matching": "score_and_conventional_features",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 1.0,
+      "quantity": "Q",
+      "score_clipping_stratum": "neither_clipped",
+      "n_dependent_configuration_contrasts": 1,
+      "n_training_validation_supported": 0,
+      "other_minus_readout_response_distance": {
+        "n": 1,
+        "minimum": 0.15305455817441183,
+        "median": 0.15305455817441183,
+        "maximum": 0.15305455817441183
+      }
+    },
+    {
+      "matching": "score_and_conventional_features",
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "input_amplitude": 1.0,
+      "quantity": "V",
+      "score_clipping_stratum": "neither_clipped",
+      "n_dependent_configuration_contrasts": 1,
+      "n_training_validation_supported": 0,
+      "other_minus_readout_response_distance": {
+        "n": 1,
+        "minimum": 1.284793960482034,
+        "median": 1.284793960482034,
+        "maximum": 1.284793960482034
+      }
+    }
+  ],
+  "bridge_support": {
+    "status": "training_validation_support_only",
+    "sha256": "aa2297809fd4550f1778ea1e1f1e919839ee85e27fbc73fc8dd1481e42387b38",
+    "n_supported_configurations": 185,
+    "not_physiological_equivalence": true,
+    "support_means_fit_support_not_observational_adequacy": true
+  },
+  "fixed_metrics": {
+    "recruitment_baseline_sd": 3.0,
+    "recruitment_hold_s": 0.01,
+    "recovery_fraction_of_finite_peak": 0.05,
+    "recovery_hold_s": 0.25
+  },
+  "inference": {
+    "new_simulations": false,
+    "clinical_scores_recomputed": false,
+    "human_test_targets_used_for_selection": false,
+    "linear_impulse_response_or_controllability_established": false,
+    "selective_loop_necessity_established": false,
+    "human_physiology_or_causal_mechanism_established": false,
+    "one_spatial_node": true,
+    "uncertainty": "finite-bank descriptive ranges; no pseudo-replicated confidence intervals"
+  },
+  "seed": 20261024,
+  "native_cache_receipt_sha256": "e602ae8d5bf2149b86b73317f9008d080e407be08c87ae29caea8eac5d68ab77"
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "project_roots": [
+    "/home/pwa209/adversarial-study",
+    "/scratch/pwa209/adversarial-study"
+  ],
+  "caches": {
+    "cpu": {
+      "source_release": "20261004T193709Z-545c74b08e71",
+      "environment": "/scratch/pwa209/adversarial-study/environments/20261004T193709Z-545c74b08e71",
+      "stage": "environment",
+      "receipt": {
+        "path": "/home/pwa209/adversarial-study/runs/20261004T193709Z-545c74b08e71/receipts/environment.json",
+        "sha256": "1d07df9bcd2f44e4785666a333c7feb183c877b94c45d0c3d31ce4f9c36d1902"
+      },
+      "resolved": {
+        "path": "/home/pwa209/adversarial-study/runs/20261004T193709Z-545c74b08e71/environment-resolved.txt",
+        "sha256": "30061b571eebac648889f1160112ed26924be01f30f25f6ee4b7aec02de8ba34"
+      },
+      "runtime": {
+        "path": "/home/pwa209/adversarial-study/runs/20261004T193709Z-545c74b08e71/environment-runtime.json",
+        "sha256": "3e2e724633c067fa56ba6fff38e8a7d207fb732ec190ead3669d60fe16fd4549"
+      }
+    },
+    "centaur": {
+      "source_release": "20261004T193709Z-545c74b08e71",
+      "environment": "/scratch/pwa209/adversarial-study/environments/20261004T193709Z-545c74b08e71-centaur",
+      "stage": "centaur_dependencies",
+      "receipt": {
+        "path": "/home/pwa209/adversarial-study/runs/20261004T193709Z-545c74b08e71/receipts/centaur_dependencies.json",
+        "sha256": "ede7dba825eee14cff706c51fb233a6bfa3e1878f7d23ffbd554a68464a33d0d"
+      },
+      "resolved": {
+        "path": "/home/pwa209/adversarial-study/runs/20261004T193709Z-545c74b08e71/centaur-environment-resolved.txt",
+        "sha256": "44eb069300fc3248247073865656d5f315e0e8187de952a4b1d12e232e5043e6"
+      },
+      "runtime": {
+        "path": "/home/pwa209/adversarial-study/runs/20261004T193709Z-545c74b08e71/centaur-environment-runtime.json",
+        "sha256": "c70a00680eba0eba2ba1c52a6a397c079bf62467b0ba787bb245c97c80a87975"
+      }
+    }
+  },
+  "scope": "Dependency installations only; fresh runtime checks and current-release software tests required. No trained weights, scientific outputs or prior evaluation reused."
+}

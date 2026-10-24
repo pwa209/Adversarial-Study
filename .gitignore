@@ -1,0 +1,23 @@
+# Keep manuscript work and archives containing it local.
+manuscript/
+manuscripts/
+document_history/
+document_review/
+*Manuscript*
+*manuscript*.docx
+*Complete_Package*.zip
+*_complete.zip
+
+# Runtime and local access state.
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.ppk
+.ssh/
+deployment/
+system_survey/
+github_sync/

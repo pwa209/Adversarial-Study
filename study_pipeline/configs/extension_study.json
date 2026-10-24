@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "sleep": {
+    "tononi": {
+      "source_id": "dream_tononi_serial",
+      "metadata_resource_id": "figshare:59168237",
+      "reference_status": "source native reference unreported in EDF header; preserve without re-referencing",
+      "instrument_channels": ["Chan 8", "Chan 15", "Chan 90", "Chan 101"],
+      "selection_basis": "four fixed positive-z midline vendor electrodes in original HydroCelGSN256v10.sfp; no claimed10-20 name equivalence",
+      "declared_people": 39,
+      "declared_awakenings": 287,
+      "source_selection": "original published selection includes people with DE/NE within-night reports; fullpopulationprevalencecannotbeinferred",
+      "reported_timing": "immediately prior to awakening; duration categorical sourceadditionaldata preserved",
+      "edf_units_must_be_explicit": true
+    },
+    "oudiette": {
+      "source_id": "dream_oudiette_n1",
+      "archive_resource_id": "figshare:39472774",
+      "instrument_channels": ["Fp1-A2", "C3-A2", "O1-A2"],
+      "declared_people": 63,
+      "declared_awakenings": 246,
+      "reference_status": "source A2 mastoid; preserve actualchannelnames",
+      "units_status": "EDF physicaldimensionfieldsblank; producerunitsqualificationrequiredbeforescoring"
+    }
+  },
+  "behaviour": {
+    "pilot_study": "nasioulas2024feedback",
+    "study_match": "caseinsensitive_study_or_experiment_contains",
+    "max_centaur_sessions": 12,
+    "max_centaur_responses": 4,
+    "response_alphabet": ["L", "R"],
+    "alphabet_evidence": "original pinned task generator declares selectingLeft/Right via L/R; responsealphabet fixedfrominstructions before outcomes",
+    "development_only": true,
+    "centaur_training_overlap": "retainis_psych101/is_psych101_test/in_eval; tasknoveltydoesnotproveLLMpretrainingunexposed",
+    "max_context_tokens": 4096,
+    "selected_native_layers": [20, 60],
+    "ablation_layer": 60
+  },
+  "centaur": {
+    "base_source_id": "centaur_base_4bit",
+    "adapter_source_id": "centaur_adapter",
+    "base_repository": "unsloth/Meta-Llama-3.1-70B-bnb-4bit",
+    "base_revision": "a009b8db2439814febe725486a5ed388f12a8744",
+    "adapter_repository": "marcelbinz/Llama-3.1-Centaur-70B-adapter",
+    "adapter_revision": "159600db8be99dc183c289923148dfd96cbd8e07",
+    "license": "Llama3.1communitylicense retained from originalmodelcard",
+    "native_requires_slurm": true,
+    "required_gpu_count": 2,
+    "minimum_total_gpu_memory_gib": 76,
+    "max_cpu_cores": 4,
+    "max_context_tokens": 4096,
+    "trust_remote_code": false,
+    "offline_only": true,
+    "runtime_dependencies": ["torch>=2.5", "transformers>=4.49,<5", "peft>=0.13,<1", "accelerate>=1,<2", "bitsandbytes>=0.45,<1", "safetensors>=0.4", "sentencepiece"]
+  }
+}

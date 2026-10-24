@@ -1,0 +1,75 @@
+{
+  "status": "completed_existing_native_pathway_balance",
+  "version": "native_pathway_voltage_balance_v1",
+  "seed": 20261024,
+  "raw_file_reads": 246,
+  "raw_bytes_read": 1846382491,
+  "maximum_raw_file_reads": 281,
+  "existing_control_pulse_pairs": 48,
+  "supported_zero_input_configurations": 185,
+  "n_population_balance_rows": 7524,
+  "n_edge_timing_rows": 1968,
+  "pair_sum_identity_passed": 48,
+  "population_sum_identity_failed_rows": 0,
+  "matched_comparison_dispositions": {
+    "supported_zero_input_fluctuations": {
+      "score:score_matched": 1014,
+      "score_and_conventional_features:feature_acf_500ms_outside_tolerance": 24,
+      "score:different_input": 2522,
+      "score_and_conventional_features:different_input": 2522,
+      "score:different_implementation": 8500,
+      "score_and_conventional_features:different_implementation": 8500,
+      "score:score_outside_tolerance": 1989,
+      "score_and_conventional_features:score_outside_tolerance": 1989,
+      "score:different_or_unverified_background_noise_stream": 2995,
+      "score_and_conventional_features:different_or_unverified_background_noise_stream": 2995,
+      "score_and_conventional_features:feature_acf_100ms_outside_tolerance": 511,
+      "score_and_conventional_features:amplitude_outside_tolerance": 194,
+      "score_and_conventional_features:mobility_outside_tolerance": 98,
+      "score_and_conventional_features:feature_spectral_entropy_outside_tolerance": 1,
+      "score_and_conventional_features:feature_spectral_centroid_hz_outside_tolerance": 182,
+      "score_and_conventional_features:score_and_conventional_features_matched": 4
+    },
+    "existing_paired_pulse_response": {
+      "score:different_input": 768,
+      "score_and_conventional_features:different_input": 768,
+      "score:score_matched": 168,
+      "score_and_conventional_features:amplitude_outside_tolerance": 27,
+      "score_and_conventional_features:mobility_outside_tolerance": 28,
+      "score_and_conventional_features:feature_spectral_centroid_hz_outside_tolerance": 65,
+      "score_and_conventional_features:feature_acf_100ms_outside_tolerance": 47,
+      "score:score_outside_tolerance": 192,
+      "score_and_conventional_features:score_outside_tolerance": 192,
+      "score_and_conventional_features:score_and_conventional_features_matched": 1
+    }
+  },
+  "bridge_fit_support": {
+    "status": "training_validation_support_only",
+    "sha256": "aa2297809fd4550f1778ea1e1f1e919839ee85e27fbc73fc8dd1481e42387b38",
+    "n_supported_configurations": 185,
+    "not_physiological_equivalence": true,
+    "support_means_fit_support_not_observational_adequacy": true
+  },
+  "matched_comparison_counts": {
+    "supported_zero_input_fluctuations:score": 1014,
+    "supported_zero_input_fluctuations:score_and_conventional_features": 4,
+    "existing_paired_pulse_response:score": 168,
+    "existing_paired_pulse_response:score_and_conventional_features": 1
+  },
+  "strict_supported_pulse_contrasts": 0,
+  "fixed_raw_voltage_floor_V": 1e-12,
+  "per_channel_baseline_SD_scaling": false,
+  "inference": {
+    "one_spatial_node": true,
+    "human_mechanism_established": false,
+    "independent_human_n": 0,
+    "model_configurations_are_human_participants": false,
+    "configuration_bootstrap_is_population_significance": false,
+    "unilateral_pathway_or_loop_intervention": false,
+    "new_simulations": false,
+    "test_outcomes_used_for_configuration_selection": false,
+    "source_variable": "postsynaptic voltage contribution; not reconstructed electric current",
+    "both_human_data_finetunings_before_comparison": "enforced_by_root_driver",
+    "target_participants": 42
+  }
+}

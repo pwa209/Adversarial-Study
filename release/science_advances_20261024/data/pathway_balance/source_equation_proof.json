@@ -1,0 +1,115 @@
+{
+  "status": "actual_compiled_source_voltage_sum_verified",
+  "bank_receipt_sha256": "0a91369dd6898a7627a5eca5036954dc3f82be583b0e18713491c340f40aac83",
+  "variants": [
+    {
+      "variant": "pristine",
+      "source_files": {
+        "population.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/pristine/src/population.cpp",
+          "sha256": "33f007395eac3daa468140aed200ab90141103d136d353130cab3a9dbf1f1002"
+        },
+        "firing_response.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/pristine/src/firing_response.cpp",
+          "sha256": "b2f8cf466b86d1edb82621b2e64fcaa2fda08e0f04821945b4f548abc93ca4a1"
+        },
+        "firing_response.h": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/pristine/src/firing_response.h",
+          "sha256": "df50bdfa362845defce838040fcbc308ad46d3830a38b173a313bd1e350b4b9c"
+        },
+        "dendrite.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/pristine/src/dendrite.cpp",
+          "sha256": "583b57f4066fe5106fbcb8eed88e5cb7e40b022156f429ae1aabb66dd3bcb978"
+        },
+        "dendrite.h": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/pristine/src/dendrite.h",
+          "sha256": "78319cdc884adb36a5d29ce3fe627112d7e9b76ac4de95be2958eb98f1f5eb64"
+        },
+        "dendrite_scaled.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/pristine/src/dendrite_scaled.cpp",
+          "sha256": "c9b49d940b95ca8dfea783e9d5b7001e23f779d8980587ba8d77583955fece0b"
+        },
+        "dumpf.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/pristine/src/dumpf.cpp",
+          "sha256": "16f32f92f3dde007b80080461111283ef7141276ab25252d23ed7c5523fbdbd5"
+        }
+      },
+      "equation_anchors": {
+        "population_delegates_voltage": true,
+        "soma_resets_voltage": true,
+        "soma_sums_saved_dendrite_voltage": true,
+        "soma_voltage_getter": true,
+        "dendrite_voltage_getter": true,
+        "dendrite_output_is_voltage": true,
+        "scaled_output_is_voltage": true,
+        "coupling_already_enters_dendrite": true,
+        "dendrite_integrator_exports_voltage": true,
+        "scaled_kernel_contains_hfac": true,
+        "actual_printed_precision_14": true,
+        "actual_output_is_scientific": true
+      },
+      "reconstructed_equation": "PopulationV_a(t)=sum_j DendriteV_{j->a}(t)",
+      "printed_fractional_decimal_digits": 14,
+      "scientific_notation": true,
+      "per_field_relative_rounding_bound": 5e-15,
+      "sum_relative_tolerance_on_original_raw_scale": 1e-12,
+      "coupling_weight_applied_again": false,
+      "saved_variable_is_electric_current": false
+    },
+    {
+      "variant": "scaled_dendrite_v1_explicit_patch",
+      "source_files": {
+        "population.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/scaled_dendrite_v1_explicit_patch/src/population.cpp",
+          "sha256": "33f007395eac3daa468140aed200ab90141103d136d353130cab3a9dbf1f1002"
+        },
+        "firing_response.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/scaled_dendrite_v1_explicit_patch/src/firing_response.cpp",
+          "sha256": "b2f8cf466b86d1edb82621b2e64fcaa2fda08e0f04821945b4f548abc93ca4a1"
+        },
+        "firing_response.h": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/scaled_dendrite_v1_explicit_patch/src/firing_response.h",
+          "sha256": "df50bdfa362845defce838040fcbc308ad46d3830a38b173a313bd1e350b4b9c"
+        },
+        "dendrite.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/scaled_dendrite_v1_explicit_patch/src/dendrite.cpp",
+          "sha256": "583b57f4066fe5106fbcb8eed88e5cb7e40b022156f429ae1aabb66dd3bcb978"
+        },
+        "dendrite.h": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/scaled_dendrite_v1_explicit_patch/src/dendrite.h",
+          "sha256": "78319cdc884adb36a5d29ce3fe627112d7e9b76ac4de95be2958eb98f1f5eb64"
+        },
+        "dendrite_scaled.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/scaled_dendrite_v1_explicit_patch/src/dendrite_scaled.cpp",
+          "sha256": "bc06735a23b1f9e95cf9dd819eb45096cc99491126e704c566461cc8480e7b2b"
+        },
+        "dumpf.cpp": {
+          "path": "/scratch/pwa209/adversarial-study/results/20261004T210516Z-53593b22ca18/biological_bank/scaled_dendrite_v1_explicit_patch/src/dumpf.cpp",
+          "sha256": "16f32f92f3dde007b80080461111283ef7141276ab25252d23ed7c5523fbdbd5"
+        }
+      },
+      "equation_anchors": {
+        "population_delegates_voltage": true,
+        "soma_resets_voltage": true,
+        "soma_sums_saved_dendrite_voltage": true,
+        "soma_voltage_getter": true,
+        "dendrite_voltage_getter": true,
+        "dendrite_output_is_voltage": true,
+        "scaled_output_is_voltage": true,
+        "coupling_already_enters_dendrite": true,
+        "dendrite_integrator_exports_voltage": true,
+        "scaled_kernel_contains_hfac": true,
+        "actual_printed_precision_14": true,
+        "actual_output_is_scientific": true
+      },
+      "reconstructed_equation": "PopulationV_a(t)=sum_j DendriteV_{j->a}(t)",
+      "printed_fractional_decimal_digits": 14,
+      "scientific_notation": true,
+      "per_field_relative_rounding_bound": 5e-15,
+      "sum_relative_tolerance_on_original_raw_scale": 1e-12,
+      "coupling_weight_applied_again": false,
+      "saved_variable_is_electric_current": false
+    }
+  ],
+  "printed_sum_identity_also_required": true
+}

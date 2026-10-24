@@ -1,0 +1,1011 @@
+{
+  "schema_version": 1,
+  "inventory_as_of_utc": "2026-10-04",
+  "sources": [
+    {
+      "source_id": "dream_registry",
+      "article_id": 22133105,
+      "version": 9,
+      "source_url": "https://bridges.monash.edu/articles/dataset/The_DREAM_database/22133105/9",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "role": "development",
+      "detector_exposure": "unknown",
+      "analyst_exposure": "unknown"
+    },
+    {
+      "source_id": "dream_tononi_serial",
+      "article_id": 23306054,
+      "version": 3,
+      "source_url": "https://bridges.monash.edu/articles/dataset/Tononi_Serial_Awakenings/23306054",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "role": "development",
+      "detector_exposure": "unknown",
+      "analyst_exposure": "unknown"
+    },
+    {
+      "source_id": "dream_oudiette_n1",
+      "article_id": 22210684,
+      "version": 1,
+      "source_url": "https://figshare.com/articles/dataset/Oudiette_N1Data/22210684",
+      "license": {
+        "value": 1,
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "role": "development",
+      "detector_exposure": "unknown",
+      "analyst_exposure": "unknown"
+    },
+    {
+      "source_id": "psych101",
+      "repository": "marcelbinz/Psych-101",
+      "revision": "611565c66395e2787cd7e3305149bb75dc138024",
+      "source_url": "https://huggingface.co/datasets/marcelbinz/Psych-101",
+      "provider_gated": false,
+      "license": "apache-2.0",
+      "role": "development",
+      "detector_exposure": "not_applicable",
+      "analyst_exposure": "unknown"
+    },
+    {
+      "source_id": "psych201",
+      "repository": "marcelbinz/Psych-201",
+      "revision": "5cf12dfa730bff530e45ee92e2e1c9fb24690e98",
+      "source_url": "https://huggingface.co/datasets/marcelbinz/Psych-201",
+      "provider_gated": false,
+      "license": "apache-2.0",
+      "role": "development",
+      "detector_exposure": "not_applicable",
+      "analyst_exposure": "unknown"
+    },
+    {
+      "source_id": "centaur_adapter",
+      "repository": "marcelbinz/Llama-3.1-Centaur-70B-adapter",
+      "revision": "159600db8be99dc183c289923148dfd96cbd8e07",
+      "source_url": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter",
+      "provider_gated": false,
+      "license": "llama3.1",
+      "role": "development",
+      "detector_exposure": "not_applicable",
+      "analyst_exposure": "unknown"
+    },
+    {
+      "source_id": "centaur_base_4bit",
+      "repository": "unsloth/Meta-Llama-3.1-70B-bnb-4bit",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744",
+      "source_url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit",
+      "provider_gated": false,
+      "license": "llama3.1",
+      "role": "development",
+      "detector_exposure": "not_applicable",
+      "analyst_exposure": "unknown"
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": "figshare:49774977",
+      "source_id": "dream_registry",
+      "relative_path": "dream_registry/People.csv",
+      "url": "https://ndownloader.figshare.com/files/49774977",
+      "expected_bytes": 1685,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "5846dc5022a5c36619557d409bcbb3cb"
+      },
+      "kind": "dream_registry",
+      "article_version": 9
+    },
+    {
+      "resource_id": "figshare:59170370",
+      "source_id": "dream_registry",
+      "relative_path": "dream_registry/Data records.csv",
+      "url": "https://ndownloader.figshare.com/files/59170370",
+      "expected_bytes": 357539,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "6f9be5b4abb0b603ee802fffb015155f"
+      },
+      "kind": "dream_registry",
+      "article_version": 9
+    },
+    {
+      "resource_id": "figshare:59170373",
+      "source_id": "dream_registry",
+      "relative_path": "dream_registry/Datasets.csv",
+      "url": "https://ndownloader.figshare.com/files/59170373",
+      "expected_bytes": 170822,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "6382c9feafcf396acf85ab09e5a3298b"
+      },
+      "kind": "dream_registry",
+      "article_version": 9
+    },
+    {
+      "resource_id": "figshare:59168237",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part1-No_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/59168237",
+      "expected_bytes": 384182,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "6c462e696af37ed08be663cb0897ca90"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090870",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part2-s01_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090870",
+      "expected_bytes": 174803546,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "df8106d9654ae3563edce83adac84fb7"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091467",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part3-s02_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091467",
+      "expected_bytes": 285927670,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "8d7c56d9728ec75c448cb1bfc2a437a2"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091458",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part4-s03_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091458",
+      "expected_bytes": 234983735,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "b09300860a14a28cb3132e04403db1c3"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091452",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part5-s04_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091452",
+      "expected_bytes": 228248384,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "d00a50ad22cb0dfcc90dc8b897194fb4"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091578",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part6-s05_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091578",
+      "expected_bytes": 176815256,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "491c88c426d00622dff87448b418e7f0"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091584",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part7-s06_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091584",
+      "expected_bytes": 144796818,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "0c11d5a7393224b9a6c2a1851eb0ea91"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091455",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part8-s07_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091455",
+      "expected_bytes": 177726581,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "4b7e5dd5c39af49a38b403f50a2f409d"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091449",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part9-s08_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091449",
+      "expected_bytes": 203469419,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "5c35c8de4bd823471d97bff3e2372a10"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091464",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part10-s09_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091464",
+      "expected_bytes": 224310244,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "9af13389ccd856ef7a609706144a931c"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091470",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part11-s10_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091470",
+      "expected_bytes": 144221748,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "9de6ff6850957d66d8d9e50f82ebe575"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41091461",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part12-s11_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41091461",
+      "expected_bytes": 175430096,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "dae92dce0f4eb6d263307718f9bc6123"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090909",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part13-s12_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090909",
+      "expected_bytes": 176694473,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "590af30a23b9533e57be3ad0b0bf6006"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090912",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part14-s13_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090912",
+      "expected_bytes": 175050735,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "af2ed314531a69587771e0cd1705f6d5"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090915",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part15-s14_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090915",
+      "expected_bytes": 174425502,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "80bd2713dbe8d4ed0e4db1d888bb8248"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090918",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part16-s15_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090918",
+      "expected_bytes": 175996070,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "0677b1f1e2e9871a0c286e646ced4733"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090924",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part17-s16_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090924",
+      "expected_bytes": 235569116,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "9203dbc54fad2febe1e08735a739a069"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090927",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part18-s17_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090927",
+      "expected_bytes": 204803408,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "448208e26a6bbd5ee3dd1b2b40609b69"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090933",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part19-s18_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090933",
+      "expected_bytes": 176483778,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "f8e1e3e382cadba00838f16c5e692092"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090936",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part20-s19_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090936",
+      "expected_bytes": 234976026,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "1bef4337ca4357052c857bb2f3cbda26"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090939",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part21-s20_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090939",
+      "expected_bytes": 176759994,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "03a94675d2d50556fd1c76dedc6c39e6"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090942",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part22-s21_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090942",
+      "expected_bytes": 201857329,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "152435d8a9189f8b403cbe6c2499ca2e"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090945",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part23-s22_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090945",
+      "expected_bytes": 144236672,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "0340224dc0051c4acb91fb977e9599e2"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090951",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part24-s23_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090951",
+      "expected_bytes": 359415323,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "6070e7d65cf16978e8ba60a086910cdb"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090954",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part25-s24_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090954",
+      "expected_bytes": 172236618,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "75f69e3733848b6c726ff80ebc763960"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090957",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part26-s25_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090957",
+      "expected_bytes": 233448046,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "e5ed86d609a3d3afb814a084a04e3c51"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090960",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part27-s26_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090960",
+      "expected_bytes": 162454006,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "51e0cd3909d4d502e0ba4ee0cb06df54"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090963",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part28-s27_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090963",
+      "expected_bytes": 323549849,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "63d17448f1067f83e502884c7f0c3dda"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090966",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part29-s28_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090966",
+      "expected_bytes": 224383593,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "d018cb7f41b3cdb02cd65388d9768352"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090969",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part30-s29_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090969",
+      "expected_bytes": 352854374,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "8bea4cde99882b30bf2a83987a6a978c"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090972",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part31-s30_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090972",
+      "expected_bytes": 267703383,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "621b0765a11f3fe6309714aee393111b"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090975",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part32-s31_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090975",
+      "expected_bytes": 321751473,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "af34ec8ff5f18c3d98faeb7fbc24fab9"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090978",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part33-s32_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090978",
+      "expected_bytes": 174011435,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "809d9e23d7db22c75e593254d859bc17"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090981",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part34-s33_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090981",
+      "expected_bytes": 262979170,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "d8b66779f6e470da6e0a36d56aac88b5"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090984",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part35-s34_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090984",
+      "expected_bytes": 175180599,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "7b4cf4e4395e04e28824d1fa7a83d6d0"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090990",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part36-s35_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090990",
+      "expected_bytes": 292986841,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "5a5c14ff6b6430c2a38f33901571163e"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:41090993",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part37-s36_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/41090993",
+      "expected_bytes": 207488061,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "e6f2b73bb960ad3a74067321d8107adb"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:59168246",
+      "source_id": "dream_tononi_serial",
+      "relative_path": "dream_tononi_serial/Tononi Serial Awakenings-Part38-s37_s38_s39_PSGs.zip",
+      "url": "https://ndownloader.figshare.com/files/59168246",
+      "expected_bytes": 630683780,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "71fcd73474dd931d0ac5f32cac75b9ce"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 3
+    },
+    {
+      "resource_id": "figshare:39472774",
+      "source_id": "dream_oudiette_n1",
+      "relative_path": "dream_oudiette_n1/Oudiette_N1Data.zip",
+      "url": "https://ndownloader.figshare.com/files/39472774",
+      "expected_bytes": 43261557,
+      "checksum": {
+        "algorithm": "md5",
+        "value": "176b7a5de4f3c0bea0a90891889bd954"
+      },
+      "kind": "dream_dataset_archive",
+      "article_version": 1
+    },
+    {
+      "resource_id": "psych101:prompts_training.jsonl",
+      "source_id": "psych101",
+      "relative_path": "psych101/prompts_training.jsonl",
+      "url": "https://huggingface.co/datasets/marcelbinz/Psych-101/resolve/611565c66395e2787cd7e3305149bb75dc138024/prompts_training.jsonl?download=true",
+      "expected_bytes": 859179475,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "7a370a94084acd6f73f20d6559214683cfadcab8a1f69e369df285ba75ccef01"
+      },
+      "kind": "dataset",
+      "revision": "611565c66395e2787cd7e3305149bb75dc138024"
+    },
+    {
+      "resource_id": "psych201:data/train-00000-of-00007.parquet",
+      "source_id": "psych201",
+      "relative_path": "psych201/data/train-00000-of-00007.parquet",
+      "url": "https://huggingface.co/datasets/marcelbinz/Psych-201/resolve/5cf12dfa730bff530e45ee92e2e1c9fb24690e98/data/train-00000-of-00007.parquet?download=true",
+      "expected_bytes": 72170773,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "4221eaba27eca892ee703216417550962d687d61f86dad18ddce37a31998be89"
+      },
+      "kind": "dataset",
+      "revision": "5cf12dfa730bff530e45ee92e2e1c9fb24690e98"
+    },
+    {
+      "resource_id": "psych201:data/train-00001-of-00007.parquet",
+      "source_id": "psych201",
+      "relative_path": "psych201/data/train-00001-of-00007.parquet",
+      "url": "https://huggingface.co/datasets/marcelbinz/Psych-201/resolve/5cf12dfa730bff530e45ee92e2e1c9fb24690e98/data/train-00001-of-00007.parquet?download=true",
+      "expected_bytes": 77750726,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "ff20a3974c660499892e92e2ede8b3dfdd18ab4a6db732fbe1b8d4fa4e909f6c"
+      },
+      "kind": "dataset",
+      "revision": "5cf12dfa730bff530e45ee92e2e1c9fb24690e98"
+    },
+    {
+      "resource_id": "psych201:data/train-00002-of-00007.parquet",
+      "source_id": "psych201",
+      "relative_path": "psych201/data/train-00002-of-00007.parquet",
+      "url": "https://huggingface.co/datasets/marcelbinz/Psych-201/resolve/5cf12dfa730bff530e45ee92e2e1c9fb24690e98/data/train-00002-of-00007.parquet?download=true",
+      "expected_bytes": 78020863,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "410fe80fef19e9dcb42589a2a26117b9246e762edc93818b7e05c035ef792949"
+      },
+      "kind": "dataset",
+      "revision": "5cf12dfa730bff530e45ee92e2e1c9fb24690e98"
+    },
+    {
+      "resource_id": "psych201:data/train-00003-of-00007.parquet",
+      "source_id": "psych201",
+      "relative_path": "psych201/data/train-00003-of-00007.parquet",
+      "url": "https://huggingface.co/datasets/marcelbinz/Psych-201/resolve/5cf12dfa730bff530e45ee92e2e1c9fb24690e98/data/train-00003-of-00007.parquet?download=true",
+      "expected_bytes": 76918108,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "4efe5b5993639abf8a41677d6638c58ccb402b6068f5f721a0ea85e2d1ad5e4c"
+      },
+      "kind": "dataset",
+      "revision": "5cf12dfa730bff530e45ee92e2e1c9fb24690e98"
+    },
+    {
+      "resource_id": "psych201:data/train-00004-of-00007.parquet",
+      "source_id": "psych201",
+      "relative_path": "psych201/data/train-00004-of-00007.parquet",
+      "url": "https://huggingface.co/datasets/marcelbinz/Psych-201/resolve/5cf12dfa730bff530e45ee92e2e1c9fb24690e98/data/train-00004-of-00007.parquet?download=true",
+      "expected_bytes": 78547868,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "a2172ea5cdcf0f52f439e17778bab49e23b86ce40c0682fafc631367f322728b"
+      },
+      "kind": "dataset",
+      "revision": "5cf12dfa730bff530e45ee92e2e1c9fb24690e98"
+    },
+    {
+      "resource_id": "psych201:data/train-00005-of-00007.parquet",
+      "source_id": "psych201",
+      "relative_path": "psych201/data/train-00005-of-00007.parquet",
+      "url": "https://huggingface.co/datasets/marcelbinz/Psych-201/resolve/5cf12dfa730bff530e45ee92e2e1c9fb24690e98/data/train-00005-of-00007.parquet?download=true",
+      "expected_bytes": 78729855,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "e906746a3e9c7c608b14dcf13c51ee0449f73fda5f7a41e143998a732b5231e3"
+      },
+      "kind": "dataset",
+      "revision": "5cf12dfa730bff530e45ee92e2e1c9fb24690e98"
+    },
+    {
+      "resource_id": "psych201:data/train-00006-of-00007.parquet",
+      "source_id": "psych201",
+      "relative_path": "psych201/data/train-00006-of-00007.parquet",
+      "url": "https://huggingface.co/datasets/marcelbinz/Psych-201/resolve/5cf12dfa730bff530e45ee92e2e1c9fb24690e98/data/train-00006-of-00007.parquet?download=true",
+      "expected_bytes": 78434018,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "cfc8464336639cb8af7bf25ebbab70b600bd67a84999ecab4862be957ef0a834"
+      },
+      "kind": "dataset",
+      "revision": "5cf12dfa730bff530e45ee92e2e1c9fb24690e98"
+    },
+    {
+      "resource_id": "centaur_adapter:README.md",
+      "source_id": "centaur_adapter",
+      "relative_path": "centaur_adapter/README.md",
+      "url": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter/resolve/159600db8be99dc183c289923148dfd96cbd8e07/README.md?download=true",
+      "expected_bytes": 2943,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "19c274a9983bd45c564e5b4c18327ac96d50fd4c"
+      },
+      "kind": "model",
+      "revision": "159600db8be99dc183c289923148dfd96cbd8e07"
+    },
+    {
+      "resource_id": "centaur_adapter:adapter_config.json",
+      "source_id": "centaur_adapter",
+      "relative_path": "centaur_adapter/adapter_config.json",
+      "url": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter/resolve/159600db8be99dc183c289923148dfd96cbd8e07/adapter_config.json?download=true",
+      "expected_bytes": 737,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "683bcd5f8bf33f5edf446c3ebfc88c184d725ae4"
+      },
+      "kind": "model",
+      "revision": "159600db8be99dc183c289923148dfd96cbd8e07"
+    },
+    {
+      "resource_id": "centaur_adapter:adapter_model.safetensors",
+      "source_id": "centaur_adapter",
+      "relative_path": "centaur_adapter/adapter_model.safetensors",
+      "url": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter/resolve/159600db8be99dc183c289923148dfd96cbd8e07/adapter_model.safetensors?download=true",
+      "expected_bytes": 414337624,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "e2c82498b271d79605700fe51261c9f83a216032b66efc2cf239a51a41cb0475"
+      },
+      "kind": "model",
+      "revision": "159600db8be99dc183c289923148dfd96cbd8e07"
+    },
+    {
+      "resource_id": "centaur_adapter:special_tokens_map.json",
+      "source_id": "centaur_adapter",
+      "relative_path": "centaur_adapter/special_tokens_map.json",
+      "url": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter/resolve/159600db8be99dc183c289923148dfd96cbd8e07/special_tokens_map.json?download=true",
+      "expected_bytes": 321,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "8c5000bac7e9ae1d6411a10b95f5f19469742a08"
+      },
+      "kind": "model",
+      "revision": "159600db8be99dc183c289923148dfd96cbd8e07"
+    },
+    {
+      "resource_id": "centaur_adapter:tokenizer.json",
+      "source_id": "centaur_adapter",
+      "relative_path": "centaur_adapter/tokenizer.json",
+      "url": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter/resolve/159600db8be99dc183c289923148dfd96cbd8e07/tokenizer.json?download=true",
+      "expected_bytes": 9085830,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "5c078f41f1df2918a19a9076afc6131824e31632"
+      },
+      "kind": "model",
+      "revision": "159600db8be99dc183c289923148dfd96cbd8e07"
+    },
+    {
+      "resource_id": "centaur_adapter:tokenizer_config.json",
+      "source_id": "centaur_adapter",
+      "relative_path": "centaur_adapter/tokenizer_config.json",
+      "url": "https://huggingface.co/marcelbinz/Llama-3.1-Centaur-70B-adapter/resolve/159600db8be99dc183c289923148dfd96cbd8e07/tokenizer_config.json?download=true",
+      "expected_bytes": 50709,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "c51624d77a335e161ad51f9a05ba3c30cc246d27"
+      },
+      "kind": "model",
+      "revision": "159600db8be99dc183c289923148dfd96cbd8e07"
+    },
+    {
+      "resource_id": "centaur_base_4bit:README.md",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/README.md",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/README.md?download=true",
+      "expected_bytes": 3543,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "cb8978e08de2726e11ca1589ddb9d13ee6f4aaf2"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:config.json",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/config.json",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/config.json?download=true",
+      "expected_bytes": 1408,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "4242c89fa099869aff23c883533fb95ad36e8976"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:generation_config.json",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/generation_config.json",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/generation_config.json?download=true",
+      "expected_bytes": 230,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "81d2a88b4178fc364aef55cc90392290ba5440c8"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:model-00001-of-00006.safetensors",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/model-00001-of-00006.safetensors",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/model-00001-of-00006.safetensors?download=true",
+      "expected_bytes": 6996182218,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "59f3d9a3bd54c6c142e2a639298c578686303fd184fde02fa8aa523af2fed521"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:model-00002-of-00006.safetensors",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/model-00002-of-00006.safetensors",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/model-00002-of-00006.safetensors?download=true",
+      "expected_bytes": 6902952280,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "239273f7e679cc0becb96f9eb8df4cdb1531d50a2680b7b744ee551b7fb5eea4"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:model-00003-of-00006.safetensors",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/model-00003-of-00006.safetensors",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/model-00003-of-00006.safetensors?download=true",
+      "expected_bytes": 6941936080,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "6fc88f338d8599fb8b5974e231f66e791a43041a86b3605d8ffa26018a926638"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:model-00004-of-00006.safetensors",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/model-00004-of-00006.safetensors",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/model-00004-of-00006.safetensors?download=true",
+      "expected_bytes": 6941936084,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "e02775f1859e8af9a601321fe0d5e6e4c2d277715d2bb69b0f71c258d1e496f2"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:model-00005-of-00006.safetensors",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/model-00005-of-00006.safetensors",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/model-00005-of-00006.safetensors?download=true",
+      "expected_bytes": 6985204337,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "a570a22176751a70a7a4370aab7bc4e805f8d5c45a25612ba46744b704346dad"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:model-00006-of-00006.safetensors",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/model-00006-of-00006.safetensors",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/model-00006-of-00006.safetensors?download=true",
+      "expected_bytes": 4750027596,
+      "checksum": {
+        "algorithm": "sha256",
+        "value": "b5ed77896ad812d2bbbbba668c80911b81af170eb33bdcbfc412b514646ea521"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:model.safetensors.index.json",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/model.safetensors.index.json",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/model.safetensors.index.json?download=true",
+      "expected_bytes": 330944,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "a514fd2418fa0538bead84b3cb368d0032350591"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:special_tokens_map.json",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/special_tokens_map.json",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/special_tokens_map.json?download=true",
+      "expected_bytes": 345,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "23204cfa065f6f94d14cc829390fd375bbf9c313"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:tokenizer.json",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/tokenizer.json",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/tokenizer.json?download=true",
+      "expected_bytes": 9085657,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "5cc5f00a5b203e90a27a3bd60d1ec393b07971e8"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    },
+    {
+      "resource_id": "centaur_base_4bit:tokenizer_config.json",
+      "source_id": "centaur_base_4bit",
+      "relative_path": "centaur_base_4bit/tokenizer_config.json",
+      "url": "https://huggingface.co/unsloth/Meta-Llama-3.1-70B-bnb-4bit/resolve/a009b8db2439814febe725486a5ed388f12a8744/tokenizer_config.json?download=true",
+      "expected_bytes": 50570,
+      "checksum": {
+        "algorithm": "git_blob_sha1",
+        "value": "fcacf1b006843b1eaf8d0c5735321d100b4b7748"
+      },
+      "kind": "model",
+      "revision": "a009b8db2439814febe725486a5ed388f12a8744"
+    }
+  ],
+  "selected_footprint_bytes": 49803830078,
+  "constraints": {
+    "max_shared_scratch_bytes": 1000000000000,
+    "max_shared_entries": 150000,
+    "max_bytes_per_second": 8388608,
+    "all_scientific_compute_requires_slurm": true
+  },
+  "pilot": {
+    "resource_ids": [
+      "figshare:59168237",
+      "figshare:41090870",
+      "psych201:data/train-00000-of-00007.parquet"
+    ]
+  },
+  "qualification_notes": {
+    "dream_tononi_serial": "Original v3 package includes39 people/287 N2 awakenings; unknown clinical detector training exposure; source selection already includes DE/NE within-night participants. EDF source units uV. 121s export vs120s Records duration handled using authoritative Records time, not EOF.",
+    "dream_oudiette_n1": "63 people/246 awakenings; physical dimensions blank in inspected EDF; scoring blocked until explicit units evidence.",
+    "psych201": "208021 sessions, not EEG participants; provider overlap/exposure flags preserved; tasks and sessions counted separately.",
+    "centaur": "Official adapter+documented4bit base pinned; model licensing retained; native teacher-forced likelihood and selected representations only on genuine GPU allocations; model scores are not human consciousness."
+  }
+}

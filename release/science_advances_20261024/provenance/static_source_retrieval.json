@@ -1,0 +1,13 @@
+{
+  "source": "Previously pinned original inventory and author sensor coordinates; copied without modification",
+  "files": {
+    "simulation_inventory.csv": {
+      "sha256": "1c2876091578167d2c93ae41a6f5602619e407f99fe56c07cda4148e579acb4f",
+      "bytes": 530414
+    },
+    "electrode_coordinates.sfp": {
+      "sha256": "59885415704f21152304183670a947547d1651a0862a8ee41ce5e5eb71ca5c29",
+      "bytes": 10942
+    }
+  }
+}

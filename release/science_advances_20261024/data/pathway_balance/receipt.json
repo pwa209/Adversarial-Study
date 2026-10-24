@@ -1,0 +1,20 @@
+{
+  "status": "completed_existing_native_pathway_balance",
+  "version": "native_pathway_voltage_balance_v1",
+  "seed": 20261024,
+  "output_sha256": {
+    "pair_voltage_sum_proof.csv": "60f65194c454431510e987ffc0ec10979d3ce6def54e79ace444dacf9819eefd",
+    "source_equation_proof.json": "3929d5d3acd76c0ff5d63b46343bc1b4986e5c5b1c51bf78830016c0735feb29",
+    "edge_response_timing.csv": "1c2f626f23e7d114a11b16fbd4c534671f3d7eaaeec7c4e8ec670202a9d4bf6e",
+    "configuration_dispositions.csv": "18334a605784adcab941451ffe9841d17d7c5e1be05dd398bc1f778a5ae0dca1",
+    "population_pathway_balance.csv": "263e57337636e91ae407fef68855407cc823cbf5ccc46728d71326fd83bd3bb3",
+    "summary.json": "6d1bf7c36e6a4a98a708355d78729e86e2d305c5658c8f0fbe6d938668856655",
+    "matched_pathway_contrasts.csv": "bf2717c4288c60da02e7d22dd75d36fae95e4dd776b20e44189af01c4a32c184",
+    "configuration_summary.csv": "3944e0e36001e304f3ca1f259c5f3d3132fc9370b19c65e8f6d1865de991a191",
+    "configuration_cluster_bootstrap.json": "5c340c6ae9d36e684b9517498a8ab516ad820fdd9275d414d0b099380f9350a3"
+  },
+  "raw_file_reads": 246,
+  "raw_bytes_read": 1846382491,
+  "target_participants": 42,
+  "both_human_data_finetunings_before_comparison": "enforced_by_root_driver"
+}

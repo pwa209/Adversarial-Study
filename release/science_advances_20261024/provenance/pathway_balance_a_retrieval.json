@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-24T12:19:42.986454+00:00",
+  "scientific_receipt_sha256": "273f3b3658c65ecc195e757afe5abdc92f18d23a48b04476b2b44dd8af4bc6d9",
+  "raw_arrays_loaded": false,
+  "files": {
+    "pathway_balance/population_pathway_balance.csv": {
+      "sha256": "263e57337636e91ae407fef68855407cc823cbf5ccc46728d71326fd83bd3bb3",
+      "bytes": 4882433
+    }
+  }
+}

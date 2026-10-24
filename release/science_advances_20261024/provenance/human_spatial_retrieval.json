@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-24T12:19:04.086932+00:00",
+  "scientific_receipt_sha256": "273f3b3658c65ecc195e757afe5abdc92f18d23a48b04476b2b44dd8af4bc6d9",
+  "raw_arrays_loaded": false,
+  "files": {
+    "human_spatial/episode_features.csv": {
+      "sha256": "190403ecdc167c801c52901eab20c2c6e65a65ad24074e00aa74131c9afceb28",
+      "bytes": 997130
+    },
+    "human_spatial/held_person_predictions.csv": {
+      "sha256": "3c0a7359aa6aa724f29f6719c5c5ee9da0e2bb0cf8cfeb5685c155b110a74dd5",
+      "bytes": 61055
+    },
+    "human_spatial/episode_dispositions.csv": {
+      "sha256": "4082420d116ea5f9b5f86d5fcdfd46310a4c3f19ee57ae263b3a85a1d93af3cd",
+      "bytes": 41654
+    },
+    "human_spatial/summary.json": {
+      "sha256": "94201a695b9376d14948bb0221d54128082ecb2a272c9e314b30119be0714800",
+      "bytes": 47055
+    },
+    "human_spatial/models.json": {
+      "sha256": "9e725f9f0a9dcf880b0e35524deba6f3703bdba5b18cb6c1431739c05edcb637",
+      "bytes": 30510
+    },
+    "human_spatial/matched_pairs.csv": {
+      "sha256": "b756be9f687b6a4c7eda031d497ce0d908fa896901a7fffc04a771a50aa0117f",
+      "bytes": 14806
+    },
+    "human_spatial/receipt.json": {
+      "sha256": "559fb77e542d70862267827942abec8782b753db35cf58b8d54c1f33ada18e30",
+      "bytes": 48582
+    }
+  }
+}

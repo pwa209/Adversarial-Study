@@ -1,0 +1,9 @@
+{
+  "source_files_verified": 37,
+  "byte_identical_source_csv_tables": 22,
+  "json_leaf_values_exported": 42612,
+  "numerical_json_leaves_exported": 7712,
+  "new_fits_tests_or_bootstraps": false,
+  "new_descriptive_summary_rows": 58,
+  "scope": "All saved aggregate result tables and every JSON leaf in the 37 pinned sources underlying this manuscript and figure set, including nulls, model coefficients, sensitivity tests, and diagnostic results."
+}

@@ -1,0 +1,1506 @@
+{
+  "status": "human_spatial_completed",
+  "seed": 20261024,
+  "question": "Does fixed posterior sensor delta power add report information beyond global delta and clinical score?",
+  "retrospective_development": true,
+  "new_independent_people": false,
+  "original_split_preserved": true,
+  "bootstrap_adds_independent_people": false,
+  "eligible_episodes": 183,
+  "eligible_people": 31,
+  "disposition_counts": {
+    "qualified_fixed_ROIs_both_references": 183,
+    "Insufficient fixed global ROI coverage (<80%)": 2,
+    "Insufficient fixed posterior ROI coverage (<80%)": 1,
+    "Insufficient fixed frontal ROI coverage (<80%)": 4
+  },
+  "fixed_roi_geometry": {
+    "coordinate_units": "author_EGI_centimeters",
+    "orientation": "+Y anterior, +Z superior",
+    "global": "z>=0",
+    "posterior": "y<=-3 and z>=0",
+    "frontal": "y>=3 and z>=0",
+    "minimum_coverage_fraction": 0.8
+  },
+  "roi_channels": {
+    "global": [
+      "Chan 100",
+      "Chan 101",
+      "Chan 107",
+      "Chan 108",
+      "Chan 109",
+      "Chan 11",
+      "Chan 110",
+      "Chan 116",
+      "Chan 117",
+      "Chan 118",
+      "Chan 119",
+      "Chan 12",
+      "Chan 125",
+      "Chan 126",
+      "Chan 127",
+      "Chan 128",
+      "Chan 129",
+      "Chan 13",
+      "Chan 130",
+      "Chan 131",
+      "Chan 132",
+      "Chan 138",
+      "Chan 139",
+      "Chan 14",
+      "Chan 140",
+      "Chan 141",
+      "Chan 142",
+      "Chan 143",
+      "Chan 144",
+      "Chan 15",
+      "Chan 150",
+      "Chan 151",
+      "Chan 152",
+      "Chan 153",
+      "Chan 154",
+      "Chan 155",
+      "Chan 16",
+      "Chan 160",
+      "Chan 161",
+      "Chan 162",
+      "Chan 163",
+      "Chan 164",
+      "Chan 17",
+      "Chan 170",
+      "Chan 171",
+      "Chan 172",
+      "Chan 173",
+      "Chan 179",
+      "Chan 18",
+      "Chan 180",
+      "Chan 181",
+      "Chan 182",
+      "Chan 183",
+      "Chan 184",
+      "Chan 185",
+      "Chan 186",
+      "Chan 19",
+      "Chan 193",
+      "Chan 194",
+      "Chan 195",
+      "Chan 196",
+      "Chan 197",
+      "Chan 198",
+      "Chan 2",
+      "Chan 20",
+      "Chan 203",
+      "Chan 204",
+      "Chan 205",
+      "Chan 206",
+      "Chan 207",
+      "Chan 21",
+      "Chan 211",
+      "Chan 212",
+      "Chan 213",
+      "Chan 214",
+      "Chan 215",
+      "Chan 22",
+      "Chan 221",
+      "Chan 222",
+      "Chan 223",
+      "Chan 224",
+      "Chan 23",
+      "Chan 24",
+      "Chan 25",
+      "Chan 257",
+      "Chan 26",
+      "Chan 27",
+      "Chan 28",
+      "Chan 29",
+      "Chan 3",
+      "Chan 30",
+      "Chan 32",
+      "Chan 33",
+      "Chan 34",
+      "Chan 35",
+      "Chan 36",
+      "Chan 37",
+      "Chan 38",
+      "Chan 39",
+      "Chan 4",
+      "Chan 40",
+      "Chan 41",
+      "Chan 42",
+      "Chan 43",
+      "Chan 44",
+      "Chan 45",
+      "Chan 47",
+      "Chan 48",
+      "Chan 49",
+      "Chan 5",
+      "Chan 50",
+      "Chan 51",
+      "Chan 52",
+      "Chan 53",
+      "Chan 55",
+      "Chan 56",
+      "Chan 57",
+      "Chan 58",
+      "Chan 59",
+      "Chan 6",
+      "Chan 60",
+      "Chan 62",
+      "Chan 63",
+      "Chan 64",
+      "Chan 65",
+      "Chan 66",
+      "Chan 7",
+      "Chan 70",
+      "Chan 71",
+      "Chan 72",
+      "Chan 75",
+      "Chan 76",
+      "Chan 77",
+      "Chan 78",
+      "Chan 79",
+      "Chan 8",
+      "Chan 80",
+      "Chan 81",
+      "Chan 84",
+      "Chan 85",
+      "Chan 86",
+      "Chan 87",
+      "Chan 88",
+      "Chan 89",
+      "Chan 9",
+      "Chan 90",
+      "Chan 96",
+      "Chan 97",
+      "Chan 98",
+      "Chan 99"
+    ],
+    "posterior": [
+      "Chan 100",
+      "Chan 101",
+      "Chan 107",
+      "Chan 108",
+      "Chan 109",
+      "Chan 110",
+      "Chan 116",
+      "Chan 117",
+      "Chan 118",
+      "Chan 119",
+      "Chan 125",
+      "Chan 126",
+      "Chan 127",
+      "Chan 128",
+      "Chan 129",
+      "Chan 130",
+      "Chan 138",
+      "Chan 139",
+      "Chan 140",
+      "Chan 141",
+      "Chan 142",
+      "Chan 143",
+      "Chan 150",
+      "Chan 151",
+      "Chan 152",
+      "Chan 153",
+      "Chan 154",
+      "Chan 160",
+      "Chan 161",
+      "Chan 162",
+      "Chan 163",
+      "Chan 170",
+      "Chan 171",
+      "Chan 172",
+      "Chan 179",
+      "Chan 76",
+      "Chan 77",
+      "Chan 78",
+      "Chan 79",
+      "Chan 84",
+      "Chan 85",
+      "Chan 86",
+      "Chan 87",
+      "Chan 88",
+      "Chan 89",
+      "Chan 90",
+      "Chan 96",
+      "Chan 97",
+      "Chan 98",
+      "Chan 99"
+    ],
+    "frontal": [
+      "Chan 11",
+      "Chan 12",
+      "Chan 13",
+      "Chan 14",
+      "Chan 15",
+      "Chan 16",
+      "Chan 18",
+      "Chan 19",
+      "Chan 2",
+      "Chan 20",
+      "Chan 205",
+      "Chan 206",
+      "Chan 207",
+      "Chan 21",
+      "Chan 212",
+      "Chan 213",
+      "Chan 214",
+      "Chan 215",
+      "Chan 22",
+      "Chan 221",
+      "Chan 222",
+      "Chan 223",
+      "Chan 224",
+      "Chan 23",
+      "Chan 24",
+      "Chan 25",
+      "Chan 26",
+      "Chan 27",
+      "Chan 28",
+      "Chan 29",
+      "Chan 3",
+      "Chan 30",
+      "Chan 32",
+      "Chan 33",
+      "Chan 34",
+      "Chan 35",
+      "Chan 36",
+      "Chan 37",
+      "Chan 38",
+      "Chan 39",
+      "Chan 4",
+      "Chan 40",
+      "Chan 41",
+      "Chan 42",
+      "Chan 47",
+      "Chan 48",
+      "Chan 49",
+      "Chan 5",
+      "Chan 50",
+      "Chan 55",
+      "Chan 56",
+      "Chan 6",
+      "Chan 7",
+      "Chan 8"
+    ]
+  },
+  "comparisons": [
+    {
+      "contrast": "experience_presence",
+      "panel": "primary_common_average",
+      "kind": "held_person_incremental_prediction",
+      "case_counts": {
+        "train": 111,
+        "validation": 31,
+        "test": 41
+      },
+      "people_by_role": {
+        "train": [
+          "dream_tononi_serial_1",
+          "dream_tononi_serial_10",
+          "dream_tononi_serial_13",
+          "dream_tononi_serial_14",
+          "dream_tononi_serial_16",
+          "dream_tononi_serial_17",
+          "dream_tononi_serial_18",
+          "dream_tononi_serial_19",
+          "dream_tononi_serial_2",
+          "dream_tononi_serial_20",
+          "dream_tononi_serial_24",
+          "dream_tononi_serial_26",
+          "dream_tononi_serial_27",
+          "dream_tononi_serial_31",
+          "dream_tononi_serial_32",
+          "dream_tononi_serial_33",
+          "dream_tononi_serial_35",
+          "dream_tononi_serial_36",
+          "dream_tononi_serial_5",
+          "dream_tononi_serial_8"
+        ],
+        "validation": [
+          "dream_tononi_serial_12",
+          "dream_tononi_serial_15",
+          "dream_tononi_serial_21",
+          "dream_tononi_serial_34",
+          "dream_tononi_serial_4"
+        ],
+        "test": [
+          "dream_tononi_serial_11",
+          "dream_tononi_serial_25",
+          "dream_tononi_serial_29",
+          "dream_tononi_serial_30",
+          "dream_tononi_serial_6",
+          "dream_tononi_serial_9"
+        ]
+      },
+      "effect_definition": "posterior-augmented minus baseline person-mean Brier loss; negative favors spatial information",
+      "uncertainty_scope": "conditional on frozen train/validation fitted models",
+      "people": 6,
+      "mean": 0.010894158092140288,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.011631219143955937,
+        0.03380040522229443
+      ],
+      "p_signflip": 0.4375,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        0.019927667717670707,
+        0.01385269003976689,
+        0.01252250541098096,
+        0.006369006281407634,
+        0.0017110834215004229,
+        0.010981995681515106
+      ],
+      "baseline_brier": 0.21790408876047593,
+      "spatial_brier": 0.22879824685261618,
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_11",
+          "difference": -0.034273390035511817
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": -0.0038985016459927267
+        },
+        {
+          "participant_id": "dream_tononi_serial_29",
+          "difference": 0.002752421497936914
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 0.03351991714580355
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": 0.05680953144533961
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": 0.0104549701452662
+        }
+      ],
+      "p_holm": 0.9462890625,
+      "multiplicity_family": "four_primary_prediction_and_matched_report_contrasts"
+    },
+    {
+      "contrast": "experience_presence",
+      "panel": "primary_common_average",
+      "kind": "all_people_retrospective_within_person_matched_contrast",
+      "matching": "disjoint deterministic greedy matches; same source/person/N2; score <=.05; global log10(delta power) <=.1",
+      "pairs": 15,
+      "posterior_feature_used_for_matching": false,
+      "effect_definition": "positive report class minus negative class log10(posterior/global delta power)",
+      "people": 13,
+      "mean": -0.04679819230486473,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.11929279731238696,
+        0.020434761608294067
+      ],
+      "p_signflip": 0.236572265625,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        -0.03327775404188737,
+        -0.05339667253245795,
+        -0.0373905763558501,
+        -0.04656507792457079,
+        -0.04034036703422581,
+        -0.046922877533673524,
+        -0.0628921166128817,
+        -0.05899281848386371,
+        -0.04942548684267358,
+        -0.05671672870081828,
+        -0.023546151407191736,
+        -0.05591575572557955,
+        -0.042994116767567404
+      ],
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_1",
+          "difference": -0.20904345146059314
+        },
+        {
+          "participant_id": "dream_tononi_serial_10",
+          "difference": 0.032383570426253956
+        },
+        {
+          "participant_id": "dream_tononi_serial_12",
+          "difference": -0.1596895836930403
+        },
+        {
+          "participant_id": "dream_tononi_serial_17",
+          "difference": -0.04959556486839199
+        },
+        {
+          "participant_id": "dream_tononi_serial_20",
+          "difference": -0.1242920955525318
+        },
+        {
+          "participant_id": "dream_tononi_serial_21",
+          "difference": -0.04530196955915926
+        },
+        {
+          "participant_id": "dream_tononi_serial_24",
+          "difference": 0.14632889939133897
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.09953732184312306
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": -0.01527065785115854
+        },
+        {
+          "participant_id": "dream_tononi_serial_32",
+          "difference": 0.0722242444465778
+        },
+        {
+          "participant_id": "dream_tononi_serial_33",
+          "difference": -0.3258226830769407
+        },
+        {
+          "participant_id": "dream_tononi_serial_35",
+          "difference": 0.06261256874371318
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": -0.0924470987524326
+        }
+      ],
+      "p_holm": 0.9462890625,
+      "multiplicity_family": "four_primary_prediction_and_matched_report_contrasts"
+    },
+    {
+      "contrast": "content_recall_given_experience",
+      "panel": "primary_common_average",
+      "kind": "held_person_incremental_prediction",
+      "case_counts": {
+        "train": 68,
+        "validation": 15,
+        "test": 29
+      },
+      "people_by_role": {
+        "train": [
+          "dream_tononi_serial_1",
+          "dream_tononi_serial_10",
+          "dream_tononi_serial_13",
+          "dream_tononi_serial_14",
+          "dream_tononi_serial_16",
+          "dream_tononi_serial_17",
+          "dream_tononi_serial_18",
+          "dream_tononi_serial_19",
+          "dream_tononi_serial_2",
+          "dream_tononi_serial_20",
+          "dream_tononi_serial_24",
+          "dream_tononi_serial_26",
+          "dream_tononi_serial_27",
+          "dream_tononi_serial_32",
+          "dream_tononi_serial_33",
+          "dream_tononi_serial_35",
+          "dream_tononi_serial_36",
+          "dream_tononi_serial_5",
+          "dream_tononi_serial_8"
+        ],
+        "validation": [
+          "dream_tononi_serial_12",
+          "dream_tononi_serial_15",
+          "dream_tononi_serial_21",
+          "dream_tononi_serial_34",
+          "dream_tononi_serial_4"
+        ],
+        "test": [
+          "dream_tononi_serial_11",
+          "dream_tononi_serial_25",
+          "dream_tononi_serial_29",
+          "dream_tononi_serial_30",
+          "dream_tononi_serial_6",
+          "dream_tononi_serial_9"
+        ]
+      },
+      "effect_definition": "posterior-augmented minus baseline person-mean Brier loss; negative favors spatial information",
+      "uncertainty_scope": "conditional on frozen train/validation fitted models",
+      "people": 6,
+      "mean": 0.003790984298531102,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.00082394391706448,
+        0.008502993266916533
+      ],
+      "p_signflip": 0.28125,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        0.0038988497827978676,
+        0.004657330352406529,
+        0.005402464988010594,
+        0.002006716706108637,
+        0.0025151647755937874,
+        0.004265379186269197
+      ],
+      "baseline_brier": 0.2501095918323187,
+      "spatial_brier": 0.2539005761308498,
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_11",
+          "difference": 0.003251656877197274
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": -0.0005407459708460308
+        },
+        {
+          "participant_id": "dream_tononi_serial_29",
+          "difference": -0.004266419148866359
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 0.012712322260643429
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": 0.010170081913217676
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": 0.0014190098598406264
+        }
+      ],
+      "p_holm": 0.9462890625,
+      "multiplicity_family": "four_primary_prediction_and_matched_report_contrasts"
+    },
+    {
+      "contrast": "content_recall_given_experience",
+      "panel": "primary_common_average",
+      "kind": "all_people_retrospective_within_person_matched_contrast",
+      "matching": "disjoint deterministic greedy matches; same source/person/N2; score <=.05; global log10(delta power) <=.1",
+      "pairs": 7,
+      "posterior_feature_used_for_matching": false,
+      "effect_definition": "positive report class minus negative class log10(posterior/global delta power)",
+      "people": 6,
+      "mean": 0.039951179205665814,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.08762700951105866,
+        0.12813828138552788
+      ],
+      "p_signflip": 0.53125,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        0.09903563505897173,
+        0.01826457729838383,
+        0.038714709609382635,
+        0.04240965348964386,
+        0.023472116811222292,
+        0.017810382966390554
+      ],
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_13",
+          "difference": -0.2554711000608637
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.14838418874207576
+        },
+        {
+          "participant_id": "dream_tononi_serial_27",
+          "difference": 0.046133527187081705
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 0.027658807785775584
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": 0.12234649117788343
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": 0.15065516040204213
+        }
+      ],
+      "p_holm": 0.9462890625,
+      "multiplicity_family": "four_primary_prediction_and_matched_report_contrasts"
+    },
+    {
+      "contrast": "experience_presence",
+      "panel": "as_stored_reference",
+      "kind": "held_person_incremental_prediction",
+      "case_counts": {
+        "train": 111,
+        "validation": 31,
+        "test": 41
+      },
+      "people_by_role": {
+        "train": [
+          "dream_tononi_serial_1",
+          "dream_tononi_serial_10",
+          "dream_tononi_serial_13",
+          "dream_tononi_serial_14",
+          "dream_tononi_serial_16",
+          "dream_tononi_serial_17",
+          "dream_tononi_serial_18",
+          "dream_tononi_serial_19",
+          "dream_tononi_serial_2",
+          "dream_tononi_serial_20",
+          "dream_tononi_serial_24",
+          "dream_tononi_serial_26",
+          "dream_tononi_serial_27",
+          "dream_tononi_serial_31",
+          "dream_tononi_serial_32",
+          "dream_tononi_serial_33",
+          "dream_tononi_serial_35",
+          "dream_tononi_serial_36",
+          "dream_tononi_serial_5",
+          "dream_tononi_serial_8"
+        ],
+        "validation": [
+          "dream_tononi_serial_12",
+          "dream_tononi_serial_15",
+          "dream_tononi_serial_21",
+          "dream_tononi_serial_34",
+          "dream_tononi_serial_4"
+        ],
+        "test": [
+          "dream_tononi_serial_11",
+          "dream_tononi_serial_25",
+          "dream_tononi_serial_29",
+          "dream_tononi_serial_30",
+          "dream_tononi_serial_6",
+          "dream_tononi_serial_9"
+        ]
+      },
+      "effect_definition": "posterior-augmented minus baseline person-mean Brier loss; negative favors spatial information",
+      "uncertainty_scope": "conditional on frozen train/validation fitted models",
+      "people": 6,
+      "mean": 1.4412830407082644e-05,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -3.569352331705298e-05,
+        6.564935908375135e-05
+      ],
+      "p_signflip": 0.6875,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        1.7894491889763115e-05,
+        3.2888363831430316e-05,
+        2.3147132427829564e-05,
+        6.897891099574991e-06,
+        -6.797508578997334e-06,
+        1.2446611772895213e-05
+      ],
+      "baseline_brier": 0.2178935871286469,
+      "spatial_brier": 0.217907999959054,
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_11",
+          "difference": -2.99547700631971e-06
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": -7.79648367146557e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_29",
+          "difference": -2.9258679696651955e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 5.198752694462091e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": 0.00012046452533748253
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": 2.42439235780198e-05
+        }
+      ],
+      "p_holm": 1.0,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "experience_presence",
+      "panel": "as_stored_reference",
+      "kind": "all_people_retrospective_within_person_matched_contrast",
+      "matching": "disjoint deterministic greedy matches; same source/person/N2; score <=.05; global log10(delta power) <=.1",
+      "pairs": 14,
+      "posterior_feature_used_for_matching": false,
+      "effect_definition": "positive report class minus negative class log10(posterior/global delta power)",
+      "people": 11,
+      "mean": -0.036974163086859,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.08576630939155337,
+        0.011221523150825427
+      ],
+      "p_signflip": 0.1826171875,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        -0.021200256423186813,
+        -0.042887285165638674,
+        -0.035711878664791225,
+        -0.03381593311636734,
+        -0.03292580464786545,
+        -0.05160297932676474,
+        -0.038438664397660645,
+        -0.03498602866972918,
+        -0.041372244229410604,
+        -0.027308214947216934,
+        -0.04646650436681739
+      ],
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_1",
+          "difference": -0.19471322972358085
+        },
+        {
+          "participant_id": "dream_tononi_serial_10",
+          "difference": 0.022157057700937746
+        },
+        {
+          "participant_id": "dream_tononi_serial_12",
+          "difference": -0.04959700730753674
+        },
+        {
+          "participant_id": "dream_tononi_serial_17",
+          "difference": -0.06855646279177557
+        },
+        {
+          "participant_id": "dream_tononi_serial_20",
+          "difference": -0.07745774747679447
+        },
+        {
+          "participant_id": "dream_tononi_serial_21",
+          "difference": 0.10931399931219837
+        },
+        {
+          "participant_id": "dream_tononi_serial_24",
+          "difference": -0.022329149978842555
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": -0.05685550725815719
+        },
+        {
+          "participant_id": "dream_tononi_serial_32",
+          "difference": 0.007006648338657065
+        },
+        {
+          "participant_id": "dream_tononi_serial_33",
+          "difference": -0.13363364448327963
+        },
+        {
+          "participant_id": "dream_tononi_serial_35",
+          "difference": 0.05794924971272486
+        }
+      ],
+      "p_holm": 1.0,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "content_recall_given_experience",
+      "panel": "as_stored_reference",
+      "kind": "held_person_incremental_prediction",
+      "case_counts": {
+        "train": 68,
+        "validation": 15,
+        "test": 29
+      },
+      "people_by_role": {
+        "train": [
+          "dream_tononi_serial_1",
+          "dream_tononi_serial_10",
+          "dream_tononi_serial_13",
+          "dream_tononi_serial_14",
+          "dream_tononi_serial_16",
+          "dream_tononi_serial_17",
+          "dream_tononi_serial_18",
+          "dream_tononi_serial_19",
+          "dream_tononi_serial_2",
+          "dream_tononi_serial_20",
+          "dream_tononi_serial_24",
+          "dream_tononi_serial_26",
+          "dream_tononi_serial_27",
+          "dream_tononi_serial_32",
+          "dream_tononi_serial_33",
+          "dream_tononi_serial_35",
+          "dream_tononi_serial_36",
+          "dream_tononi_serial_5",
+          "dream_tononi_serial_8"
+        ],
+        "validation": [
+          "dream_tononi_serial_12",
+          "dream_tononi_serial_15",
+          "dream_tononi_serial_21",
+          "dream_tononi_serial_34",
+          "dream_tononi_serial_4"
+        ],
+        "test": [
+          "dream_tononi_serial_11",
+          "dream_tononi_serial_25",
+          "dream_tononi_serial_29",
+          "dream_tononi_serial_30",
+          "dream_tononi_serial_6",
+          "dream_tononi_serial_9"
+        ]
+      },
+      "effect_definition": "posterior-augmented minus baseline person-mean Brier loss; negative favors spatial information",
+      "uncertainty_scope": "conditional on frozen train/validation fitted models",
+      "people": 6,
+      "mean": 5.4404242436116114e-05,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -1.8866500748125164e-05,
+        0.0001276749856203574
+      ],
+      "p_signflip": 0.28125,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        3.44113946348229e-05,
+        6.841272965586453e-05,
+        5.785610720507109e-05,
+        2.9191079127300485e-05,
+        8.311463592734838e-05,
+        5.3439508066289304e-05
+      ],
+      "baseline_brier": 0.25028658717925883,
+      "spatial_brier": 0.25034099142169497,
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_11",
+          "difference": 0.0001543684814425822
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": -1.5638193662625977e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_29",
+          "difference": 3.714491859134125e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 0.00018047005898019428
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": -8.914772502004523e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": 5.922791428525018e-05
+        }
+      ],
+      "p_holm": 1.0,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "content_recall_given_experience",
+      "panel": "as_stored_reference",
+      "kind": "all_people_retrospective_within_person_matched_contrast",
+      "matching": "disjoint deterministic greedy matches; same source/person/N2; score <=.05; global log10(delta power) <=.1",
+      "pairs": 3,
+      "posterior_feature_used_for_matching": false,
+      "effect_definition": "positive report class minus negative class log10(posterior/global delta power)",
+      "people": 3,
+      "mean": 0.0013521707226602554,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.09833364062673054,
+        0.07542201993040967
+      ],
+      "p_signflip": 1.0,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        0.051195076397355654,
+        -0.011455810348160435,
+        -0.03568275388121445
+      ],
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_13",
+          "difference": -0.09833364062673054
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.026968132864301636
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 0.07542201993040967
+        }
+      ],
+      "p_holm": 1.0,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "experience_presence",
+      "panel": "unsaturated_common_average",
+      "kind": "held_person_incremental_prediction",
+      "case_counts": {
+        "train": 104,
+        "validation": 26,
+        "test": 41
+      },
+      "people_by_role": {
+        "train": [
+          "dream_tononi_serial_1",
+          "dream_tononi_serial_10",
+          "dream_tononi_serial_13",
+          "dream_tononi_serial_14",
+          "dream_tononi_serial_16",
+          "dream_tononi_serial_17",
+          "dream_tononi_serial_18",
+          "dream_tononi_serial_19",
+          "dream_tononi_serial_2",
+          "dream_tononi_serial_20",
+          "dream_tononi_serial_24",
+          "dream_tononi_serial_26",
+          "dream_tononi_serial_27",
+          "dream_tononi_serial_31",
+          "dream_tononi_serial_32",
+          "dream_tononi_serial_33",
+          "dream_tononi_serial_35",
+          "dream_tononi_serial_36",
+          "dream_tononi_serial_5",
+          "dream_tononi_serial_8"
+        ],
+        "validation": [
+          "dream_tononi_serial_12",
+          "dream_tononi_serial_15",
+          "dream_tononi_serial_21",
+          "dream_tononi_serial_34",
+          "dream_tononi_serial_4"
+        ],
+        "test": [
+          "dream_tononi_serial_11",
+          "dream_tononi_serial_25",
+          "dream_tononi_serial_29",
+          "dream_tononi_serial_30",
+          "dream_tononi_serial_6",
+          "dream_tononi_serial_9"
+        ]
+      },
+      "effect_definition": "posterior-augmented minus baseline person-mean Brier loss; negative favors spatial information",
+      "uncertainty_scope": "conditional on frozen train/validation fitted models",
+      "people": 6,
+      "mean": -3.96042362261843e-05,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.0001091558405942733,
+        3.545260587658765e-05
+      ],
+      "p_signflip": 0.375,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        -4.7312126287405416e-05,
+        -6.780061291645773e-05,
+        -5.3929965603354685e-05,
+        -2.093512302139392e-05,
+        -3.03025052374526e-05,
+        -1.7345084291041433e-05
+      ],
+      "baseline_brier": 0.22266863984472057,
+      "spatial_brier": 0.2226290356084944,
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_11",
+          "difference": -1.0647859200787109e-06
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.00010137764722518289
+        },
+        {
+          "participant_id": "dream_tononi_serial_29",
+          "difference": 3.202441065966763e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": -0.00013294980225013619
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": -8.611289116984277e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": -0.00015089999590189862
+        }
+      ],
+      "p_holm": 1.0,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "experience_presence",
+      "panel": "unsaturated_common_average",
+      "kind": "all_people_retrospective_within_person_matched_contrast",
+      "matching": "disjoint deterministic greedy matches; same source/person/N2; score <=.05; global log10(delta power) <=.1",
+      "pairs": 13,
+      "posterior_feature_used_for_matching": false,
+      "effect_definition": "positive report class minus negative class log10(posterior/global delta power)",
+      "people": 11,
+      "mean": -0.07517542216374165,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.14792998719385894,
+        -0.007331178385628783
+      ],
+      "p_signflip": 0.0732421875,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        -0.061788619234056506,
+        -0.08593132142274121,
+        -0.06672400601081178,
+        -0.07773340789327662,
+        -0.07026375482486263,
+        -0.07816276742419989,
+        -0.09264669656442812,
+        -0.08116589859499997,
+        -0.05011069607242176,
+        -0.08895422125448713,
+        -0.07344825450487255
+      ],
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_1",
+          "difference": -0.20904345146059314
+        },
+        {
+          "participant_id": "dream_tononi_serial_10",
+          "difference": 0.032383570426253956
+        },
+        {
+          "participant_id": "dream_tononi_serial_12",
+          "difference": -0.1596895836930403
+        },
+        {
+          "participant_id": "dream_tononi_serial_17",
+          "difference": -0.04959556486839199
+        },
+        {
+          "participant_id": "dream_tononi_serial_20",
+          "difference": -0.1242920955525318
+        },
+        {
+          "participant_id": "dream_tononi_serial_21",
+          "difference": -0.04530196955915926
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.09953732184312306
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": -0.01527065785115854
+        },
+        {
+          "participant_id": "dream_tononi_serial_33",
+          "difference": -0.3258226830769407
+        },
+        {
+          "participant_id": "dream_tononi_serial_35",
+          "difference": 0.06261256874371318
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": -0.0924470987524326
+        }
+      ],
+      "p_holm": 0.6591796875,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "content_recall_given_experience",
+      "panel": "unsaturated_common_average",
+      "kind": "held_person_incremental_prediction",
+      "case_counts": {
+        "train": 62,
+        "validation": 11,
+        "test": 29
+      },
+      "people_by_role": {
+        "train": [
+          "dream_tononi_serial_1",
+          "dream_tononi_serial_10",
+          "dream_tononi_serial_13",
+          "dream_tononi_serial_14",
+          "dream_tononi_serial_16",
+          "dream_tononi_serial_17",
+          "dream_tononi_serial_18",
+          "dream_tononi_serial_19",
+          "dream_tononi_serial_2",
+          "dream_tononi_serial_20",
+          "dream_tononi_serial_24",
+          "dream_tononi_serial_26",
+          "dream_tononi_serial_27",
+          "dream_tononi_serial_32",
+          "dream_tononi_serial_33",
+          "dream_tononi_serial_35",
+          "dream_tononi_serial_36",
+          "dream_tononi_serial_5",
+          "dream_tononi_serial_8"
+        ],
+        "validation": [
+          "dream_tononi_serial_12",
+          "dream_tononi_serial_15",
+          "dream_tononi_serial_21",
+          "dream_tononi_serial_34",
+          "dream_tononi_serial_4"
+        ],
+        "test": [
+          "dream_tononi_serial_11",
+          "dream_tononi_serial_25",
+          "dream_tononi_serial_29",
+          "dream_tononi_serial_30",
+          "dream_tononi_serial_6",
+          "dream_tononi_serial_9"
+        ]
+      },
+      "effect_definition": "posterior-augmented minus baseline person-mean Brier loss; negative favors spatial information",
+      "uncertainty_scope": "conditional on frozen train/validation fitted models",
+      "people": 6,
+      "mean": 0.017007697686897603,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        0.005077512166077152,
+        0.030222036698022415
+      ],
+      "p_signflip": 0.0625,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        0.014345612959072326,
+        0.01815718605819882,
+        0.020917338400302948,
+        0.011393367665292215,
+        0.01950607729488806,
+        0.017726603743631247
+      ],
+      "baseline_brier": 0.25663690056115546,
+      "spatial_brier": 0.27364459824805304,
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_11",
+          "difference": 0.030318121326023986
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.011260255830391521
+        },
+        {
+          "participant_id": "dream_tononi_serial_29",
+          "difference": -0.002540505880129127
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 0.04507934779492455
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": 0.004515799646945325
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": 0.013413167403229388
+        }
+      ],
+      "p_holm": 0.625,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "content_recall_given_experience",
+      "panel": "unsaturated_common_average",
+      "kind": "all_people_retrospective_within_person_matched_contrast",
+      "matching": "disjoint deterministic greedy matches; same source/person/N2; score <=.05; global log10(delta power) <=.1",
+      "pairs": 7,
+      "posterior_feature_used_for_matching": false,
+      "effect_definition": "positive report class minus negative class log10(posterior/global delta power)",
+      "people": 6,
+      "mean": 0.039951179205665814,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.0903276341346153,
+        0.1286417871926868
+      ],
+      "p_signflip": 0.53125,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        0.09903563505897173,
+        0.01826457729838383,
+        0.038714709609382635,
+        0.04240965348964386,
+        0.023472116811222292,
+        0.017810382966390554
+      ],
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_13",
+          "difference": -0.2554711000608637
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.14838418874207576
+        },
+        {
+          "participant_id": "dream_tononi_serial_27",
+          "difference": 0.046133527187081705
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 0.027658807785775584
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": 0.12234649117788343
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": 0.15065516040204213
+        }
+      ],
+      "p_holm": 1.0,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "experience_presence",
+      "panel": "high_frequency_adjusted_common_average",
+      "kind": "held_person_incremental_prediction",
+      "case_counts": {
+        "train": 111,
+        "validation": 31,
+        "test": 41
+      },
+      "people_by_role": {
+        "train": [
+          "dream_tononi_serial_1",
+          "dream_tononi_serial_10",
+          "dream_tononi_serial_13",
+          "dream_tononi_serial_14",
+          "dream_tononi_serial_16",
+          "dream_tononi_serial_17",
+          "dream_tononi_serial_18",
+          "dream_tononi_serial_19",
+          "dream_tononi_serial_2",
+          "dream_tononi_serial_20",
+          "dream_tononi_serial_24",
+          "dream_tononi_serial_26",
+          "dream_tononi_serial_27",
+          "dream_tononi_serial_31",
+          "dream_tononi_serial_32",
+          "dream_tononi_serial_33",
+          "dream_tononi_serial_35",
+          "dream_tononi_serial_36",
+          "dream_tononi_serial_5",
+          "dream_tononi_serial_8"
+        ],
+        "validation": [
+          "dream_tononi_serial_12",
+          "dream_tononi_serial_15",
+          "dream_tononi_serial_21",
+          "dream_tononi_serial_34",
+          "dream_tononi_serial_4"
+        ],
+        "test": [
+          "dream_tononi_serial_11",
+          "dream_tononi_serial_25",
+          "dream_tononi_serial_29",
+          "dream_tononi_serial_30",
+          "dream_tononi_serial_6",
+          "dream_tononi_serial_9"
+        ]
+      },
+      "effect_definition": "posterior-augmented minus baseline person-mean Brier loss; negative favors spatial information",
+      "uncertainty_scope": "conditional on frozen train/validation fitted models",
+      "people": 6,
+      "mean": -0.0003468990253350089,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        -0.0009368020177417039,
+        0.00029615789619814756
+      ],
+      "p_signflip": 0.375,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        -0.00041902654534364825,
+        -0.0005967671542497532,
+        -0.00046453973073148707,
+        -0.00017919471902544615,
+        -0.0002451543556131155,
+        -0.00017671164704660317
+      ],
+      "baseline_brier": 0.2227305771632905,
+      "spatial_brier": 0.22238367813795548,
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_11",
+          "difference": 1.3738574708187698e-05
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.0009024416192387127
+        },
+        {
+          "participant_id": "dream_tononi_serial_29",
+          "difference": 0.00024130450164738186
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": -0.0011854205568828226
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": -0.0008556223739444758
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": -0.0011978359167770375
+        }
+      ],
+      "p_holm": 1.0,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    },
+    {
+      "contrast": "content_recall_given_experience",
+      "panel": "high_frequency_adjusted_common_average",
+      "kind": "held_person_incremental_prediction",
+      "case_counts": {
+        "train": 68,
+        "validation": 15,
+        "test": 29
+      },
+      "people_by_role": {
+        "train": [
+          "dream_tononi_serial_1",
+          "dream_tononi_serial_10",
+          "dream_tononi_serial_13",
+          "dream_tononi_serial_14",
+          "dream_tononi_serial_16",
+          "dream_tononi_serial_17",
+          "dream_tononi_serial_18",
+          "dream_tononi_serial_19",
+          "dream_tononi_serial_2",
+          "dream_tononi_serial_20",
+          "dream_tononi_serial_24",
+          "dream_tononi_serial_26",
+          "dream_tononi_serial_27",
+          "dream_tononi_serial_32",
+          "dream_tononi_serial_33",
+          "dream_tononi_serial_35",
+          "dream_tononi_serial_36",
+          "dream_tononi_serial_5",
+          "dream_tononi_serial_8"
+        ],
+        "validation": [
+          "dream_tononi_serial_12",
+          "dream_tononi_serial_15",
+          "dream_tononi_serial_21",
+          "dream_tononi_serial_34",
+          "dream_tononi_serial_4"
+        ],
+        "test": [
+          "dream_tononi_serial_11",
+          "dream_tononi_serial_25",
+          "dream_tononi_serial_29",
+          "dream_tononi_serial_30",
+          "dream_tononi_serial_6",
+          "dream_tononi_serial_9"
+        ]
+      },
+      "effect_definition": "posterior-augmented minus baseline person-mean Brier loss; negative favors spatial information",
+      "uncertainty_scope": "conditional on frozen train/validation fitted models",
+      "people": 6,
+      "mean": 0.004514664573739231,
+      "bootstrap_unit": "participant",
+      "bootstrap_samples": 10000,
+      "bootstrap_interpretation": "uncertainty of fixed-feature/fixed-prediction participant mean; not added sample size",
+      "status": "estimated",
+      "ci95": [
+        0.0003612667115442983,
+        0.008874120143209195
+      ],
+      "p_signflip": 0.15625,
+      "p_method": "exact participant sign flip under independent-person symmetric-zero contrast assumption",
+      "leave_one_person_out_means": [
+        0.004533725474447789,
+        0.005143627434262098,
+        0.005989865270215016,
+        0.0029954462364422496,
+        0.003217832313103541,
+        0.005207490713964693
+      ],
+      "baseline_brier": 0.2501732916875686,
+      "spatial_brier": 0.2546879562613078,
+      "participant_effects": [
+        {
+          "participant_id": "dream_tononi_serial_11",
+          "difference": 0.004419360070196443
+        },
+        {
+          "participant_id": "dream_tononi_serial_25",
+          "difference": 0.0013698502711248968
+        },
+        {
+          "participant_id": "dream_tononi_serial_29",
+          "difference": -0.0028613389086396927
+        },
+        {
+          "participant_id": "dream_tononi_serial_30",
+          "difference": 0.01211075626022414
+        },
+        {
+          "participant_id": "dream_tononi_serial_6",
+          "difference": 0.010998825876917685
+        },
+        {
+          "participant_id": "dream_tononi_serial_9",
+          "difference": 0.0010505338726119178
+        }
+      ],
+      "p_holm": 1.0,
+      "multiplicity_family": "ten_fixed_sensitivity_contrasts"
+    }
+  ],
+  "interpretation": "Sensor topographic association/prediction, not deep-pathway identification or independent replication. Posterior report effects may reproduce the original study in this public cohort. Bootstrap uncertainty and sign-flip references do not manufacture statistical significance."
+}

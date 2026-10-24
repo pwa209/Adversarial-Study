@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "seed": 20261004,
+  "state_space": {
+    "maximum_states": 400,
+    "maximum_channels": 32,
+    "minimum_channels": 4,
+    "rank_grid": [2, 4, 8],
+    "ridge_grid": [0.001, 0.01, 0.1],
+    "delay_lags": [0, 1, 2],
+    "train_fraction": 0.65,
+    "forecast_horizons_s": [0.1, 0.5],
+    "bootstrap_samples": 500,
+    "minimum_people_per_source": 6
+  },
+  "representations": {
+    "ridge_grid": [0.001, 0.01, 0.1, 1.0],
+    "maximum_pairs_per_participant": 2000,
+    "bootstrap_samples": 500,
+    "minimum_training_people": 3,
+    "minimum_validation_people": 1,
+    "minimum_test_people": 2
+  },
+  "mechanisms": {
+    "delay_lags": [0, 1, 2, 4, 8],
+    "ridge_grid": [0.001, 0.01, 0.1, 1.0],
+    "maximum_bank_states": 400,
+    "maximum_candidates": 100,
+    "bootstrap_samples": 500,
+    "joint_support_quantile": 0.95,
+    "minimum_training_people": 3,
+    "minimum_validation_people": 1,
+    "minimum_test_people": 2
+  },
+  "inference": {
+    "independent_unit": "participant",
+    "geometry_scope": "Measured sensor state space; source anatomy requires a separately qualified observation model",
+    "arousal": "Use genuine measured physiology only; unavailable arousal measures remain missing",
+    "protected_independent_humans": "Not acquired by these development analyses",
+    "result_direction_gate": false,
+    "cross_system_comparison_requires_human_finetuning": true
+  }
+}
